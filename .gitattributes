@@ -1,7 +1,7 @@
 echo "db/** filter=git-crypt" >> .gitattributes
 echo "scripts/** filter=git-crypt" >> .gitattributes
 echo "assets/** filter=git-crypt" >> .gitattributes
-echo "app/*.env filter=git-crypt" >> .gitattributes
-echo "pkg/*.env filter=git-crypt" >> .gitattributes
-echo "bin/*.env filter=git-crypt" >> .gitattributes
-echo "cronjobs/*.env filter=git-crypt" >> .gitattributes
+echo "app/** filter=git-crypt" >> .gitattributes
+echo "pkg/** filter=git-crypt" >> .gitattributes
+echo "bin/** filter=git-crypt" >> .gitattributes
+echo "cronjobs/** filter=git-crypt" >> .gitattributes
