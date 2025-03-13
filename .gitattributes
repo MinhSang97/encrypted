@@ -1,1 +1,7 @@
-main.go filter=git-crypt diff=git-crypt
+echo "db/** filter=git-crypt" >> .gitattributes
+echo "scripts/** filter=git-crypt" >> .gitattributes
+echo "assets/** filter=git-crypt" >> .gitattributes
+echo "app/*.env filter=git-crypt" >> .gitattributes
+echo "pkg/*.env filter=git-crypt" >> .gitattributes
+echo "bin/*.env filter=git-crypt" >> .gitattributes
+echo "cronjobs/*.env filter=git-crypt" >> .gitattributes
