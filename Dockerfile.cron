@@ -1,0 +1,38 @@
+# Stage 1: Build the Go application
+FROM golang:alpine AS builder
+
+# Install make and git
+RUN apk update && apk add --no-cache make git && rm -rf /var/cache/apk/*
+
+# Set necessary environment variables needed for our image
+ENV GO111MODULE=on \
+  CGO_ENABLED=0 \
+  GOOS=linux \
+  GOARCH=amd64
+
+# Set the Current Working Directory inside the container
+WORKDIR /app
+
+# Copy go.mod and go.sum files
+COPY go.mod go.sum ./
+
+# Download all dependencies
+RUN go mod download
+
+# Copy the source code into the container
+COPY . .
+
+# Build the application
+RUN make cron
+
+#########################################
+
+# Stage 2: Set up the cron job
+FROM alpine:latest
+
+RUN apk update && apk add --no-cache ca-certificates make curl && rm -rf /var/cache/apk/*
+COPY --from=builder /app/eboost-api-partner-cron /
+COPY --from=builder /app/assets /assets
+
+# Command to run
+CMD ["sh","-c","/eboost-api-partner-cron start"]

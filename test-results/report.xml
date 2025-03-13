@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="4" failures="0" time="0.802" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/config">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="23.8"></property>
+		</properties>
+		<testcase classname="config" name="Test_MySQL_Conn" time="0.000"></testcase>
+		<testcase classname="config" name="Test_MySQL_Conn/ConnectionString_is_empty" time="0.000"></testcase>
+		<testcase classname="config" name="Test_MySQL_Conn/ConnectionString_has_port" time="0.000"></testcase>
+		<testcase classname="config" name="Test_MySQL_Conn/ConnectionString_from_heroku" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="66" failures="0" time="0.510" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/entity">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="46.0"></property>
+		</properties>
+		<testcase classname="entity" name="TestBoxQuantity_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBoxQuantity_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBoxQuantity_TableName" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBoxQuantity_TableName/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBoxReading_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBoxReading_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBox_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestBox_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestDistrict_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestDistrict_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestExtra_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestExtra_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestLocation_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestLocation_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestPartner_TableName" time="0.000"></testcase>
+		<testcase classname="entity" name="TestPartner_TableName/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestPriceProfile_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestPriceProfile_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestPrice_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestPrice_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestProvince_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestProvince_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestTmpBox_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestTmpBox_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestRole_String" time="0.000"></testcase>
+		<testcase classname="entity" name="TestRole_String/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestRole_String/manager" time="0.000"></testcase>
+		<testcase classname="entity" name="TestRole_String/admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestRole_String/superadmin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestRole_String/unknown" time="0.000"></testcase>
+		<testcase classname="entity" name="TestGetRole" time="0.000"></testcase>
+		<testcase classname="entity" name="TestGetRole/user" time="0.000"></testcase>
+		<testcase classname="entity" name="TestGetRole/partner" time="0.000"></testcase>
+		<testcase classname="entity" name="TestGetRole/admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestGetRole/superadmin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestGetRole/unknown" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_ToMap/success" time="0.000"></testcase>
+		<testcase classname="entity" name="Test_GetUserRolePriority" time="0.000"></testcase>
+		<testcase classname="entity" name="Test_GetUserRolePriority/user" time="0.000"></testcase>
+		<testcase classname="entity" name="Test_GetUserRolePriority/manager" time="0.000"></testcase>
+		<testcase classname="entity" name="Test_GetUserRolePriority/admin" time="0.000"></testcase>
+		<testcase classname="entity" name="Test_GetUserRolePriority/superadmin" time="0.000"></testcase>
+		<testcase classname="entity" name="Test_GetUserRolePriority/unknown" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_User" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_User/is_normal_user" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_User/is_manager" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_User/is_administrator" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_User/is_superadmin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_User/is_unknown_role" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_IsDeletedUser" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_IsDeletedUser/user_is_deleted" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_IsDeletedUser/user_is_not_deleted" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_SuperAdmin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_SuperAdmin/is_super_admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_SuperAdmin/is_not_super_admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_Admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_Admin/is_admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_Admin/is_not_admin" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_Manager" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_Manager/is_manager" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUser_Manager/is_not_manager" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUserToken_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestUserToken_ToMap/normal" time="0.000"></testcase>
+		<testcase classname="entity" name="TestWard_ToMap" time="0.000"></testcase>
+		<testcase classname="entity" name="TestWard_ToMap/normal" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" time="1.611" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/repository/specifications">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="75.8"></property>
+		</properties>
+		<testcase classname="specifications" name="Test_CrucialQueryCondition" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="162" failures="0" time="1.198" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/errors">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="100.0"></property>
+		</properties>
+		<testcase classname="errors" name="TestNewErrorBadRequest" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorBadRequest/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequestCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequestCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorBadRequest_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorConflict" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorConflict/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorConflict_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_user_email" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_date_format" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_number_value" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_boolean_value" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_date_value" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_oneof" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_required" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_max" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_renew_duration" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_cancel_auto_renew_duration" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_contract_value" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_email_format" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/invalid_rule_numeric" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetErrorMessage/end_date_before_start_date" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/required" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/max" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/oneof" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/renew_duration" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/cancel_auto_renew_duration" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/contract_value" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/email" time="0.000"></testcase>
+		<testcase classname="errors" name="TestGetRuleErrorCode/numeric" time="0.000"></testcase>
+		<testcase classname="errors" name="TestSystemErrors_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="TestSystemErrors_Error/Test_SystemError.Error()" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorForbidden" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorForbidden/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorForbidden_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewCustomErrorForbidden" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewCustomErrorForbidden/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorInternalServerErr" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorInternalServerErr/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInternalServerErr_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorInvalidArgument" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorInvalidArgument/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorInvalidArgument_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorNotFound" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorNotFound/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorNotFound_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewServiceUnavailableError" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewServiceUnavailableError/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_serviceUnavailableError" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_serviceUnavailableError/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorTooManyRequest" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorTooManyRequest/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorTooManyRequest_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewCustomErrorTooManyRequest" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewCustomErrorTooManyRequest/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorUnauthorized" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewErrorUnauthorized/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_errorUnauthorized_Error/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewCustomErrorUnauthorized" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewCustomErrorUnauthorized/success" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewUnprocessableEntityError" time="0.000"></testcase>
+		<testcase classname="errors" name="TestNewUnprocessableEntityError/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Type" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Type/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Code" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Code/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Message" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Message/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Param" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Param/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_StatusCode" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Error" time="0.000"></testcase>
+		<testcase classname="errors" name="Test_unprocessableEntityError_Error/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="7" failures="0" time="1.731" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/adapter/restclient/realtime">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="71.2"></property>
+		</properties>
+		<testcase classname="realtime" name="TestSetup" time="0.000"></testcase>
+		<testcase classname="realtime" name="TestSetup/Ok" time="0.000"></testcase>
+		<testcase classname="realtime" name="TestRealtimeService_GetMeterValueHistoryByID" time="0.000"></testcase>
+		<testcase classname="realtime" name="TestRealtimeService_GetMeterValueHistoryByID/fmtErrorGetMeterValueHistoryAPI" time="0.000"></testcase>
+		<testcase classname="realtime" name="TestRealtimeService_GetMeterValueHistoryByID/fmtErrorUnmarshal" time="0.000"></testcase>
+		<testcase classname="realtime" name="TestRealtimeService_GetMeterValueHistoryByID/ResultOK_failed" time="0.000"></testcase>
+		<testcase classname="realtime" name="TestRealtimeService_GetMeterValueHistoryByID/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="29" failures="0" time="1.376" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/context">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="50.6"></property>
+		</properties>
+		<testcase classname="context" name="TestGetUserID" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserID/no_user_id_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserID/user_id_value_type_not_uuid.UUID" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserID/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetRefreshToken" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetRefreshToken/no_refresh_token_in_cookie" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetRefreshToken/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetClientIP" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetClientIP/no_client_IP_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetClientIP/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserEmail" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserEmail/no_user_email_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserEmail/user_email_value_type_not_string" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserEmail/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetPhoneNumber" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetPhoneNumber/no_phone_number_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetPhoneNumber/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserRoleCode" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserRoleCode/no_user_role_code_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserRoleCode/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetProxyLoginEventID" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetProxyLoginEventID/no_proxy_login_event_id_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetProxyLoginEventID/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserAgent" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserAgent/no_user_agent_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetUserAgent/success" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetPartnerLocationID" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetPartnerLocationID/no_partner_location_id_in_context" time="0.000"></testcase>
+		<testcase classname="context" name="TestGetPartnerLocationID/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="19" failures="0" time="1.186" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/middleware">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="13.0"></property>
+		</properties>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestAuthenticateAccess" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestNewCookieAuthenticator" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestNewCookieAuthenticator/success" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/access_key_does_not_exist" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/decrypt_access_token_failed" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/stop_by_one_of_validators" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/success" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestNewIPUserAgentExtractorMiddlewareMiddleware" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestIPUserAgentExtractorMiddleware_Do" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestIPUserAgentExtractorMiddleware_Do/success" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/error_retrieving_cookie" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/invalid_csrf_token" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/user_ID_is_0" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/Decrypt_method_fails" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/error_deleting_CSRF_tokens" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/error_deleting_UserToken" time="0.000"></testcase>
+		<testcase classname="middleware" name="Test_LogoutMiddleware_Execute/successful_logout" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="113" failures="0" time="0.848" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/payload">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="67.8"></property>
+		</properties>
+		<testcase classname="payload" name="TestBoxAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxAddRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxUpdateRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestBoxUpdateRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_defaultUndefinedField" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_defaultUndefinedField/success" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_config_dispatch" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_config_dispatch/success" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_config_dispatch/undefined_payload" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_config_dispatch/undefined_field_name" time="0.000"></testcase>
+		<testcase classname="payload" name="Test_config_dispatch/undefined_tag_name" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerAddRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerAddRequest_Validate/invalid_email" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerAddRequest_Validate/missing_location_id" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerUpdateRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerUpdateRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestExtraPartnerUpdateRequest_Validate/invalid_email" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationAddRequest_Validate/iolate_require_tag" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationUpdateRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestLocationUpdateRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDateFromAndTo_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDateFromAndTo_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDateFromAndTo_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDateFromAndTo_Validate/valid_dates" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDateFromAndTo_Validate/invalid_date_format" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportAddRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportUpdateRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportUpdateRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryMonth_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryMonth_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportGetAllRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportGetAllRequest_Validate/valid_request" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportGetAllRequest_Validate/invalid_month_format" time="0.000"></testcase>
+		<testcase classname="payload" name="TestMeterReportGetAllRequest_Validate/missing_month" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_Form" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_Form/no_input" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_Form/has_size_only" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_Form/has_page_only" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPagingRequest_Form/has_both" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerIsDeleted_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerIsDeleted_StructName/Ok" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerGetRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerGetRequest_Validate/violate_`gte`_tag_of_paging" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerGetRequest_Validate/violate_invalid_partner_is_deleted" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerUpdateRequest_StructName/Ok" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPartnerUpdateRequest_Validate/violate_require_tag" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileGetRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileGetRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileAddRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileUpdateRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceProfileUpdateRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceAddRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceUpdateRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceUpdateRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceUpdateRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestPriceUpdateRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryProvinceID_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryProvinceID_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryProvinceID_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryProvinceID_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDistrictID_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDistrictID_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDistrictID_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestQueryDistrictID_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestTemporaryBoxAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestTemporaryBoxAddRequest_StructName/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestTemporaryBoxAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestTemporaryBoxAddRequest_Validate/success" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserAddRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserAddRequest_StructName/Ok" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserAddRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserAddRequest_Validate/violate_require_tag" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserLoginRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserLoginRequest_StructName/Ok" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserLoginRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserLoginRequest_Validate/violate_require_tag" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserLoginRequest_Validate/Ok" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserRefreshTokenRequest_StructName" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserRefreshTokenRequest_StructName/Ok" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserRefreshTokenRequest_Validate" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserRefreshTokenRequest_Validate/violate_require_tag" time="0.000"></testcase>
+		<testcase classname="payload" name="TestUserRefreshTokenRequest_Validate/Ok" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="86" failures="0" time="1.465" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/presenter">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="79.0"></property>
+		</properties>
+		<testcase classname="presenter" name="TestFormBox" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBox/VendorID_and_UniqueID_are_both_nil" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBox/VendorID_is_nil,_UniqueID_is_set" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBox/VendorID_and_UniqueID_are_both_set" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxes" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxes/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormExtraPartner" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormExtraPartner/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormExtraPartners" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormExtraPartners/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocation" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocation/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocations" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocations/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReading" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReading/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReadings" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReadings/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxReport" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxReport/VendorID_and_UniqueID_are_both_nil" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxReport/VendorID_is_nil,_UniqueID_is_set" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxReport/VendorID_and_UniqueID_are_both_set" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxReports" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormBoxReports/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReadingReport" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReadingReport/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReadingReports" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormMeterReadingReports/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormNewFormatMeterReadingReport" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormNewFormatMeterReadingReport/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormNewFormatBoxReports" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormNewFormatBoxReports/Empty_box_list" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormNewFormatBoxReports/Single_box_with_readings" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormNewFormatBoxReports/uniqueID_is_nil" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormGetAllMeterReadingReport" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormGetAllMeterReadingReport/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormGetAllMeterReadingReports" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormGetAllMeterReadingReports/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocationPartner" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocationPartner/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocationPartners" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormLocationPartners/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPartner" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPartner/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPartners" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPartners/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPrice" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPrice/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPrices" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPrices/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPriceProfile" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPriceProfile/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPriceProfiles" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormPriceProfiles/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormProvince" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormProvince/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormProvinces" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormProvinces/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormDistrict" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormDistrict/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormDistricts" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormDistricts/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormWard" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormWard/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormWards" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormWards/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_fromSystemErrors" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_fromSystemErrors/input_is_nil" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_fromSystemErrors/input_len_is_0" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_fromSystemErrors/one_error" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_fromSystemErrors/multiple_appErrors" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_RenderData" time="0.000"></testcase>
+		<testcase classname="presenter" name="Test_RenderData/Render_Data_Response" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestRenderErrors" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestRenderErrors/SystemErrors" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestRenderErrors/SystemError" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormTemporaryBox" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormTemporaryBox/VendorID_and_UniqueID_are_both_nil" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormTemporaryBox/VendorID_is_nil,_UniqueID_is_set" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormTemporaryBox/VendorID_and_UniqueID_are_both_set" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormTemporaryBoxes" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormTemporaryBoxes/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormUserSignUp" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormUserSignUp/success" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormUsersSignUp" time="0.000"></testcase>
+		<testcase classname="presenter" name="TestFormUsersSignUp/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="18" failures="0" time="2.307" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/services">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="100.0"></property>
+		</properties>
+		<testcase classname="services" name="TestGenerateOTP" time="0.000"></testcase>
+		<testcase classname="services" name="TestGenerateOTP/Generate_OTP_with_default_length" time="0.000"></testcase>
+		<testcase classname="services" name="TestGenerateOTP/Generate_OTP_with_specific_length" time="0.000"></testcase>
+		<testcase classname="services" name="TestGenerateOTP/Generate_OTP_with_negative_length" time="0.000"></testcase>
+		<testcase classname="services" name="TestHashPassword" time="0.110"></testcase>
+		<testcase classname="services" name="TestHashPassword_ErrorCase" time="0.000"></testcase>
+		<testcase classname="services" name="TestVerifyPassword" time="0.330"></testcase>
+		<testcase classname="services" name="TestNew" time="0.000"></testcase>
+		<testcase classname="services" name="TestNew/New_JWT" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_Encrypt" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_Encrypt/encrypt_OK" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_Decrypt" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_Decrypt/decrypt_OK" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_Decrypt/decrypt_failed,_not_the_secret_key_that_signed" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_Decrypt/decrypt_failed,_the_claims_is_expired" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_DecryptBE1" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_DecryptBE1/DecryptBE_OK" time="0.000"></testcase>
+		<testcase classname="services" name="Test_jwtGo_DecryptBE1/DecryptBE_failed,_invalid_token_format" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="322" failures="0" time="1.496" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/app/usecases">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="88.2"></property>
+		</properties>
+		<testcase classname="usecases" name="TestNewBikeBoxAllRequest" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBikeBoxAllRequest/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_bikeBoxAllRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBikeMeterReportAddUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBikeMeterReportAddUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBoxAddUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBoxAddUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBoxDeleteUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBoxDeleteUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBoxUpdateUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewBoxUpdateUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxUpdateRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewCarBoxAllRequest" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewCarBoxAllRequest/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_carBoxAllRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewCarMeterReportAddUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewCarMeterReportAddUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewDistrictUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewDistrictUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_districtRequest_FindAll" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerAddUseCase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerAddUseCase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerAddUseCase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerDeleteUseCase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerDeleteUseCase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerDeleteUseCase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerGetUseCase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerGetUseCase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerGetUseCase_GetByID" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerUpdateUseCase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewExtraPartnerUpdateUseCase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationAddUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationAddUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_locationAddRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindAllUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindAllUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindAllUsecase_FindAll" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindAllUsecase_FindAll/error_while_fetching_partner_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindAllUsecase_FindAll/error_while_counting_total_location_partners" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindAllUsecase_FindAll/successfully_fetch_partner_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByIDUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByIDUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase_FindByID" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase_FindByUserID" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindByNameUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationPartnerFindByNameUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationUpdateUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewLocationUpdateUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetByIDUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetByIDUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportGetByIDUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindAll" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindByID" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceAddUseCase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceAddUseCase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceProfileAdd" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceProfileDeleteUsecas" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceProfileDeleteUsecas/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindAllUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindByIDUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceProfileUpdateUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceProfileUpdateUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileUpdateUseCase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceUpdateUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceUpdateUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewProvinceUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewProvinceUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_provinceRequest_FindAll" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewTemporaryBoxAddUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewTemporaryBoxAddUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxRequest_GetAllTemporaryBikeBox" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxRequest_GetAllTemporaryCarBox" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserAddUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserAddUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserLoginUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserLoginUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserMeUseCase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserMeUseCase/Ok" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_internalUserMeUseCase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserRefreshTokenUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewUserRefreshTokenUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewWardUsecase" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewWardUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_wardRequest_FindAll" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_bikeBoxAllRequest_Execute/bike_box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/meter_report_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_bikeBoxAllRequest_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase_Execute/User_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/user_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase_Execute/User_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileUpdateUseCase_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase_Execute/Error_while_getting_locations" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute/error_while_retrieving_price" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_wardRequest_FindAll/error_while_fetching_ward_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase_Execute/Error_while_getting_meter_reports" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd/error_while_retrieving_price" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute/price_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/token_validation_failed._Please_login_again" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute/error_while_updating_price" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileUpdateUseCase_Execute/error_while_updating_price_profile" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/user_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileUpdateUseCase_Execute/update_price_profile_successfully" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/token_not_found._Please_login_again_or_contact_admin" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_wardRequest_FindAll/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindAllUsecase/error_while_fetching_price_profile_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetUsecase_Execute/Success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindAllUsecase/error_while_counting_total_price_profiles" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/user_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute/get_price_profile_error" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/error_while_hashing_password" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindByIDUsecase/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/error_while_encrypting_user_claims_for_access_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/error_while_creating_user" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindByIDUsecase/successfully" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd/price_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/error_while_retrieving_prices_(car)" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/error_while_creating_user#01" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/error_while_encrypting_user_claims_for_refresh_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd/error_while_creating_price" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceUpdateUseCase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPriceFindUsecase_PriceFindAllUsecase/successfully" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceProfileAdd/error_while_creating_price_profile" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindByID/partner_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd/get_price_profile_error" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceProfileAdd/error_while_getting_price_profile" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/error_while_retrieving_prices_(bike)" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindByID/error_while_fetching_location_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceProfileAdd/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceAddUseCase_PriceAdd/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindByID/error_while_getting_partner_by_id" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/error_while_updating_meter_report" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/error_while_getting_user" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase_FindByUserID/user_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase_Execute/partner_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/error_while_creating_user_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserAddUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase_Execute/partner_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportUpdateUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/error_while_updating_user_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase_Execute/error_while_updating_partner" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase_Execute/error_while_getting_all_meter_reports" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase_Execute/error_while_counting_total_partners" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/error_while_saving_csrf_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase_FindByUserID/User_is_deleted._Please_contact_admin" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportGetByIDUsecase_Execute/meter_report_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindByID/OK" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update/User_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportGetByIDUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase_FindByUserID/location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerUpdateUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update/User_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update/Location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindByUserIDUsecase_FindByUserID/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute/get_count_location_by_price_profile" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update/Error_while_updating_location" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxRequest_GetAllTemporaryCarBox/error_while_getting_all_temporary_car_boxes" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute/error_while_fetching_location_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationUpdateRequest_Update/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxRequest_GetAllTemporaryCarBox/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_userRefreshTokenUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase_Execute/error_while_getting_all_meter_reports_with_value" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName/error_while_fetching_partner_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxUpdateRequest_Execute/box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxRequest_GetAllTemporaryBikeBox/error_while_getting_all_temporary_bike_boxes" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindAll/error_while_fetching_partner_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute/price_profile_is_associated_with_locations" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxRequest_GetAllTemporaryBikeBox/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerAddUseCase_Execute/Location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxUpdateRequest_Execute/failed_to_update_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerAddUseCase_Execute/error_while_creating_extra_partner" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute/error_while_deleting_price_profile" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerAddUseCase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_districtRequest_FindAll/error_while_fetching_district_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestPriceProfileDeleteUsecase_Execute/delete_price_profile_successfully" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_districtRequest_FindAll/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase_Execute/error_while_counting_all_meter_reports" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxUpdateRequest_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindAll/error_while_counting_total_partners" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/error_while_retrieving_prices" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_carBoxAllRequest_Execute/box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_locationAddRequest_Execute/User_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase_Execute/error_while_counting_all_meter_reports_with_value" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_internalUserMeUseCase_Execute/error_getting_user_by_userid" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase_FindByID/location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindUsecase_FindAll/successfully_fetch_partner_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase_FindByID/User_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewMeterReportGetAllUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_internalUserMeUseCase_Execute/OK" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_locationAddRequest_Execute/User_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/Location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_locationAddRequest_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_carBoxAllRequest_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute/must_give_1_of_2_vendor_id_or_unique_id" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase_FindByID/error_while_fetching_partner_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/VendorID_is_empty" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute/vendor_ID_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_locationAddRequest_Execute/error_while_creating_location" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase_FindByID/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/failed_to_update_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/box_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute/error_while_creating_car_temporary_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/get_TemporaryBoxByVendorID_failed" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/user_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/meter_reading_for_the_same_box,_connector,_and_date_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_locationAddRequest_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestNewPartnerFindAllUsecase_FindByID/MainUserID_is_nil" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/failed_to_update_temporary_car_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/box_is_already_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/price_profile_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/user_is_deleted" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/Location_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/failed_to_delete_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_get_TemporaryBoxByVendorID_failed" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/invalid_password" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/error_while_creating_extra_partner" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_error_while_creating_car_box,_check_if_the_box_has_been_added_in_another_location" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/error_while_getting_user_location" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/get_TemporaryBoxByVendorID_failed" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_failed_to_update_temporary_car_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/error_while_creating_meter_report" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/error_while_encrypting_internal_user_claims_for_access_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute/unique_ID_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/failed_to_update_temporary_car_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_creating_car_box_quantity_with_0" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute/error_while_creating_bike_temporary_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/failed_to_update_box#01" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/error_while_encrypting_internal_refresh_token_claims" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestTemporaryBoxAddRequest_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/get_TemporaryBoxByUniqueID_failed" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerGetUseCase_GetByID/extra_partner_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/failed_to_update_temporary_bike_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/error_while_retrieving_prices" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/success_with_unit_Wh" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerGetUseCase_GetByID/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/error_while_getting_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/error_while_creating_user_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_get_TemporaryBoxByVendorID_failed" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/meter_reading_for_the_same_box,_connector,_and_date_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_provinceRequest_FindAll/error_while_fetching_province_data" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/error_while_updating_car_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerDeleteUseCase_Execute/extra_partner_not_found" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/error_while_updating_user_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_error_while_creating_bike_box,_check_if_the_box_has_been_added_in_another_location" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerDeleteUseCase_Execute/error_while_deleting" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/get_TemporaryBoxByUniqueID_failed" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_provinceRequest_FindAll/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_failed_to_update_temporary_bike_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/error_while_saving_csrf_token" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/determine_box_type_as_car" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/failed_to_update_temporary_bike_box" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestExtraPartnerDeleteUseCase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/error_while_updating_bike_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/determine_box_type_as_car#01" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/UniqueID_is_empty" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/error_while_creating_meter_report" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestUserLoginUsecase/user_location_IDs_are_extracted_correctly" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxDeleteRequest_Execute/success_delete_box_car" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_getting_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/success" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestCarMeterReportAddUsecase_Execute/success_with_priceProfileID_is_nil" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/success_with_unit_Wh" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/determine_box_type_as_bike" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_updating_car_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_creating_car_box_quantity_with_0#01" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/determine_box_type_as_car" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_creating_bike_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="TestMeterReportAddUsecase_Execute/success_with_priceProfileID_is_nil" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_updating_bike_box_quantity" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/error_while_creating_bike_box_quantity_with_0" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/Do_not_create_car_box_quantity_with_0_if_it_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/Create_car_box_quantity_with_0_if_it_does_not_exist" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/Do_not_create_bike_box_quantity_with_0_if_it_already_exists" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/Create_bike_box_quantity_with_0_if_it_does_not_exist" time="0.000"></testcase>
+		<testcase classname="usecases" name="Test_boxAddRequest_Execute/SuccessfulUpdateCarBox" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="132" failures="0" time="1.208" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/cronjobs">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="84.1"></property>
+		</properties>
+		<testcase classname="cronjobs" name="TestNewBikeMeterValueHistoryJob" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewBikeMeterValueHistoryJob/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_bikeMeterValueHistory_Name" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_bikeMeterValueHistory_Name/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_bikeMeterValueHistory_Run" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllBikeBoxes" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllBikeBoxes/API_call_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllBikeBoxes/Invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllBikeBoxes/response_GetCarBoxResponse_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllBikeBoxes/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getBikeMeterValueHistory" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getBikeMeterValueHistory/API_call_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getBikeMeterValueHistory/Invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getBikeMeterValueHistory/response_GetCarMeterValueHistoryResponse_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getBikeMeterValueHistory/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveBikeMeterValueHistory" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveBikeMeterValueHistory/no_meter_value_history_found" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveBikeMeterValueHistory/single_meter_value_history" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveBikeMeterValueHistory/multiple_meter_value_histories" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_processBikeBox" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_processBikeBox/API_call_to_get_meter_value_history_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_processBikeBox/No_meter_value_history_found" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleBikeMeterValueHistory" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_to_save_meter_value_history_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_returns_invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_succeeds" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_succeeds_with_new_box_=_0" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeMeterValueHistories" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_call_Success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeMeterValueHistories/response_SaveMeterValueHistoryResult_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_call_to_save_meter_value_history_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_returns_invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeOldBoxMeterValueHistories" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleBikeOldBoxMeterValueHistories/API_call_success_with_new_box_=_0" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewMeterValueHistoryJob" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewMeterValueHistoryJob/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_Name" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_Name/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllCarBoxes" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllCarBoxes/API_call_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllCarBoxes/Invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllCarBoxes/response_GetCarBoxResponse_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getAllCarBoxes/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getMeterValueHistory" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getMeterValueHistory/API_call_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getMeterValueHistory/Invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getMeterValueHistory/response_GetCarMeterValueHistoryResponse_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_getMeterValueHistory/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMeterValueHistory" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMeterValueHistory/no_meter_value_history_found" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMeterValueHistory/single_meter_value_history" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMeterValueHistory/multiple_meter_value_histories" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_processBox" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_processBox/API_call_to_get_meter_value_history_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_processBox/No_meter_value_history_found" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleMeterValueHistory" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleMeterValueHistory/API_call_to_save_meter_value_history_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleMeterValueHistory/API_returns_invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveSingleMeterValueHistory/API_call_succeeds" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories/API_call_Success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories/response_SaveMeterValueHistoryResult_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories/API_call_to_save_meter_value_history_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories/API_returns_invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories_value" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_saveMultipleMeterValueHistories_value/API_call_Success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_Run" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestLoadConfig" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestLoadConfigMissingRequiredEnv" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_appHealthcheckEndpoint" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_appHealthcheckEndpoint/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewHealthCheckJob" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewHealthCheckJob/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Name" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Name/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Run" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestProvideJobs" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestProvideJobs/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewSaveBikeBoxJob" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewSaveBikeBoxJob/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_Name" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_Name/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_Run" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_login" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_login/login_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_login/Invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_login/response_GetBikeMeterValueHistoryResponse_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_login/login_success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_getAllBikeBoxes" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_getAllBikeBoxes/call_api_to_get_all_Bike_box_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_getAllBikeBoxes/invalid_response_body" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_getAllBikeBoxes/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_saveBikeBox" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewSaveCarBoxJob" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewSaveCarBoxJob/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_Name" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_Name/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_Run" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_login" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_login/login_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_login/Invalid_JSON_response" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_login/response_GetCarMeterValueHistoryResponse_is_not_ok" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_login/login_success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_getAllCarBoxes" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_getAllCarBoxes/call_api_to_get_all_car_box_fails" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_getAllCarBoxes/invalid_response_body" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_getAllCarBoxes/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_saveCarBox" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewUpdateOffsetBoxJob" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="TestNewUpdateOffsetBoxJob/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_updateOffsetBox_Name" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_updateOffsetBox_Name/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_updateOffsetBox_Run" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_updateOffsetBox_Run/failed_to_call_endpoint_to_update_offset_box" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_updateOffsetBox_Run/success_to_call_endpoint_to_update_offset_box" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_updateOffsetBox_Run/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_bikeMeterValueHistory_Run/not_the_last_day_of_the_month" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_saveBikeBox/call_api_to_save_eboost_box_request" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_bikeMeterValueHistory_Run/call_function_getAllCarBoxes" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Run/app_endpoint_empty" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_Run/not_the_last_day_of_the_month" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_Run/call_function_login" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_Run/call_function_login" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Run/health_check_main_app_failed" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_Run/call_function_getAllBikeBoxes_with_error" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_saveCarBox/call_api_to_save_eboost_box_request" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_meterValueHistory_Run/call_function_getAllCarBoxes" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveBikeBox_Run/call_function_saveBikeBox" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Run/main_server_returns_not_200_code" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_Run/call_function_getAllCarBoxes_with_error" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_healthcheck_Run/success" time="0.000"></testcase>
+		<testcase classname="cronjobs" name="Test_saveCarBox_Run/call_function_saveCarBox" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="18" failures="0" time="1.505" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/api">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="84.6"></property>
+		</properties>
+		<testcase classname="api" name="TestCall" time="0.000"></testcase>
+		<testcase classname="api" name="Test_isSuccess" time="0.000"></testcase>
+		<testcase classname="api" name="Test_isSuccess/success_request" time="0.000"></testcase>
+		<testcase classname="api" name="Test_isSuccess/fail_request" time="0.000"></testcase>
+		<testcase classname="api" name="TestWithBasicAuthentication" time="0.000"></testcase>
+		<testcase classname="api" name="TestAuthorization" time="0.000"></testcase>
+		<testcase classname="api" name="TestWithContentType" time="0.000"></testcase>
+		<testcase classname="api" name="TestWithContentTypeJSON" time="0.000"></testcase>
+		<testcase classname="api" name="TestWithHeader" time="0.000"></testcase>
+		<testcase classname="api" name="TestWithQueryString" time="0.000"></testcase>
+		<testcase classname="api" name="TestHTTPError_StatusCode" time="0.000"></testcase>
+		<testcase classname="api" name="TestHTTPError_StatusCode/success" time="0.000"></testcase>
+		<testcase classname="api" name="TestHTTPError_Error" time="0.000"></testcase>
+		<testcase classname="api" name="TestHTTPError_Error/success" time="0.000"></testcase>
+		<testcase classname="api" name="TestCall/make_request_failed" time="0.000"></testcase>
+		<testcase classname="api" name="TestCall/response_status_is_not_successful" time="0.000"></testcase>
+		<testcase classname="api" name="TestCall/success" time="0.000"></testcase>
+		<testcase classname="api" name="TestCall/success_with_request_option" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="5" failures="0" time="1.589" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/comparison">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="100.0"></property>
+		</properties>
+		<testcase classname="comparison" name="TestEqualPointers" time="0.000"></testcase>
+		<testcase classname="comparison" name="TestEqualPointers/both_nil" time="0.000"></testcase>
+		<testcase classname="comparison" name="TestEqualPointers/a_nil,_b_not" time="0.000"></testcase>
+		<testcase classname="comparison" name="TestEqualPointers/a_not,_b_nil" time="0.000"></testcase>
+		<testcase classname="comparison" name="TestEqualPointers/both_are_not_nil" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="12" failures="0" time="1.321" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/cronjob/scheduler">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="29.9"></property>
+		</properties>
+		<testcase classname="scheduler" name="Test_scheduledJob_Schedule" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduledJob_Schedule/ok" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduledJob_Job" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduledJob_Job/Ok" time="0.000"></testcase>
+		<testcase classname="scheduler" name="TestSetup" time="0.000"></testcase>
+		<testcase classname="scheduler" name="TestSetup/Ok" time="0.000"></testcase>
+		<testcase classname="scheduler" name="TestSetup/env_is_not_supported" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduler_Run" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduler_Run/Ok" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduler_Run/job" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduler_Start" time="0.000"></testcase>
+		<testcase classname="scheduler" name="Test_scheduler_Stop" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="8" failures="0" time="1.481" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/fileutil">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="81.2"></property>
+		</properties>
+		<testcase classname="fileutil" name="TestExtractFromFilename" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_1" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_1a" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_2" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_3" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_4" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_4#01" time="0.000"></testcase>
+		<testcase classname="fileutil" name="TestExtractFromFilename/Case_5" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="14" failures="0" time="1.569" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/hashid">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="41.0"></property>
+		</properties>
+		<testcase classname="hashid" name="Test_InitIDHasher" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_GetIDHasher" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_Encode" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_EncodeUint64" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_Decode" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_DecodeUint64" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_InitIDHasher/singleton_instance_exists" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_Decode/incorrect_hash_id_format" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_Decode/success" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_EncodeUint64/success" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_Encode/success" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_DecodeUint64/incorrect_hash_id_format" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_InitIDHasher/success" time="0.000"></testcase>
+		<testcase classname="hashid" name="Test_idHasher_DecodeUint64/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="4" failures="0" time="1.768" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/imageutil">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="100.0"></property>
+		</properties>
+		<testcase classname="imageutil" name="Test_ExtractFromImage" time="0.000"></testcase>
+		<testcase classname="imageutil" name="Test_ExtractFromImage/cannot_decode_base64_image" time="0.000"></testcase>
+		<testcase classname="imageutil" name="Test_ExtractFromImage/cannot_get_image_configure" time="0.000"></testcase>
+		<testcase classname="imageutil" name="Test_ExtractFromImage/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="2" failures="0" time="1.948" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/logkeeper">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="2.2"></property>
+		</properties>
+		<testcase classname="logkeeper" name="TestGetCloudWatch" time="0.000"></testcase>
+		<testcase classname="logkeeper" name="TestGetCloudWatch/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="17" failures="0" time="1.585" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/mailer/postmark">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="33.8"></property>
+		</properties>
+		<testcase classname="postmark" name="TestNew" time="0.000"></testcase>
+		<testcase classname="postmark" name="TestNew/success" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed/empty_email" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed/environment_production" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed/allowDomains_is_empty_list" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed/email_string_has_no_@" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed/email_is_in_white_list" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postMark_isAllowed/email_is_not_in_white_list_on_development" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postmarkMailer_buildAttachments" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postmarkMailer_buildAttachments/no_attachments" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postmarkMailer_buildAttachments/attachment_with_empty_bytes" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postmarkMailer_buildAttachments/single_attachment" time="0.000"></testcase>
+		<testcase classname="postmark" name="Test_postmarkMailer_buildAttachments/multiple_attachments" time="0.000"></testcase>
+		<testcase classname="postmark" name="TestSendWithTemplate" time="0.000"></testcase>
+		<testcase classname="postmark" name="TestSendWithTemplate/OK" time="0.000"></testcase>
+		<testcase classname="postmark" name="TestSendWithTemplate/all_filtered_out" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="4" failures="0" time="1.684" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/middleware">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="54.4"></property>
+		</properties>
+		<testcase classname="middleware" name="TestLogFormatterJSON" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestLogFormatterJSON/success_-_latency_is_smaller_than_a_minute" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestLogFormatterJSON/success_-_latency_is_greater_than_a_minute" time="0.000"></testcase>
+		<testcase classname="middleware" name="TestLogFormatterJSON/success_-_span_context_not_exist" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="8" failures="0" time="1.809" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/pdfutil/pdfhelper">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="93.3"></property>
+		</properties>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_MarginScale" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_MarginScale/success_-_no_icon_in_front" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_MarginScale/success_-_no_icon_in_front#01" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_MarginScale/success_-_has_icon_in_front" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_FontScale" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_FontScale/success" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_FontScaleByFontSize" time="0.000"></testcase>
+		<testcase classname="pdfhelper" name="Test_pdfCPU_FontScaleByFontSize/success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="8" failures="0" time="1.968" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/runeutil">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="88.9"></property>
+		</properties>
+		<testcase classname="runeutil" name="Test_NewWriter" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_NewWriter/success_-_shift-jis" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_NewWriter/success_-_utf-8" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_Write" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_Write/empty_bytes" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_Write/sjis_-_unsupported_character_encoding" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_Write/utf8_-_success" time="0.000"></testcase>
+		<testcase classname="runeutil" name="Test_Write/sjis_-_success" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="27" failures="0" time="2.175" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/sliceutil">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="100.0"></property>
+		</properties>
+		<testcase classname="sliceutil" name="TestRemoveDuplicatedItems" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestRemoveDuplicatedItems/success" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvert" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvert/success" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvertToString" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvertToString/success" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestUnique" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestUnique/has_int_duplication" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestUnique/no_int_duplication" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestUnique/has_string_duplication" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestUnique/no_string_duplication" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/diffs12_is_empty,_diffs21_is_empty" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/s1_contains_s2" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/s2_contains_s1" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/s1_intersects_s2" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/s1_not_intersects_s2" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/s1_is_empty" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestDifference/s2_is_empty" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestIntersect" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestIntersect/no_intersect" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestIntersect/partial_intersect" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestIntersect/full_intersect" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvertStringToInt" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvertStringToInt/success_-_uint32" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvertStringToInt/fail_-_input_can_not_be_parsed" time="0.000"></testcase>
+		<testcase classname="sliceutil" name="TestConvertStringToInt/success-_uint64" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="12" failures="0" time="2.441" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/strutil">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="100.0"></property>
+		</properties>
+		<testcase classname="strutil" name="TestLeftPad" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestLeftPad/Case_1" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestLeftPad/Case_2" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestLeftPad/Case_3" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestLeftPad/Case_4" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat/case_empty" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat/case_0" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat/case_1" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat/case_2" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat/case_3" time="0.000"></testcase>
+		<testcase classname="strutil" name="TestNumberFormat/case_4" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="3" failures="0" time="2.307" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidint/sonyflake">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="88.9"></property>
+		</properties>
+		<testcase classname="sonyflake" name="TestGet" time="0.000"></testcase>
+		<testcase classname="sonyflake" name="TestGet/uuidflake.Get_success" time="0.000"></testcase>
+		<testcase classname="sonyflake" name="Test_generator_nextid" time="0.000"></testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" time="2.311" name="github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/worker/workerpool">
+		<properties>
+			<property name="go.version" value="go1.22.3"></property>
+			<property name="coverage.statements.pct" value="55.6"></property>
+		</properties>
+		<testcase classname="workerpool" name="TestNew" time="0.000"></testcase>
+	</testsuite>
+</testsuites>

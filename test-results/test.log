@@ -1,0 +1,2536 @@
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/repository	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/repository/mock		coverage: 0.0% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/service	[no test files]
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/adapter/restclient	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/service/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/adapter/restclient/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/adapter/restclient/realtime/types		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/framework		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/persistence/mysql		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/persistence/redis		coverage: 0.0% of statements
+=== RUN   Test_MySQL_Conn
+=== RUN   Test_MySQL_Conn/ConnectionString_is_empty
+=== RUN   Test_MySQL_Conn/ConnectionString_has_port
+=== RUN   Test_MySQL_Conn/ConnectionString_from_heroku
+--- PASS: Test_MySQL_Conn (0.00s)
+    --- PASS: Test_MySQL_Conn/ConnectionString_is_empty (0.00s)
+    --- PASS: Test_MySQL_Conn/ConnectionString_has_port (0.00s)
+    --- PASS: Test_MySQL_Conn/ConnectionString_from_heroku (0.00s)
+PASS
+coverage: 23.8% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/config	0.802s	coverage: 23.8% of statements
+=== RUN   TestBoxQuantity_ToMap
+=== RUN   TestBoxQuantity_ToMap/normal
+--- PASS: TestBoxQuantity_ToMap (0.00s)
+    --- PASS: TestBoxQuantity_ToMap/normal (0.00s)
+=== RUN   TestBoxQuantity_TableName
+=== RUN   TestBoxQuantity_TableName/normal
+--- PASS: TestBoxQuantity_TableName (0.00s)
+    --- PASS: TestBoxQuantity_TableName/normal (0.00s)
+=== RUN   TestBoxReading_ToMap
+=== RUN   TestBoxReading_ToMap/normal
+--- PASS: TestBoxReading_ToMap (0.00s)
+    --- PASS: TestBoxReading_ToMap/normal (0.00s)
+=== RUN   TestBox_ToMap
+=== RUN   TestBox_ToMap/normal
+--- PASS: TestBox_ToMap (0.00s)
+    --- PASS: TestBox_ToMap/normal (0.00s)
+=== RUN   TestDistrict_ToMap
+=== RUN   TestDistrict_ToMap/normal
+--- PASS: TestDistrict_ToMap (0.00s)
+    --- PASS: TestDistrict_ToMap/normal (0.00s)
+=== RUN   TestExtra_ToMap
+=== RUN   TestExtra_ToMap/normal
+--- PASS: TestExtra_ToMap (0.00s)
+    --- PASS: TestExtra_ToMap/normal (0.00s)
+=== RUN   TestLocation_ToMap
+=== RUN   TestLocation_ToMap/normal
+--- PASS: TestLocation_ToMap (0.00s)
+    --- PASS: TestLocation_ToMap/normal (0.00s)
+=== RUN   TestPartner_TableName
+=== RUN   TestPartner_TableName/normal
+--- PASS: TestPartner_TableName (0.00s)
+    --- PASS: TestPartner_TableName/normal (0.00s)
+=== RUN   TestPriceProfile_ToMap
+=== RUN   TestPriceProfile_ToMap/normal
+--- PASS: TestPriceProfile_ToMap (0.00s)
+    --- PASS: TestPriceProfile_ToMap/normal (0.00s)
+=== RUN   TestPrice_ToMap
+=== RUN   TestPrice_ToMap/normal
+--- PASS: TestPrice_ToMap (0.00s)
+    --- PASS: TestPrice_ToMap/normal (0.00s)
+=== RUN   TestProvince_ToMap
+=== RUN   TestProvince_ToMap/normal
+--- PASS: TestProvince_ToMap (0.00s)
+    --- PASS: TestProvince_ToMap/normal (0.00s)
+=== RUN   TestTmpBox_ToMap
+=== RUN   TestTmpBox_ToMap/normal
+--- PASS: TestTmpBox_ToMap (0.00s)
+    --- PASS: TestTmpBox_ToMap/normal (0.00s)
+=== RUN   TestRole_String
+=== RUN   TestRole_String/normal
+=== RUN   TestRole_String/manager
+=== RUN   TestRole_String/admin
+=== RUN   TestRole_String/superadmin
+=== RUN   TestRole_String/unknown
+--- PASS: TestRole_String (0.00s)
+    --- PASS: TestRole_String/normal (0.00s)
+    --- PASS: TestRole_String/manager (0.00s)
+    --- PASS: TestRole_String/admin (0.00s)
+    --- PASS: TestRole_String/superadmin (0.00s)
+    --- PASS: TestRole_String/unknown (0.00s)
+=== RUN   TestGetRole
+=== RUN   TestGetRole/user
+=== RUN   TestGetRole/partner
+=== RUN   TestGetRole/admin
+=== RUN   TestGetRole/superadmin
+=== RUN   TestGetRole/unknown
+--- PASS: TestGetRole (0.00s)
+    --- PASS: TestGetRole/user (0.00s)
+    --- PASS: TestGetRole/partner (0.00s)
+    --- PASS: TestGetRole/admin (0.00s)
+    --- PASS: TestGetRole/superadmin (0.00s)
+    --- PASS: TestGetRole/unknown (0.00s)
+=== RUN   TestUser_ToMap
+=== RUN   TestUser_ToMap/success
+--- PASS: TestUser_ToMap (0.00s)
+    --- PASS: TestUser_ToMap/success (0.00s)
+=== RUN   Test_GetUserRolePriority
+=== RUN   Test_GetUserRolePriority/user
+=== RUN   Test_GetUserRolePriority/manager
+=== RUN   Test_GetUserRolePriority/admin
+=== RUN   Test_GetUserRolePriority/superadmin
+=== RUN   Test_GetUserRolePriority/unknown
+--- PASS: Test_GetUserRolePriority (0.00s)
+    --- PASS: Test_GetUserRolePriority/user (0.00s)
+    --- PASS: Test_GetUserRolePriority/manager (0.00s)
+    --- PASS: Test_GetUserRolePriority/admin (0.00s)
+    --- PASS: Test_GetUserRolePriority/superadmin (0.00s)
+    --- PASS: Test_GetUserRolePriority/unknown (0.00s)
+=== RUN   TestUser_User
+=== RUN   TestUser_User/is_normal_user
+=== RUN   TestUser_User/is_manager
+=== RUN   TestUser_User/is_administrator
+=== RUN   TestUser_User/is_superadmin
+=== RUN   TestUser_User/is_unknown_role
+--- PASS: TestUser_User (0.00s)
+    --- PASS: TestUser_User/is_normal_user (0.00s)
+    --- PASS: TestUser_User/is_manager (0.00s)
+    --- PASS: TestUser_User/is_administrator (0.00s)
+    --- PASS: TestUser_User/is_superadmin (0.00s)
+    --- PASS: TestUser_User/is_unknown_role (0.00s)
+=== RUN   TestUser_IsDeletedUser
+=== RUN   TestUser_IsDeletedUser/user_is_deleted
+=== RUN   TestUser_IsDeletedUser/user_is_not_deleted
+--- PASS: TestUser_IsDeletedUser (0.00s)
+    --- PASS: TestUser_IsDeletedUser/user_is_deleted (0.00s)
+    --- PASS: TestUser_IsDeletedUser/user_is_not_deleted (0.00s)
+=== RUN   TestUser_SuperAdmin
+=== RUN   TestUser_SuperAdmin/is_super_admin
+=== RUN   TestUser_SuperAdmin/is_not_super_admin
+--- PASS: TestUser_SuperAdmin (0.00s)
+    --- PASS: TestUser_SuperAdmin/is_super_admin (0.00s)
+    --- PASS: TestUser_SuperAdmin/is_not_super_admin (0.00s)
+=== RUN   TestUser_Admin
+=== RUN   TestUser_Admin/is_admin
+=== RUN   TestUser_Admin/is_not_admin
+--- PASS: TestUser_Admin (0.00s)
+    --- PASS: TestUser_Admin/is_admin (0.00s)
+    --- PASS: TestUser_Admin/is_not_admin (0.00s)
+=== RUN   TestUser_Manager
+=== RUN   TestUser_Manager/is_manager
+=== RUN   TestUser_Manager/is_not_manager
+--- PASS: TestUser_Manager (0.00s)
+    --- PASS: TestUser_Manager/is_manager (0.00s)
+    --- PASS: TestUser_Manager/is_not_manager (0.00s)
+=== RUN   TestUserToken_ToMap
+=== RUN   TestUserToken_ToMap/normal
+--- PASS: TestUserToken_ToMap (0.00s)
+    --- PASS: TestUserToken_ToMap/normal (0.00s)
+=== RUN   TestWard_ToMap
+=== RUN   TestWard_ToMap/normal
+--- PASS: TestWard_ToMap (0.00s)
+    --- PASS: TestWard_ToMap/normal (0.00s)
+PASS
+coverage: 46.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/entity	0.510s	coverage: 46.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/docs		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/handler		coverage: 0.0% of statements
+=== RUN   Test_CrucialQueryCondition
+    crucial_query_condition_test.go:71: Testing spec[specifications.allPriceProfile]: exp='SELECT * FROM `price_profiles`', crucialCondition=''
+    crucial_query_condition_test.go:71: Testing spec[specifications.allTemporaryBoxUniqueID]: exp='SELECT * FROM `tmp_boxes` WHERE status = 'unused' AND vendor_id IS NULL LIMIT 1', crucialCondition='status = 'unused' AND vendor_id IS NULL'
+    crucial_query_condition_test.go:71: Testing spec[specifications.allTemporaryBoxVendorID]: exp='SELECT * FROM `tmp_boxes` WHERE status = 'unused' AND unique_id IS NULL LIMIT 1', crucialCondition='status = 'unused' AND unique_id IS NULL'
+    crucial_query_condition_test.go:71: Testing spec[specifications.allNonEmptyUniqueIDs]: exp='SELECT id,unique_id,location_id FROM `boxes` WHERE unique_id <> '' AND unique_id IS NOT NULL AND is_active = true LIMIT 1', crucialCondition='unique_id <> '' AND unique_id IS NOT NULL AND is_active = true'
+    crucial_query_condition_test.go:71: Testing spec[specifications.allNonEmptyVendorIDs]: exp='SELECT id,vendor_id,location_id FROM `boxes` WHERE vendor_id <> '' AND vendor_id IS NOT NULL AND is_active = true LIMIT 1', crucialCondition='vendor_id <> '' AND vendor_id IS NOT NULL AND is_active = true'
+    crucial_query_condition_test.go:71: Testing spec[specifications.boxByID]: exp='SELECT * FROM `boxes` WHERE id = 1 LIMIT 1', crucialCondition='id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.boxByUniqueID]: exp='SELECT * FROM `boxes` WHERE unique_id = 'string' LIMIT 1', crucialCondition='unique_id = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.boxByVendorID]: exp='SELECT * FROM `boxes` WHERE vendor_id = 'string' LIMIT 1', crucialCondition='vendor_id = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.boxQuantityByLocationID]: exp='SELECT * FROM `box_quantity` WHERE location_id = 1 LIMIT 1', crucialCondition='location_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.partnerByUserID]: exp='SELECT COUNT(locations.id) AS locations_count FROM `locations` WHERE main_user_id = 1 LIMIT 1', crucialCondition='main_user_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.locationByID]: exp='SELECT * FROM `locations` WHERE id = 1 LIMIT 1', crucialCondition='id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.locationByUserID]: exp='SELECT * FROM `locations` WHERE main_user_id = 1 LIMIT 1', crucialCondition='main_user_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.locationByValue]: exp='SELECT * FROM `locations` WHERE main_user_id = 1 AND id = 1 LIMIT 1', crucialCondition='main_user_id = 1 AND id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.meterReadingByValue]: exp='SELECT * FROM `box_readings` WHERE box_id = 1 AND connector_id = 1 AND DATE(reading_date) = '2025-03-12' LIMIT 1', crucialCondition='box_id = 1 AND connector_id = 1 AND DATE(reading_date) = '2025-03-12''
+    crucial_query_condition_test.go:71: Testing spec[specifications.priceByBoxType]: exp='SELECT * FROM `prices` WHERE price_profile_id = 1 AND box_type = 'string' LIMIT 1', crucialCondition='price_profile_id = 1 AND box_type = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.priceProfileByID]: exp='SELECT * FROM `price_profiles` WHERE id = 1 ORDER BY `price_profiles`.`id` LIMIT 1', crucialCondition='id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.priceByBoxType]: exp='SELECT * FROM `prices` WHERE price_profile_id = 1 AND box_type = 'string' LIMIT 1', crucialCondition='price_profile_id = 1 AND box_type = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.priceByID]: exp='SELECT * FROM `prices` WHERE id = 1 LIMIT 1', crucialCondition='id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.priceProfileByName]: exp='SELECT * FROM `price_profiles` WHERE name = 'string' LIMIT 1', crucialCondition='name = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.temporaryBoxByUniqueID]: exp='SELECT * FROM `tmp_boxes` WHERE unique_id = 'string' LIMIT 1', crucialCondition='unique_id = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.temporaryBoxByVendorID]: exp='SELECT * FROM `tmp_boxes` WHERE vendor_id = 'string' LIMIT 1', crucialCondition='vendor_id = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.userByEmail]: exp='SELECT * FROM `users` WHERE email = 'string' LIMIT 1', crucialCondition='email = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.userByPhoneNumber]: exp='SELECT * FROM `users` WHERE phone_number = 'string' LIMIT 1', crucialCondition='phone_number = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.userByUserID]: exp='SELECT * FROM `users` WHERE user_id = 1 LIMIT 1', crucialCondition='user_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.userTokenByRefreshToken]: exp='SELECT * FROM `user_tokens` WHERE refresh_token = 'string' and user_id = 1 LIMIT 1', crucialCondition='refresh_token = 'string' and user_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.userTokenByUserID]: exp='SELECT * FROM `user_tokens` WHERE user_id = 1 LIMIT 1', crucialCondition='user_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.meterReportByID]: exp='SELECT * FROM `box_readings` WHERE id = 1 LIMIT 1', crucialCondition='id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.locationByPriceProfileID]: exp='SELECT * FROM `locations` WHERE price_profile_id = 1 LIMIT 1', crucialCondition='price_profile_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.extraPartnerByID]: exp='SELECT * FROM `extras` WHERE id = 1 LIMIT 1', crucialCondition='id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.userByValue]: exp='SELECT * FROM `users` WHERE MATCH(username, user_code, email, phone_number) AGAINST('string*' IN BOOLEAN MODE) AND is_deleted = 0 LIMIT 1', crucialCondition='MATCH(username, user_code, email, phone_number) AGAINST('string*' IN BOOLEAN MODE) AND is_deleted = 0'
+    crucial_query_condition_test.go:71: Testing spec[specifications.locationByName]: exp='SELECT * FROM `locations` WHERE name = 'string' LIMIT 1', crucialCondition='name = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.provinceByName]: exp='SELECT * FROM `provinces` WHERE name_vn = 'string' LIMIT 1', crucialCondition='name_vn = 'string''
+    crucial_query_condition_test.go:71: Testing spec[specifications.districtByName]: exp='SELECT * FROM `districts` WHERE name_vn = 'string' and province_id = 1 LIMIT 1', crucialCondition='name_vn = 'string' and province_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.wardByName]: exp='SELECT * FROM `wards` WHERE name_vn = 'string' and district_id = 1 LIMIT 1', crucialCondition='name_vn = 'string' and district_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.allProvince]: exp='SELECT * FROM `provinces`', crucialCondition=''
+    crucial_query_condition_test.go:71: Testing spec[specifications.districtByProvinceID]: exp='SELECT * FROM `districts` WHERE province_id = 1 LIMIT 1', crucialCondition='province_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.wardByDistrictID]: exp='SELECT * FROM `wards` WHERE district_id = 1 LIMIT 1', crucialCondition='district_id = 1'
+    crucial_query_condition_test.go:71: Testing spec[specifications.allNonEmptyOffset]: exp='SELECT id, vendor_id, unique_id, location_id, offset FROM `boxes` WHERE offset <> 0 AND offset IS NOT NULL AND is_active = true LIMIT 1', crucialCondition='offset <> 0 AND offset IS NOT NULL AND is_active = true'
+--- PASS: Test_CrucialQueryCondition (0.00s)
+PASS
+coverage: 75.8% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/domain/repository/specifications	1.611s	coverage: 75.8% of statements
+=== RUN   TestNewErrorBadRequest
+=== RUN   TestNewErrorBadRequest/success
+--- PASS: TestNewErrorBadRequest (0.00s)
+    --- PASS: TestNewErrorBadRequest/success (0.00s)
+=== RUN   Test_errorBadRequest_Type
+=== RUN   Test_errorBadRequest_Type/success
+--- PASS: Test_errorBadRequest_Type (0.00s)
+    --- PASS: Test_errorBadRequest_Type/success (0.00s)
+=== RUN   Test_errorBadRequestCode
+=== RUN   Test_errorBadRequestCode/success
+--- PASS: Test_errorBadRequestCode (0.00s)
+    --- PASS: Test_errorBadRequestCode/success (0.00s)
+=== RUN   Test_errorBadRequest_Message
+=== RUN   Test_errorBadRequest_Message/success
+--- PASS: Test_errorBadRequest_Message (0.00s)
+    --- PASS: Test_errorBadRequest_Message/success (0.00s)
+=== RUN   Test_errorBadRequest_Param
+=== RUN   Test_errorBadRequest_Param/success
+--- PASS: Test_errorBadRequest_Param (0.00s)
+    --- PASS: Test_errorBadRequest_Param/success (0.00s)
+=== RUN   Test_errorBadRequest_StatusCode
+=== RUN   Test_errorBadRequest_StatusCode/success
+--- PASS: Test_errorBadRequest_StatusCode (0.00s)
+    --- PASS: Test_errorBadRequest_StatusCode/success (0.00s)
+=== RUN   Test_errorBadRequest_Error
+=== RUN   Test_errorBadRequest_Error/success
+--- PASS: Test_errorBadRequest_Error (0.00s)
+    --- PASS: Test_errorBadRequest_Error/success (0.00s)
+=== RUN   TestNewErrorConflict
+=== RUN   TestNewErrorConflict/success
+--- PASS: TestNewErrorConflict (0.00s)
+    --- PASS: TestNewErrorConflict/success (0.00s)
+=== RUN   Test_errorConflict_Type
+=== RUN   Test_errorConflict_Type/success
+--- PASS: Test_errorConflict_Type (0.00s)
+    --- PASS: Test_errorConflict_Type/success (0.00s)
+=== RUN   Test_errorConflict_Code
+=== RUN   Test_errorConflict_Code/success
+--- PASS: Test_errorConflict_Code (0.00s)
+    --- PASS: Test_errorConflict_Code/success (0.00s)
+=== RUN   Test_errorConflict_Message
+=== RUN   Test_errorConflict_Message/success
+--- PASS: Test_errorConflict_Message (0.00s)
+    --- PASS: Test_errorConflict_Message/success (0.00s)
+=== RUN   Test_errorConflict_Param
+=== RUN   Test_errorConflict_Param/success
+--- PASS: Test_errorConflict_Param (0.00s)
+    --- PASS: Test_errorConflict_Param/success (0.00s)
+=== RUN   Test_errorConflict_StatusCode
+=== RUN   Test_errorConflict_StatusCode/success
+--- PASS: Test_errorConflict_StatusCode (0.00s)
+    --- PASS: Test_errorConflict_StatusCode/success (0.00s)
+=== RUN   Test_errorConflict_Error
+=== RUN   Test_errorConflict_Error/success
+--- PASS: Test_errorConflict_Error (0.00s)
+    --- PASS: Test_errorConflict_Error/success (0.00s)
+=== RUN   TestGetErrorMessage
+=== RUN   TestGetErrorMessage/invalid_user_email
+=== RUN   TestGetErrorMessage/invalid_date_format
+=== RUN   TestGetErrorMessage/invalid_number_value
+=== RUN   TestGetErrorMessage/invalid_boolean_value
+=== RUN   TestGetErrorMessage/invalid_date_value
+=== RUN   TestGetErrorMessage/invalid_rule_oneof
+=== RUN   TestGetErrorMessage/invalid_rule_required
+=== RUN   TestGetErrorMessage/invalid_rule_max
+=== RUN   TestGetErrorMessage/invalid_rule_renew_duration
+=== RUN   TestGetErrorMessage/invalid_rule_cancel_auto_renew_duration
+=== RUN   TestGetErrorMessage/invalid_rule_contract_value
+=== RUN   TestGetErrorMessage/invalid_rule_email_format
+=== RUN   TestGetErrorMessage/invalid_rule_numeric
+=== RUN   TestGetErrorMessage/end_date_before_start_date
+--- PASS: TestGetErrorMessage (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_user_email (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_date_format (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_number_value (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_boolean_value (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_date_value (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_oneof (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_required (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_max (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_renew_duration (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_cancel_auto_renew_duration (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_contract_value (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_email_format (0.00s)
+    --- PASS: TestGetErrorMessage/invalid_rule_numeric (0.00s)
+    --- PASS: TestGetErrorMessage/end_date_before_start_date (0.00s)
+=== RUN   TestGetRuleErrorCode
+=== RUN   TestGetRuleErrorCode/required
+=== RUN   TestGetRuleErrorCode/max
+=== RUN   TestGetRuleErrorCode/oneof
+=== RUN   TestGetRuleErrorCode/renew_duration
+=== RUN   TestGetRuleErrorCode/cancel_auto_renew_duration
+=== RUN   TestGetRuleErrorCode/contract_value
+=== RUN   TestGetRuleErrorCode/email
+=== RUN   TestGetRuleErrorCode/numeric
+--- PASS: TestGetRuleErrorCode (0.00s)
+    --- PASS: TestGetRuleErrorCode/required (0.00s)
+    --- PASS: TestGetRuleErrorCode/max (0.00s)
+    --- PASS: TestGetRuleErrorCode/oneof (0.00s)
+    --- PASS: TestGetRuleErrorCode/renew_duration (0.00s)
+    --- PASS: TestGetRuleErrorCode/cancel_auto_renew_duration (0.00s)
+    --- PASS: TestGetRuleErrorCode/contract_value (0.00s)
+    --- PASS: TestGetRuleErrorCode/email (0.00s)
+    --- PASS: TestGetRuleErrorCode/numeric (0.00s)
+=== RUN   TestSystemErrors_Error
+=== RUN   TestSystemErrors_Error/Test_SystemError.Error()
+--- PASS: TestSystemErrors_Error (0.00s)
+    --- PASS: TestSystemErrors_Error/Test_SystemError.Error() (0.00s)
+=== RUN   TestNewErrorForbidden
+=== RUN   TestNewErrorForbidden/success
+--- PASS: TestNewErrorForbidden (0.00s)
+    --- PASS: TestNewErrorForbidden/success (0.00s)
+=== RUN   Test_errorForbidden_Type
+=== RUN   Test_errorForbidden_Type/success
+--- PASS: Test_errorForbidden_Type (0.00s)
+    --- PASS: Test_errorForbidden_Type/success (0.00s)
+=== RUN   Test_errorForbidden_Code
+=== RUN   Test_errorForbidden_Code/success
+--- PASS: Test_errorForbidden_Code (0.00s)
+    --- PASS: Test_errorForbidden_Code/success (0.00s)
+=== RUN   Test_errorForbidden_Message
+=== RUN   Test_errorForbidden_Message/success
+--- PASS: Test_errorForbidden_Message (0.00s)
+    --- PASS: Test_errorForbidden_Message/success (0.00s)
+=== RUN   Test_errorForbidden_Param
+=== RUN   Test_errorForbidden_Param/success
+--- PASS: Test_errorForbidden_Param (0.00s)
+    --- PASS: Test_errorForbidden_Param/success (0.00s)
+=== RUN   Test_errorForbidden_StatusCode
+=== RUN   Test_errorForbidden_StatusCode/success
+--- PASS: Test_errorForbidden_StatusCode (0.00s)
+    --- PASS: Test_errorForbidden_StatusCode/success (0.00s)
+=== RUN   Test_errorForbidden_Error
+=== RUN   Test_errorForbidden_Error/success
+--- PASS: Test_errorForbidden_Error (0.00s)
+    --- PASS: Test_errorForbidden_Error/success (0.00s)
+=== RUN   TestNewCustomErrorForbidden
+=== RUN   TestNewCustomErrorForbidden/success
+--- PASS: TestNewCustomErrorForbidden (0.00s)
+    --- PASS: TestNewCustomErrorForbidden/success (0.00s)
+=== RUN   TestNewErrorInternalServerErr
+=== RUN   TestNewErrorInternalServerErr/success
+--- PASS: TestNewErrorInternalServerErr (0.00s)
+    --- PASS: TestNewErrorInternalServerErr/success (0.00s)
+=== RUN   Test_errorInternalServerErr_Type
+=== RUN   Test_errorInternalServerErr_Type/success
+--- PASS: Test_errorInternalServerErr_Type (0.00s)
+    --- PASS: Test_errorInternalServerErr_Type/success (0.00s)
+=== RUN   Test_errorInternalServerErr_Code
+=== RUN   Test_errorInternalServerErr_Code/success
+--- PASS: Test_errorInternalServerErr_Code (0.00s)
+    --- PASS: Test_errorInternalServerErr_Code/success (0.00s)
+=== RUN   Test_errorInternalServerErr_Message
+=== RUN   Test_errorInternalServerErr_Message/success
+--- PASS: Test_errorInternalServerErr_Message (0.00s)
+    --- PASS: Test_errorInternalServerErr_Message/success (0.00s)
+=== RUN   Test_errorInternalServerErr_Param
+=== RUN   Test_errorInternalServerErr_Param/success
+--- PASS: Test_errorInternalServerErr_Param (0.00s)
+    --- PASS: Test_errorInternalServerErr_Param/success (0.00s)
+=== RUN   Test_errorInternalServerErr_StatusCode
+=== RUN   Test_errorInternalServerErr_StatusCode/success
+--- PASS: Test_errorInternalServerErr_StatusCode (0.00s)
+    --- PASS: Test_errorInternalServerErr_StatusCode/success (0.00s)
+=== RUN   Test_errorInternalServerErr_Error
+=== RUN   Test_errorInternalServerErr_Error/success
+--- PASS: Test_errorInternalServerErr_Error (0.00s)
+    --- PASS: Test_errorInternalServerErr_Error/success (0.00s)
+=== RUN   TestNewErrorInvalidArgument
+=== RUN   TestNewErrorInvalidArgument/success
+--- PASS: TestNewErrorInvalidArgument (0.00s)
+    --- PASS: TestNewErrorInvalidArgument/success (0.00s)
+=== RUN   Test_errorInvalidArgument_Type
+=== RUN   Test_errorInvalidArgument_Type/success
+--- PASS: Test_errorInvalidArgument_Type (0.00s)
+    --- PASS: Test_errorInvalidArgument_Type/success (0.00s)
+=== RUN   Test_errorInvalidArgument_Code
+=== RUN   Test_errorInvalidArgument_Code/success
+--- PASS: Test_errorInvalidArgument_Code (0.00s)
+    --- PASS: Test_errorInvalidArgument_Code/success (0.00s)
+=== RUN   Test_errorInvalidArgument_Message
+=== RUN   Test_errorInvalidArgument_Message/success
+--- PASS: Test_errorInvalidArgument_Message (0.00s)
+    --- PASS: Test_errorInvalidArgument_Message/success (0.00s)
+=== RUN   Test_errorInvalidArgument_Param
+=== RUN   Test_errorInvalidArgument_Param/success
+--- PASS: Test_errorInvalidArgument_Param (0.00s)
+    --- PASS: Test_errorInvalidArgument_Param/success (0.00s)
+=== RUN   Test_errorInvalidArgument_StatusCode
+=== RUN   Test_errorInvalidArgument_StatusCode/success
+--- PASS: Test_errorInvalidArgument_StatusCode (0.00s)
+    --- PASS: Test_errorInvalidArgument_StatusCode/success (0.00s)
+=== RUN   Test_errorInvalidArgument_Error
+=== RUN   Test_errorInvalidArgument_Error/success
+--- PASS: Test_errorInvalidArgument_Error (0.00s)
+    --- PASS: Test_errorInvalidArgument_Error/success (0.00s)
+=== RUN   TestNewErrorNotFound
+=== RUN   TestNewErrorNotFound/success
+--- PASS: TestNewErrorNotFound (0.00s)
+    --- PASS: TestNewErrorNotFound/success (0.00s)
+=== RUN   Test_errorNotFound_Type
+=== RUN   Test_errorNotFound_Type/success
+--- PASS: Test_errorNotFound_Type (0.00s)
+    --- PASS: Test_errorNotFound_Type/success (0.00s)
+=== RUN   Test_errorNotFound_Code
+=== RUN   Test_errorNotFound_Code/success
+--- PASS: Test_errorNotFound_Code (0.00s)
+    --- PASS: Test_errorNotFound_Code/success (0.00s)
+=== RUN   Test_errorNotFound_Message
+=== RUN   Test_errorNotFound_Message/success
+--- PASS: Test_errorNotFound_Message (0.00s)
+    --- PASS: Test_errorNotFound_Message/success (0.00s)
+=== RUN   Test_errorNotFound_Param
+=== RUN   Test_errorNotFound_Param/success
+--- PASS: Test_errorNotFound_Param (0.00s)
+    --- PASS: Test_errorNotFound_Param/success (0.00s)
+=== RUN   Test_errorNotFound_StatusCode
+=== RUN   Test_errorNotFound_StatusCode/success
+--- PASS: Test_errorNotFound_StatusCode (0.00s)
+    --- PASS: Test_errorNotFound_StatusCode/success (0.00s)
+=== RUN   Test_errorNotFound_Error
+=== RUN   Test_errorNotFound_Error/success
+--- PASS: Test_errorNotFound_Error (0.00s)
+    --- PASS: Test_errorNotFound_Error/success (0.00s)
+=== RUN   TestNewServiceUnavailableError
+=== RUN   TestNewServiceUnavailableError/success
+--- PASS: TestNewServiceUnavailableError (0.00s)
+    --- PASS: TestNewServiceUnavailableError/success (0.00s)
+=== RUN   Test_serviceUnavailableError
+=== RUN   Test_serviceUnavailableError/success
+--- PASS: Test_serviceUnavailableError (0.00s)
+    --- PASS: Test_serviceUnavailableError/success (0.00s)
+=== RUN   TestNewErrorTooManyRequest
+=== RUN   TestNewErrorTooManyRequest/success
+--- PASS: TestNewErrorTooManyRequest (0.00s)
+    --- PASS: TestNewErrorTooManyRequest/success (0.00s)
+=== RUN   Test_errorTooManyRequest_Type
+=== RUN   Test_errorTooManyRequest_Type/success
+--- PASS: Test_errorTooManyRequest_Type (0.00s)
+    --- PASS: Test_errorTooManyRequest_Type/success (0.00s)
+=== RUN   Test_errorTooManyRequest_Code
+=== RUN   Test_errorTooManyRequest_Code/success
+--- PASS: Test_errorTooManyRequest_Code (0.00s)
+    --- PASS: Test_errorTooManyRequest_Code/success (0.00s)
+=== RUN   Test_errorTooManyRequest_Message
+=== RUN   Test_errorTooManyRequest_Message/success
+--- PASS: Test_errorTooManyRequest_Message (0.00s)
+    --- PASS: Test_errorTooManyRequest_Message/success (0.00s)
+=== RUN   Test_errorTooManyRequest_Param
+=== RUN   Test_errorTooManyRequest_Param/success
+--- PASS: Test_errorTooManyRequest_Param (0.00s)
+    --- PASS: Test_errorTooManyRequest_Param/success (0.00s)
+=== RUN   Test_errorTooManyRequest_StatusCode
+=== RUN   Test_errorTooManyRequest_StatusCode/success
+--- PASS: Test_errorTooManyRequest_StatusCode (0.00s)
+    --- PASS: Test_errorTooManyRequest_StatusCode/success (0.00s)
+=== RUN   Test_errorTooManyRequest_Error
+=== RUN   Test_errorTooManyRequest_Error/success
+--- PASS: Test_errorTooManyRequest_Error (0.00s)
+    --- PASS: Test_errorTooManyRequest_Error/success (0.00s)
+=== RUN   TestNewCustomErrorTooManyRequest
+=== RUN   TestNewCustomErrorTooManyRequest/success
+--- PASS: TestNewCustomErrorTooManyRequest (0.00s)
+    --- PASS: TestNewCustomErrorTooManyRequest/success (0.00s)
+=== RUN   TestNewErrorUnauthorized
+=== RUN   TestNewErrorUnauthorized/success
+--- PASS: TestNewErrorUnauthorized (0.00s)
+    --- PASS: TestNewErrorUnauthorized/success (0.00s)
+=== RUN   Test_errorUnauthorized_Type
+=== RUN   Test_errorUnauthorized_Type/success
+--- PASS: Test_errorUnauthorized_Type (0.00s)
+    --- PASS: Test_errorUnauthorized_Type/success (0.00s)
+=== RUN   Test_errorUnauthorized_Code
+=== RUN   Test_errorUnauthorized_Code/success
+--- PASS: Test_errorUnauthorized_Code (0.00s)
+    --- PASS: Test_errorUnauthorized_Code/success (0.00s)
+=== RUN   Test_errorUnauthorized_Message
+=== RUN   Test_errorUnauthorized_Message/success
+--- PASS: Test_errorUnauthorized_Message (0.00s)
+    --- PASS: Test_errorUnauthorized_Message/success (0.00s)
+=== RUN   Test_errorUnauthorized_Param
+=== RUN   Test_errorUnauthorized_Param/success
+--- PASS: Test_errorUnauthorized_Param (0.00s)
+    --- PASS: Test_errorUnauthorized_Param/success (0.00s)
+=== RUN   Test_errorUnauthorized_StatusCode
+=== RUN   Test_errorUnauthorized_StatusCode/success
+--- PASS: Test_errorUnauthorized_StatusCode (0.00s)
+    --- PASS: Test_errorUnauthorized_StatusCode/success (0.00s)
+=== RUN   Test_errorUnauthorized_Error
+=== RUN   Test_errorUnauthorized_Error/success
+--- PASS: Test_errorUnauthorized_Error (0.00s)
+    --- PASS: Test_errorUnauthorized_Error/success (0.00s)
+=== RUN   TestNewCustomErrorUnauthorized
+=== RUN   TestNewCustomErrorUnauthorized/success
+--- PASS: TestNewCustomErrorUnauthorized (0.00s)
+    --- PASS: TestNewCustomErrorUnauthorized/success (0.00s)
+=== RUN   TestNewUnprocessableEntityError
+=== RUN   TestNewUnprocessableEntityError/success
+--- PASS: TestNewUnprocessableEntityError (0.00s)
+    --- PASS: TestNewUnprocessableEntityError/success (0.00s)
+=== RUN   Test_unprocessableEntityError_Type
+=== RUN   Test_unprocessableEntityError_Type/success
+--- PASS: Test_unprocessableEntityError_Type (0.00s)
+    --- PASS: Test_unprocessableEntityError_Type/success (0.00s)
+=== RUN   Test_unprocessableEntityError_Code
+=== RUN   Test_unprocessableEntityError_Code/success
+--- PASS: Test_unprocessableEntityError_Code (0.00s)
+    --- PASS: Test_unprocessableEntityError_Code/success (0.00s)
+=== RUN   Test_unprocessableEntityError_Message
+=== RUN   Test_unprocessableEntityError_Message/success
+--- PASS: Test_unprocessableEntityError_Message (0.00s)
+    --- PASS: Test_unprocessableEntityError_Message/success (0.00s)
+=== RUN   Test_unprocessableEntityError_Param
+=== RUN   Test_unprocessableEntityError_Param/success
+--- PASS: Test_unprocessableEntityError_Param (0.00s)
+    --- PASS: Test_unprocessableEntityError_Param/success (0.00s)
+=== RUN   Test_unprocessableEntityError_StatusCode
+=== RUN   Test_unprocessableEntityError_StatusCode/success
+--- PASS: Test_unprocessableEntityError_StatusCode (0.00s)
+    --- PASS: Test_unprocessableEntityError_StatusCode/success (0.00s)
+=== RUN   Test_unprocessableEntityError_Error
+=== RUN   Test_unprocessableEntityError_Error/success
+--- PASS: Test_unprocessableEntityError_Error (0.00s)
+    --- PASS: Test_unprocessableEntityError_Error/success (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/errors	1.198s	coverage: 100.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/services/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/registry		coverage: 0.0% of statements
+=== RUN   TestSetup
+=== RUN   TestSetup/Ok
+--- PASS: TestSetup (0.00s)
+    --- PASS: TestSetup/Ok (0.00s)
+=== RUN   TestRealtimeService_GetMeterValueHistoryByID
+=== PAUSE TestRealtimeService_GetMeterValueHistoryByID
+=== CONT  TestRealtimeService_GetMeterValueHistoryByID
+=== RUN   TestRealtimeService_GetMeterValueHistoryByID/fmtErrorGetMeterValueHistoryAPI
+=== PAUSE TestRealtimeService_GetMeterValueHistoryByID/fmtErrorGetMeterValueHistoryAPI
+=== RUN   TestRealtimeService_GetMeterValueHistoryByID/fmtErrorUnmarshal
+=== PAUSE TestRealtimeService_GetMeterValueHistoryByID/fmtErrorUnmarshal
+=== RUN   TestRealtimeService_GetMeterValueHistoryByID/ResultOK_failed
+=== PAUSE TestRealtimeService_GetMeterValueHistoryByID/ResultOK_failed
+=== RUN   TestRealtimeService_GetMeterValueHistoryByID/success
+=== PAUSE TestRealtimeService_GetMeterValueHistoryByID/success
+=== CONT  TestRealtimeService_GetMeterValueHistoryByID/fmtErrorGetMeterValueHistoryAPI
+=== CONT  TestRealtimeService_GetMeterValueHistoryByID/ResultOK_failed
+=== CONT  TestRealtimeService_GetMeterValueHistoryByID/fmtErrorUnmarshal
+=== CONT  TestRealtimeService_GetMeterValueHistoryByID/success
+--- PASS: TestRealtimeService_GetMeterValueHistoryByID (0.00s)
+    --- PASS: TestRealtimeService_GetMeterValueHistoryByID/fmtErrorGetMeterValueHistoryAPI (0.00s)
+    --- PASS: TestRealtimeService_GetMeterValueHistoryByID/fmtErrorUnmarshal (0.00s)
+    --- PASS: TestRealtimeService_GetMeterValueHistoryByID/success (0.00s)
+    --- PASS: TestRealtimeService_GetMeterValueHistoryByID/ResultOK_failed (0.00s)
+PASS
+coverage: 71.2% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/external/adapter/restclient/realtime	1.731s	coverage: 71.2% of statements
+=== RUN   TestGetUserID
+=== RUN   TestGetUserID/no_user_id_in_context
+=== RUN   TestGetUserID/user_id_value_type_not_uuid.UUID
+=== RUN   TestGetUserID/success
+--- PASS: TestGetUserID (0.00s)
+    --- PASS: TestGetUserID/no_user_id_in_context (0.00s)
+    --- PASS: TestGetUserID/user_id_value_type_not_uuid.UUID (0.00s)
+    --- PASS: TestGetUserID/success (0.00s)
+=== RUN   TestGetRefreshToken
+=== RUN   TestGetRefreshToken/no_refresh_token_in_cookie
+=== RUN   TestGetRefreshToken/success
+--- PASS: TestGetRefreshToken (0.00s)
+    --- PASS: TestGetRefreshToken/no_refresh_token_in_cookie (0.00s)
+    --- PASS: TestGetRefreshToken/success (0.00s)
+=== RUN   TestGetClientIP
+=== RUN   TestGetClientIP/no_client_IP_in_context
+=== RUN   TestGetClientIP/success
+--- PASS: TestGetClientIP (0.00s)
+    --- PASS: TestGetClientIP/no_client_IP_in_context (0.00s)
+    --- PASS: TestGetClientIP/success (0.00s)
+=== RUN   TestGetUserEmail
+=== RUN   TestGetUserEmail/no_user_email_in_context
+=== RUN   TestGetUserEmail/user_email_value_type_not_string
+=== RUN   TestGetUserEmail/success
+--- PASS: TestGetUserEmail (0.00s)
+    --- PASS: TestGetUserEmail/no_user_email_in_context (0.00s)
+    --- PASS: TestGetUserEmail/user_email_value_type_not_string (0.00s)
+    --- PASS: TestGetUserEmail/success (0.00s)
+=== RUN   TestGetPhoneNumber
+=== RUN   TestGetPhoneNumber/no_phone_number_in_context
+=== RUN   TestGetPhoneNumber/success
+--- PASS: TestGetPhoneNumber (0.00s)
+    --- PASS: TestGetPhoneNumber/no_phone_number_in_context (0.00s)
+    --- PASS: TestGetPhoneNumber/success (0.00s)
+=== RUN   TestGetUserRoleCode
+=== RUN   TestGetUserRoleCode/no_user_role_code_in_context
+=== RUN   TestGetUserRoleCode/success
+--- PASS: TestGetUserRoleCode (0.00s)
+    --- PASS: TestGetUserRoleCode/no_user_role_code_in_context (0.00s)
+    --- PASS: TestGetUserRoleCode/success (0.00s)
+=== RUN   TestGetProxyLoginEventID
+=== RUN   TestGetProxyLoginEventID/no_proxy_login_event_id_in_context
+=== RUN   TestGetProxyLoginEventID/success
+--- PASS: TestGetProxyLoginEventID (0.00s)
+    --- PASS: TestGetProxyLoginEventID/no_proxy_login_event_id_in_context (0.00s)
+    --- PASS: TestGetProxyLoginEventID/success (0.00s)
+=== RUN   TestGetUserAgent
+=== RUN   TestGetUserAgent/no_user_agent_in_context
+=== RUN   TestGetUserAgent/success
+--- PASS: TestGetUserAgent (0.00s)
+    --- PASS: TestGetUserAgent/no_user_agent_in_context (0.00s)
+    --- PASS: TestGetUserAgent/success (0.00s)
+=== RUN   TestGetPartnerLocationID
+=== RUN   TestGetPartnerLocationID/no_partner_location_id_in_context
+=== RUN   TestGetPartnerLocationID/success
+--- PASS: TestGetPartnerLocationID (0.00s)
+    --- PASS: TestGetPartnerLocationID/no_partner_location_id_in_context (0.00s)
+    --- PASS: TestGetPartnerLocationID/success (0.00s)
+PASS
+coverage: 50.6% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/context	1.376s	coverage: 50.6% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/usecases/dto	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/cmd/cron		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/usecases/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/cmd/srv		coverage: 0.0% of statements
+=== RUN   TestCookieAuthenticatorTestSuite
+=== RUN   TestCookieAuthenticatorTestSuite/TestAuthenticateAccess
+=== PAUSE TestCookieAuthenticatorTestSuite/TestAuthenticateAccess
+=== RUN   TestCookieAuthenticatorTestSuite/TestNewCookieAuthenticator
+=== RUN   TestCookieAuthenticatorTestSuite/TestNewCookieAuthenticator/success
+=== CONT  TestCookieAuthenticatorTestSuite/TestAuthenticateAccess
+=== RUN   TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/access_key_does_not_exist
+=== RUN   TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/decrypt_access_token_failed
+=== RUN   TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/stop_by_one_of_validators
+{"error":"validation failed","ip":"","level":"error","method":"GET","msg":"internal server error","time":"2025-03-12T11:53:09+07:00","url":"/testing","user_agent":"","user_id":0}
+=== RUN   TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/success
+--- PASS: TestCookieAuthenticatorTestSuite (0.00s)
+    --- PASS: TestCookieAuthenticatorTestSuite/TestNewCookieAuthenticator (0.00s)
+        --- PASS: TestCookieAuthenticatorTestSuite/TestNewCookieAuthenticator/success (0.00s)
+    --- PASS: TestCookieAuthenticatorTestSuite/TestAuthenticateAccess (0.00s)
+        --- PASS: TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/access_key_does_not_exist (0.00s)
+        --- PASS: TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/decrypt_access_token_failed (0.00s)
+        --- PASS: TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/stop_by_one_of_validators (0.00s)
+        --- PASS: TestCookieAuthenticatorTestSuite/TestAuthenticateAccess/success (0.00s)
+=== RUN   TestNewIPUserAgentExtractorMiddlewareMiddleware
+--- PASS: TestNewIPUserAgentExtractorMiddlewareMiddleware (0.00s)
+=== RUN   TestIPUserAgentExtractorMiddleware_Do
+=== RUN   TestIPUserAgentExtractorMiddleware_Do/success
+--- PASS: TestIPUserAgentExtractorMiddleware_Do (0.00s)
+    --- PASS: TestIPUserAgentExtractorMiddleware_Do/success (0.00s)
+=== RUN   Test_LogoutMiddleware_Execute
+=== RUN   Test_LogoutMiddleware_Execute/error_retrieving_cookie
+=== RUN   Test_LogoutMiddleware_Execute/invalid_csrf_token
+=== RUN   Test_LogoutMiddleware_Execute/user_ID_is_0
+{"error":null,"ip":"","level":"error","method":"GET","msg":"internal server error","time":"2025-03-12T11:53:09+07:00","url":"/","user_agent":"","user_id":0}
+=== RUN   Test_LogoutMiddleware_Execute/Decrypt_method_fails
+{"error":"decryption failed","ip":"","level":"error","method":"GET","msg":"internal server error","time":"2025-03-12T11:53:09+07:00","url":"/","user_agent":"","user_id":0}
+=== RUN   Test_LogoutMiddleware_Execute/error_deleting_CSRF_tokens
+{"error":"delete failed","ip":"","level":"error","method":"GET","msg":"internal server error","time":"2025-03-12T11:53:09+07:00","url":"/","user_agent":"","user_id":0}
+=== RUN   Test_LogoutMiddleware_Execute/error_deleting_UserToken
+{"error":"delete UserToken failed","ip":"","level":"error","method":"GET","msg":"internal server error","time":"2025-03-12T11:53:09+07:00","url":"/","user_agent":"","user_id":0}
+=== RUN   Test_LogoutMiddleware_Execute/successful_logout
+--- PASS: Test_LogoutMiddleware_Execute (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/error_retrieving_cookie (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/invalid_csrf_token (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/user_ID_is_0 (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/Decrypt_method_fails (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/error_deleting_CSRF_tokens (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/error_deleting_UserToken (0.00s)
+    --- PASS: Test_LogoutMiddleware_Execute/successful_logout (0.00s)
+PASS
+coverage: 13.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/middleware	1.186s	coverage: 13.0% of statements
+=== RUN   TestBoxAddRequest_StructName
+=== RUN   TestBoxAddRequest_StructName/success
+--- PASS: TestBoxAddRequest_StructName (0.00s)
+    --- PASS: TestBoxAddRequest_StructName/success (0.00s)
+=== RUN   TestBoxAddRequest_Validate
+=== RUN   TestBoxAddRequest_Validate/success
+--- PASS: TestBoxAddRequest_Validate (0.00s)
+    --- PASS: TestBoxAddRequest_Validate/success (0.00s)
+=== RUN   TestBoxUpdateRequest_StructName
+=== RUN   TestBoxUpdateRequest_StructName/success
+--- PASS: TestBoxUpdateRequest_StructName (0.00s)
+    --- PASS: TestBoxUpdateRequest_StructName/success (0.00s)
+=== RUN   TestBoxUpdateRequest_Validate
+=== RUN   TestBoxUpdateRequest_Validate/success
+--- PASS: TestBoxUpdateRequest_Validate (0.00s)
+    --- PASS: TestBoxUpdateRequest_Validate/success (0.00s)
+=== RUN   Test_defaultUndefinedField
+=== RUN   Test_defaultUndefinedField/success
+--- PASS: Test_defaultUndefinedField (0.00s)
+    --- PASS: Test_defaultUndefinedField/success (0.00s)
+=== RUN   Test_config_dispatch
+=== RUN   Test_config_dispatch/success
+=== RUN   Test_config_dispatch/undefined_payload
+=== RUN   Test_config_dispatch/undefined_field_name
+=== RUN   Test_config_dispatch/undefined_tag_name
+--- PASS: Test_config_dispatch (0.00s)
+    --- PASS: Test_config_dispatch/success (0.00s)
+    --- PASS: Test_config_dispatch/undefined_payload (0.00s)
+    --- PASS: Test_config_dispatch/undefined_field_name (0.00s)
+    --- PASS: Test_config_dispatch/undefined_tag_name (0.00s)
+=== RUN   TestExtraPartnerAddRequest_StructName
+=== RUN   TestExtraPartnerAddRequest_StructName/success
+--- PASS: TestExtraPartnerAddRequest_StructName (0.00s)
+    --- PASS: TestExtraPartnerAddRequest_StructName/success (0.00s)
+=== RUN   TestExtraPartnerAddRequest_Validate
+=== RUN   TestExtraPartnerAddRequest_Validate/success
+=== RUN   TestExtraPartnerAddRequest_Validate/invalid_email
+=== RUN   TestExtraPartnerAddRequest_Validate/missing_location_id
+--- PASS: TestExtraPartnerAddRequest_Validate (0.00s)
+    --- PASS: TestExtraPartnerAddRequest_Validate/success (0.00s)
+    --- PASS: TestExtraPartnerAddRequest_Validate/invalid_email (0.00s)
+    --- PASS: TestExtraPartnerAddRequest_Validate/missing_location_id (0.00s)
+=== RUN   TestExtraPartnerUpdateRequest_StructName
+=== RUN   TestExtraPartnerUpdateRequest_StructName/success
+--- PASS: TestExtraPartnerUpdateRequest_StructName (0.00s)
+    --- PASS: TestExtraPartnerUpdateRequest_StructName/success (0.00s)
+=== RUN   TestExtraPartnerUpdateRequest_Validate
+=== RUN   TestExtraPartnerUpdateRequest_Validate/success
+=== RUN   TestExtraPartnerUpdateRequest_Validate/invalid_email
+--- PASS: TestExtraPartnerUpdateRequest_Validate (0.00s)
+    --- PASS: TestExtraPartnerUpdateRequest_Validate/success (0.00s)
+    --- PASS: TestExtraPartnerUpdateRequest_Validate/invalid_email (0.00s)
+=== RUN   TestLocationAddRequest_StructName
+=== RUN   TestLocationAddRequest_StructName/success
+--- PASS: TestLocationAddRequest_StructName (0.00s)
+    --- PASS: TestLocationAddRequest_StructName/success (0.00s)
+=== RUN   TestLocationAddRequest_Validate
+=== RUN   TestLocationAddRequest_Validate/iolate_require_tag
+--- PASS: TestLocationAddRequest_Validate (0.00s)
+    --- PASS: TestLocationAddRequest_Validate/iolate_require_tag (0.00s)
+=== RUN   TestLocationUpdateRequest_StructName
+=== RUN   TestLocationUpdateRequest_StructName/success
+--- PASS: TestLocationUpdateRequest_StructName (0.00s)
+    --- PASS: TestLocationUpdateRequest_StructName/success (0.00s)
+=== RUN   TestLocationUpdateRequest_Validate
+=== RUN   TestLocationUpdateRequest_Validate/success
+--- PASS: TestLocationUpdateRequest_Validate (0.00s)
+    --- PASS: TestLocationUpdateRequest_Validate/success (0.00s)
+=== RUN   TestQueryDateFromAndTo_StructName
+=== RUN   TestQueryDateFromAndTo_StructName/success
+--- PASS: TestQueryDateFromAndTo_StructName (0.00s)
+    --- PASS: TestQueryDateFromAndTo_StructName/success (0.00s)
+=== RUN   TestQueryDateFromAndTo_Validate
+=== RUN   TestQueryDateFromAndTo_Validate/valid_dates
+=== RUN   TestQueryDateFromAndTo_Validate/invalid_date_format
+--- PASS: TestQueryDateFromAndTo_Validate (0.00s)
+    --- PASS: TestQueryDateFromAndTo_Validate/valid_dates (0.00s)
+    --- PASS: TestQueryDateFromAndTo_Validate/invalid_date_format (0.00s)
+=== RUN   TestMeterReportAddRequest_StructName
+=== RUN   TestMeterReportAddRequest_StructName/success
+--- PASS: TestMeterReportAddRequest_StructName (0.00s)
+    --- PASS: TestMeterReportAddRequest_StructName/success (0.00s)
+=== RUN   TestMeterReportAddRequest_Validate
+=== RUN   TestMeterReportAddRequest_Validate/success
+--- PASS: TestMeterReportAddRequest_Validate (0.00s)
+    --- PASS: TestMeterReportAddRequest_Validate/success (0.00s)
+=== RUN   TestMeterReportUpdateRequest_StructName
+=== RUN   TestMeterReportUpdateRequest_StructName/success
+--- PASS: TestMeterReportUpdateRequest_StructName (0.00s)
+    --- PASS: TestMeterReportUpdateRequest_StructName/success (0.00s)
+=== RUN   TestMeterReportUpdateRequest_Validate
+=== RUN   TestMeterReportUpdateRequest_Validate/success
+--- PASS: TestMeterReportUpdateRequest_Validate (0.00s)
+    --- PASS: TestMeterReportUpdateRequest_Validate/success (0.00s)
+=== RUN   TestQueryMonth_StructName
+=== RUN   TestQueryMonth_StructName/success
+--- PASS: TestQueryMonth_StructName (0.00s)
+    --- PASS: TestQueryMonth_StructName/success (0.00s)
+=== RUN   TestMeterReportGetAllRequest_Validate
+=== RUN   TestMeterReportGetAllRequest_Validate/valid_request
+=== RUN   TestMeterReportGetAllRequest_Validate/invalid_month_format
+=== RUN   TestMeterReportGetAllRequest_Validate/missing_month
+--- PASS: TestMeterReportGetAllRequest_Validate (0.00s)
+    --- PASS: TestMeterReportGetAllRequest_Validate/valid_request (0.00s)
+    --- PASS: TestMeterReportGetAllRequest_Validate/invalid_month_format (0.00s)
+    --- PASS: TestMeterReportGetAllRequest_Validate/missing_month (0.00s)
+=== RUN   TestPagingRequest_StructName
+=== RUN   TestPagingRequest_StructName/success
+--- PASS: TestPagingRequest_StructName (0.00s)
+    --- PASS: TestPagingRequest_StructName/success (0.00s)
+=== RUN   TestPagingRequest_Form
+=== RUN   TestPagingRequest_Form/no_input
+=== RUN   TestPagingRequest_Form/has_size_only
+=== RUN   TestPagingRequest_Form/has_page_only
+=== RUN   TestPagingRequest_Form/has_both
+--- PASS: TestPagingRequest_Form (0.00s)
+    --- PASS: TestPagingRequest_Form/no_input (0.00s)
+    --- PASS: TestPagingRequest_Form/has_size_only (0.00s)
+    --- PASS: TestPagingRequest_Form/has_page_only (0.00s)
+    --- PASS: TestPagingRequest_Form/has_both (0.00s)
+=== RUN   TestPartnerIsDeleted_StructName
+=== RUN   TestPartnerIsDeleted_StructName/Ok
+--- PASS: TestPartnerIsDeleted_StructName (0.00s)
+    --- PASS: TestPartnerIsDeleted_StructName/Ok (0.00s)
+=== RUN   TestPartnerGetRequest_Validate
+=== RUN   TestPartnerGetRequest_Validate/violate_`gte`_tag_of_paging
+=== RUN   TestPartnerGetRequest_Validate/violate_invalid_partner_is_deleted
+--- PASS: TestPartnerGetRequest_Validate (0.00s)
+    --- PASS: TestPartnerGetRequest_Validate/violate_`gte`_tag_of_paging (0.00s)
+    --- PASS: TestPartnerGetRequest_Validate/violate_invalid_partner_is_deleted (0.00s)
+=== RUN   TestPartnerUpdateRequest_StructName
+=== RUN   TestPartnerUpdateRequest_StructName/Ok
+--- PASS: TestPartnerUpdateRequest_StructName (0.00s)
+    --- PASS: TestPartnerUpdateRequest_StructName/Ok (0.00s)
+=== RUN   TestPartnerUpdateRequest_Validate
+=== RUN   TestPartnerUpdateRequest_Validate/violate_require_tag
+--- PASS: TestPartnerUpdateRequest_Validate (0.00s)
+    --- PASS: TestPartnerUpdateRequest_Validate/violate_require_tag (0.00s)
+=== RUN   TestPriceProfileGetRequest_Validate
+=== RUN   TestPriceProfileGetRequest_Validate/success
+--- PASS: TestPriceProfileGetRequest_Validate (0.00s)
+    --- PASS: TestPriceProfileGetRequest_Validate/success (0.00s)
+=== RUN   TestPriceProfileAddRequest_StructName
+=== RUN   TestPriceProfileAddRequest_StructName/success
+--- PASS: TestPriceProfileAddRequest_StructName (0.00s)
+    --- PASS: TestPriceProfileAddRequest_StructName/success (0.00s)
+=== RUN   TestPriceProfileAddRequest_Validate
+=== RUN   TestPriceProfileAddRequest_Validate/success
+--- PASS: TestPriceProfileAddRequest_Validate (0.00s)
+    --- PASS: TestPriceProfileAddRequest_Validate/success (0.00s)
+=== RUN   TestPriceProfileUpdateRequest_StructName
+=== RUN   TestPriceProfileUpdateRequest_StructName/success
+--- PASS: TestPriceProfileUpdateRequest_StructName (0.00s)
+    --- PASS: TestPriceProfileUpdateRequest_StructName/success (0.00s)
+=== RUN   TestPriceProfileUpdateRequest_Validate
+=== RUN   TestPriceProfileUpdateRequest_Validate/success
+--- PASS: TestPriceProfileUpdateRequest_Validate (0.00s)
+    --- PASS: TestPriceProfileUpdateRequest_Validate/success (0.00s)
+=== RUN   TestPriceAddRequest_StructName
+=== RUN   TestPriceAddRequest_StructName/success
+--- PASS: TestPriceAddRequest_StructName (0.00s)
+    --- PASS: TestPriceAddRequest_StructName/success (0.00s)
+=== RUN   TestPriceAddRequest_Validate
+=== RUN   TestPriceAddRequest_Validate/success
+--- PASS: TestPriceAddRequest_Validate (0.00s)
+    --- PASS: TestPriceAddRequest_Validate/success (0.00s)
+=== RUN   TestPriceUpdateRequest_StructName
+=== RUN   TestPriceUpdateRequest_StructName/success
+--- PASS: TestPriceUpdateRequest_StructName (0.00s)
+    --- PASS: TestPriceUpdateRequest_StructName/success (0.00s)
+=== RUN   TestPriceUpdateRequest_Validate
+=== RUN   TestPriceUpdateRequest_Validate/success
+--- PASS: TestPriceUpdateRequest_Validate (0.00s)
+    --- PASS: TestPriceUpdateRequest_Validate/success (0.00s)
+=== RUN   TestQueryProvinceID_StructName
+=== RUN   TestQueryProvinceID_StructName/success
+--- PASS: TestQueryProvinceID_StructName (0.00s)
+    --- PASS: TestQueryProvinceID_StructName/success (0.00s)
+=== RUN   TestQueryProvinceID_Validate
+=== RUN   TestQueryProvinceID_Validate/success
+--- PASS: TestQueryProvinceID_Validate (0.00s)
+    --- PASS: TestQueryProvinceID_Validate/success (0.00s)
+=== RUN   TestQueryDistrictID_StructName
+=== RUN   TestQueryDistrictID_StructName/success
+--- PASS: TestQueryDistrictID_StructName (0.00s)
+    --- PASS: TestQueryDistrictID_StructName/success (0.00s)
+=== RUN   TestQueryDistrictID_Validate
+=== RUN   TestQueryDistrictID_Validate/success
+--- PASS: TestQueryDistrictID_Validate (0.00s)
+    --- PASS: TestQueryDistrictID_Validate/success (0.00s)
+=== RUN   TestTemporaryBoxAddRequest_StructName
+=== RUN   TestTemporaryBoxAddRequest_StructName/success
+--- PASS: TestTemporaryBoxAddRequest_StructName (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_StructName/success (0.00s)
+=== RUN   TestTemporaryBoxAddRequest_Validate
+=== RUN   TestTemporaryBoxAddRequest_Validate/success
+--- PASS: TestTemporaryBoxAddRequest_Validate (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Validate/success (0.00s)
+=== RUN   TestUserAddRequest_StructName
+=== RUN   TestUserAddRequest_StructName/Ok
+--- PASS: TestUserAddRequest_StructName (0.00s)
+    --- PASS: TestUserAddRequest_StructName/Ok (0.00s)
+=== RUN   TestUserAddRequest_Validate
+=== RUN   TestUserAddRequest_Validate/violate_require_tag
+--- PASS: TestUserAddRequest_Validate (0.00s)
+    --- PASS: TestUserAddRequest_Validate/violate_require_tag (0.00s)
+=== RUN   TestUserLoginRequest_StructName
+=== RUN   TestUserLoginRequest_StructName/Ok
+--- PASS: TestUserLoginRequest_StructName (0.00s)
+    --- PASS: TestUserLoginRequest_StructName/Ok (0.00s)
+=== RUN   TestUserLoginRequest_Validate
+=== RUN   TestUserLoginRequest_Validate/violate_require_tag
+=== RUN   TestUserLoginRequest_Validate/Ok
+--- PASS: TestUserLoginRequest_Validate (0.00s)
+    --- PASS: TestUserLoginRequest_Validate/violate_require_tag (0.00s)
+    --- PASS: TestUserLoginRequest_Validate/Ok (0.00s)
+=== RUN   TestUserRefreshTokenRequest_StructName
+=== RUN   TestUserRefreshTokenRequest_StructName/Ok
+--- PASS: TestUserRefreshTokenRequest_StructName (0.00s)
+    --- PASS: TestUserRefreshTokenRequest_StructName/Ok (0.00s)
+=== RUN   TestUserRefreshTokenRequest_Validate
+=== RUN   TestUserRefreshTokenRequest_Validate/violate_require_tag
+=== RUN   TestUserRefreshTokenRequest_Validate/Ok
+--- PASS: TestUserRefreshTokenRequest_Validate (0.00s)
+    --- PASS: TestUserRefreshTokenRequest_Validate/violate_require_tag (0.00s)
+    --- PASS: TestUserRefreshTokenRequest_Validate/Ok (0.00s)
+PASS
+coverage: 67.8% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/payload	0.848s	coverage: 67.8% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/cronjobs/types		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/cronjobs/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/api/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/api/rest		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/api/rest/mock		coverage: 0.0% of statements
+=== RUN   TestFormBox
+=== RUN   TestFormBox/VendorID_and_UniqueID_are_both_nil
+=== RUN   TestFormBox/VendorID_is_nil,_UniqueID_is_set
+=== RUN   TestFormBox/VendorID_and_UniqueID_are_both_set
+--- PASS: TestFormBox (0.00s)
+    --- PASS: TestFormBox/VendorID_and_UniqueID_are_both_nil (0.00s)
+    --- PASS: TestFormBox/VendorID_is_nil,_UniqueID_is_set (0.00s)
+    --- PASS: TestFormBox/VendorID_and_UniqueID_are_both_set (0.00s)
+=== RUN   TestFormBoxes
+=== RUN   TestFormBoxes/success
+--- PASS: TestFormBoxes (0.00s)
+    --- PASS: TestFormBoxes/success (0.00s)
+=== RUN   TestFormExtraPartner
+=== RUN   TestFormExtraPartner/success
+--- PASS: TestFormExtraPartner (0.00s)
+    --- PASS: TestFormExtraPartner/success (0.00s)
+=== RUN   TestFormExtraPartners
+=== RUN   TestFormExtraPartners/success
+--- PASS: TestFormExtraPartners (0.00s)
+    --- PASS: TestFormExtraPartners/success (0.00s)
+=== RUN   TestFormLocation
+=== RUN   TestFormLocation/success
+--- PASS: TestFormLocation (0.00s)
+    --- PASS: TestFormLocation/success (0.00s)
+=== RUN   TestFormLocations
+=== RUN   TestFormLocations/success
+--- PASS: TestFormLocations (0.00s)
+    --- PASS: TestFormLocations/success (0.00s)
+=== RUN   TestFormMeterReading
+=== RUN   TestFormMeterReading/success
+--- PASS: TestFormMeterReading (0.00s)
+    --- PASS: TestFormMeterReading/success (0.00s)
+=== RUN   TestFormMeterReadings
+=== RUN   TestFormMeterReadings/success
+--- PASS: TestFormMeterReadings (0.00s)
+    --- PASS: TestFormMeterReadings/success (0.00s)
+=== RUN   TestFormBoxReport
+=== RUN   TestFormBoxReport/VendorID_and_UniqueID_are_both_nil
+=== RUN   TestFormBoxReport/VendorID_is_nil,_UniqueID_is_set
+=== RUN   TestFormBoxReport/VendorID_and_UniqueID_are_both_set
+--- PASS: TestFormBoxReport (0.00s)
+    --- PASS: TestFormBoxReport/VendorID_and_UniqueID_are_both_nil (0.00s)
+    --- PASS: TestFormBoxReport/VendorID_is_nil,_UniqueID_is_set (0.00s)
+    --- PASS: TestFormBoxReport/VendorID_and_UniqueID_are_both_set (0.00s)
+=== RUN   TestFormBoxReports
+=== RUN   TestFormBoxReports/success
+--- PASS: TestFormBoxReports (0.00s)
+    --- PASS: TestFormBoxReports/success (0.00s)
+=== RUN   TestFormMeterReadingReport
+=== RUN   TestFormMeterReadingReport/success
+--- PASS: TestFormMeterReadingReport (0.00s)
+    --- PASS: TestFormMeterReadingReport/success (0.00s)
+=== RUN   TestFormMeterReadingReports
+=== RUN   TestFormMeterReadingReports/success
+--- PASS: TestFormMeterReadingReports (0.00s)
+    --- PASS: TestFormMeterReadingReports/success (0.00s)
+=== RUN   TestFormNewFormatMeterReadingReport
+=== RUN   TestFormNewFormatMeterReadingReport/success
+--- PASS: TestFormNewFormatMeterReadingReport (0.00s)
+    --- PASS: TestFormNewFormatMeterReadingReport/success (0.00s)
+=== RUN   TestFormNewFormatBoxReports
+=== RUN   TestFormNewFormatBoxReports/Empty_box_list
+=== RUN   TestFormNewFormatBoxReports/Single_box_with_readings
+=== RUN   TestFormNewFormatBoxReports/uniqueID_is_nil
+--- PASS: TestFormNewFormatBoxReports (0.00s)
+    --- PASS: TestFormNewFormatBoxReports/Empty_box_list (0.00s)
+    --- PASS: TestFormNewFormatBoxReports/Single_box_with_readings (0.00s)
+    --- PASS: TestFormNewFormatBoxReports/uniqueID_is_nil (0.00s)
+=== RUN   TestFormGetAllMeterReadingReport
+=== RUN   TestFormGetAllMeterReadingReport/success
+--- PASS: TestFormGetAllMeterReadingReport (0.00s)
+    --- PASS: TestFormGetAllMeterReadingReport/success (0.00s)
+=== RUN   TestFormGetAllMeterReadingReports
+=== RUN   TestFormGetAllMeterReadingReports/success
+--- PASS: TestFormGetAllMeterReadingReports (0.00s)
+    --- PASS: TestFormGetAllMeterReadingReports/success (0.00s)
+=== RUN   TestFormLocationPartner
+=== RUN   TestFormLocationPartner/success
+--- PASS: TestFormLocationPartner (0.00s)
+    --- PASS: TestFormLocationPartner/success (0.00s)
+=== RUN   TestFormLocationPartners
+=== RUN   TestFormLocationPartners/success
+--- PASS: TestFormLocationPartners (0.00s)
+    --- PASS: TestFormLocationPartners/success (0.00s)
+=== RUN   TestFormPartner
+=== RUN   TestFormPartner/success
+--- PASS: TestFormPartner (0.00s)
+    --- PASS: TestFormPartner/success (0.00s)
+=== RUN   TestFormPartners
+=== RUN   TestFormPartners/success
+--- PASS: TestFormPartners (0.00s)
+    --- PASS: TestFormPartners/success (0.00s)
+=== RUN   TestFormPrice
+=== RUN   TestFormPrice/success
+--- PASS: TestFormPrice (0.00s)
+    --- PASS: TestFormPrice/success (0.00s)
+=== RUN   TestFormPrices
+=== RUN   TestFormPrices/success
+--- PASS: TestFormPrices (0.00s)
+    --- PASS: TestFormPrices/success (0.00s)
+=== RUN   TestFormPriceProfile
+=== RUN   TestFormPriceProfile/success
+--- PASS: TestFormPriceProfile (0.00s)
+    --- PASS: TestFormPriceProfile/success (0.00s)
+=== RUN   TestFormPriceProfiles
+=== RUN   TestFormPriceProfiles/success
+--- PASS: TestFormPriceProfiles (0.00s)
+    --- PASS: TestFormPriceProfiles/success (0.00s)
+=== RUN   TestFormProvince
+=== RUN   TestFormProvince/success
+--- PASS: TestFormProvince (0.00s)
+    --- PASS: TestFormProvince/success (0.00s)
+=== RUN   TestFormProvinces
+=== RUN   TestFormProvinces/success
+--- PASS: TestFormProvinces (0.00s)
+    --- PASS: TestFormProvinces/success (0.00s)
+=== RUN   TestFormDistrict
+=== RUN   TestFormDistrict/success
+--- PASS: TestFormDistrict (0.00s)
+    --- PASS: TestFormDistrict/success (0.00s)
+=== RUN   TestFormDistricts
+=== RUN   TestFormDistricts/success
+--- PASS: TestFormDistricts (0.00s)
+    --- PASS: TestFormDistricts/success (0.00s)
+=== RUN   TestFormWard
+=== RUN   TestFormWard/success
+--- PASS: TestFormWard (0.00s)
+    --- PASS: TestFormWard/success (0.00s)
+=== RUN   TestFormWards
+=== RUN   TestFormWards/success
+--- PASS: TestFormWards (0.00s)
+    --- PASS: TestFormWards/success (0.00s)
+=== RUN   Test_fromSystemErrors
+=== RUN   Test_fromSystemErrors/input_is_nil
+=== RUN   Test_fromSystemErrors/input_len_is_0
+=== RUN   Test_fromSystemErrors/one_error
+=== RUN   Test_fromSystemErrors/multiple_appErrors
+--- PASS: Test_fromSystemErrors (0.00s)
+    --- PASS: Test_fromSystemErrors/input_is_nil (0.00s)
+    --- PASS: Test_fromSystemErrors/input_len_is_0 (0.00s)
+    --- PASS: Test_fromSystemErrors/one_error (0.00s)
+    --- PASS: Test_fromSystemErrors/multiple_appErrors (0.00s)
+=== RUN   Test_RenderData
+=== RUN   Test_RenderData/Render_Data_Response
+--- PASS: Test_RenderData (0.00s)
+    --- PASS: Test_RenderData/Render_Data_Response (0.00s)
+=== RUN   TestRenderErrors
+=== RUN   TestRenderErrors/SystemErrors
+=== RUN   TestRenderErrors/SystemError
+--- PASS: TestRenderErrors (0.00s)
+    --- PASS: TestRenderErrors/SystemErrors (0.00s)
+    --- PASS: TestRenderErrors/SystemError (0.00s)
+=== RUN   TestFormTemporaryBox
+=== RUN   TestFormTemporaryBox/VendorID_and_UniqueID_are_both_nil
+=== RUN   TestFormTemporaryBox/VendorID_is_nil,_UniqueID_is_set
+=== RUN   TestFormTemporaryBox/VendorID_and_UniqueID_are_both_set
+--- PASS: TestFormTemporaryBox (0.00s)
+    --- PASS: TestFormTemporaryBox/VendorID_and_UniqueID_are_both_nil (0.00s)
+    --- PASS: TestFormTemporaryBox/VendorID_is_nil,_UniqueID_is_set (0.00s)
+    --- PASS: TestFormTemporaryBox/VendorID_and_UniqueID_are_both_set (0.00s)
+=== RUN   TestFormTemporaryBoxes
+=== RUN   TestFormTemporaryBoxes/success
+--- PASS: TestFormTemporaryBoxes (0.00s)
+    --- PASS: TestFormTemporaryBoxes/success (0.00s)
+=== RUN   TestFormUserSignUp
+=== RUN   TestFormUserSignUp/success
+--- PASS: TestFormUserSignUp (0.00s)
+    --- PASS: TestFormUserSignUp/success (0.00s)
+=== RUN   TestFormUsersSignUp
+=== RUN   TestFormUsersSignUp/success
+--- PASS: TestFormUsersSignUp (0.00s)
+    --- PASS: TestFormUsersSignUp/success (0.00s)
+PASS
+coverage: 79.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/interface/api/presenter	1.465s	coverage: 79.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/config		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/cronjob		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/cronjob/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/encoder/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/encoder		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/gormutil		coverage: 0.0% of statements
+=== RUN   TestGenerateOTP
+=== RUN   TestGenerateOTP/Generate_OTP_with_default_length
+=== RUN   TestGenerateOTP/Generate_OTP_with_specific_length
+=== RUN   TestGenerateOTP/Generate_OTP_with_negative_length
+--- PASS: TestGenerateOTP (0.00s)
+    --- PASS: TestGenerateOTP/Generate_OTP_with_default_length (0.00s)
+    --- PASS: TestGenerateOTP/Generate_OTP_with_specific_length (0.00s)
+    --- PASS: TestGenerateOTP/Generate_OTP_with_negative_length (0.00s)
+=== RUN   TestHashPassword
+--- PASS: TestHashPassword (0.11s)
+=== RUN   TestHashPassword_ErrorCase
+--- PASS: TestHashPassword_ErrorCase (0.00s)
+=== RUN   TestVerifyPassword
+--- PASS: TestVerifyPassword (0.33s)
+=== RUN   TestNew
+=== RUN   TestNew/New_JWT
+--- PASS: TestNew (0.00s)
+    --- PASS: TestNew/New_JWT (0.00s)
+=== RUN   Test_jwtGo_Encrypt
+=== RUN   Test_jwtGo_Encrypt/encrypt_OK
+--- PASS: Test_jwtGo_Encrypt (0.00s)
+    --- PASS: Test_jwtGo_Encrypt/encrypt_OK (0.00s)
+=== RUN   Test_jwtGo_Decrypt
+=== RUN   Test_jwtGo_Decrypt/decrypt_OK
+=== RUN   Test_jwtGo_Decrypt/decrypt_failed,_not_the_secret_key_that_signed
+=== RUN   Test_jwtGo_Decrypt/decrypt_failed,_the_claims_is_expired
+--- PASS: Test_jwtGo_Decrypt (0.00s)
+    --- PASS: Test_jwtGo_Decrypt/decrypt_OK (0.00s)
+    --- PASS: Test_jwtGo_Decrypt/decrypt_failed,_not_the_secret_key_that_signed (0.00s)
+    --- PASS: Test_jwtGo_Decrypt/decrypt_failed,_the_claims_is_expired (0.00s)
+=== RUN   Test_jwtGo_DecryptBE1
+=== RUN   Test_jwtGo_DecryptBE1/DecryptBE_OK
+=== RUN   Test_jwtGo_DecryptBE1/DecryptBE_failed,_invalid_token_format
+--- PASS: Test_jwtGo_DecryptBE1 (0.00s)
+    --- PASS: Test_jwtGo_DecryptBE1/DecryptBE_OK (0.00s)
+    --- PASS: Test_jwtGo_DecryptBE1/DecryptBE_failed,_invalid_token_format (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/services	2.307s	coverage: 100.0% of statements
+=== RUN   TestNewBikeBoxAllRequest
+=== RUN   TestNewBikeBoxAllRequest/success
+--- PASS: TestNewBikeBoxAllRequest (0.00s)
+    --- PASS: TestNewBikeBoxAllRequest/success (0.00s)
+=== RUN   Test_bikeBoxAllRequest_Execute
+=== PAUSE Test_bikeBoxAllRequest_Execute
+=== RUN   TestNewBikeMeterReportAddUsecase
+=== RUN   TestNewBikeMeterReportAddUsecase/success
+--- PASS: TestNewBikeMeterReportAddUsecase (0.00s)
+    --- PASS: TestNewBikeMeterReportAddUsecase/success (0.00s)
+=== RUN   TestMeterReportAddUsecase_Execute
+=== PAUSE TestMeterReportAddUsecase_Execute
+=== RUN   TestNewBoxAddUsecase
+=== RUN   TestNewBoxAddUsecase/success
+--- PASS: TestNewBoxAddUsecase (0.00s)
+    --- PASS: TestNewBoxAddUsecase/success (0.00s)
+=== RUN   Test_boxAddRequest_Execute
+=== PAUSE Test_boxAddRequest_Execute
+=== RUN   TestNewBoxDeleteUsecase
+=== RUN   TestNewBoxDeleteUsecase/success
+--- PASS: TestNewBoxDeleteUsecase (0.00s)
+    --- PASS: TestNewBoxDeleteUsecase/success (0.00s)
+=== RUN   Test_boxDeleteRequest_Execute
+=== PAUSE Test_boxDeleteRequest_Execute
+=== RUN   TestNewBoxUpdateUsecase
+=== RUN   TestNewBoxUpdateUsecase/success
+--- PASS: TestNewBoxUpdateUsecase (0.00s)
+    --- PASS: TestNewBoxUpdateUsecase/success (0.00s)
+=== RUN   Test_boxUpdateRequest_Execute
+=== PAUSE Test_boxUpdateRequest_Execute
+=== RUN   TestNewCarBoxAllRequest
+=== RUN   TestNewCarBoxAllRequest/success
+--- PASS: TestNewCarBoxAllRequest (0.00s)
+    --- PASS: TestNewCarBoxAllRequest/success (0.00s)
+=== RUN   Test_carBoxAllRequest_Execute
+=== PAUSE Test_carBoxAllRequest_Execute
+=== RUN   TestNewCarMeterReportAddUsecase
+=== RUN   TestNewCarMeterReportAddUsecase/success
+--- PASS: TestNewCarMeterReportAddUsecase (0.00s)
+    --- PASS: TestNewCarMeterReportAddUsecase/success (0.00s)
+=== RUN   TestCarMeterReportAddUsecase_Execute
+=== PAUSE TestCarMeterReportAddUsecase_Execute
+=== RUN   TestNewDistrictUsecase
+=== RUN   TestNewDistrictUsecase/success
+--- PASS: TestNewDistrictUsecase (0.00s)
+    --- PASS: TestNewDistrictUsecase/success (0.00s)
+=== RUN   Test_districtRequest_FindAll
+=== PAUSE Test_districtRequest_FindAll
+=== RUN   TestNewExtraPartnerAddUseCase
+=== RUN   TestNewExtraPartnerAddUseCase/success
+--- PASS: TestNewExtraPartnerAddUseCase (0.00s)
+    --- PASS: TestNewExtraPartnerAddUseCase/success (0.00s)
+=== RUN   TestExtraPartnerAddUseCase_Execute
+=== PAUSE TestExtraPartnerAddUseCase_Execute
+=== RUN   TestNewExtraPartnerDeleteUseCase
+=== RUN   TestNewExtraPartnerDeleteUseCase/success
+--- PASS: TestNewExtraPartnerDeleteUseCase (0.00s)
+    --- PASS: TestNewExtraPartnerDeleteUseCase/success (0.00s)
+=== RUN   TestExtraPartnerDeleteUseCase_Execute
+=== PAUSE TestExtraPartnerDeleteUseCase_Execute
+=== RUN   TestNewExtraPartnerGetUseCase
+=== RUN   TestNewExtraPartnerGetUseCase/success
+--- PASS: TestNewExtraPartnerGetUseCase (0.00s)
+    --- PASS: TestNewExtraPartnerGetUseCase/success (0.00s)
+=== RUN   TestExtraPartnerGetUseCase_GetByID
+=== PAUSE TestExtraPartnerGetUseCase_GetByID
+=== RUN   TestNewExtraPartnerUpdateUseCase
+=== RUN   TestNewExtraPartnerUpdateUseCase/success
+--- PASS: TestNewExtraPartnerUpdateUseCase (0.00s)
+    --- PASS: TestNewExtraPartnerUpdateUseCase/success (0.00s)
+=== RUN   TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute
+=== PAUSE TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute
+=== RUN   TestNewLocationAddUsecase
+=== RUN   TestNewLocationAddUsecase/success
+--- PASS: TestNewLocationAddUsecase (0.00s)
+    --- PASS: TestNewLocationAddUsecase/success (0.00s)
+=== RUN   Test_locationAddRequest_Execute
+=== PAUSE Test_locationAddRequest_Execute
+=== RUN   TestNewLocationPartnerFindAllUsecase
+=== RUN   TestNewLocationPartnerFindAllUsecase/success
+--- PASS: TestNewLocationPartnerFindAllUsecase (0.00s)
+    --- PASS: TestNewLocationPartnerFindAllUsecase/success (0.00s)
+=== RUN   TestNewLocationPartnerFindAllUsecase_FindAll
+=== RUN   TestNewLocationPartnerFindAllUsecase_FindAll/error_while_fetching_partner_data
+=== RUN   TestNewLocationPartnerFindAllUsecase_FindAll/error_while_counting_total_location_partners
+=== RUN   TestNewLocationPartnerFindAllUsecase_FindAll/successfully_fetch_partner_data
+--- PASS: TestNewLocationPartnerFindAllUsecase_FindAll (0.00s)
+    --- PASS: TestNewLocationPartnerFindAllUsecase_FindAll/error_while_fetching_partner_data (0.00s)
+    --- PASS: TestNewLocationPartnerFindAllUsecase_FindAll/error_while_counting_total_location_partners (0.00s)
+    --- PASS: TestNewLocationPartnerFindAllUsecase_FindAll/successfully_fetch_partner_data (0.00s)
+=== RUN   TestNewPartnerFindByIDUsecase
+=== RUN   TestNewPartnerFindByIDUsecase/success
+--- PASS: TestNewPartnerFindByIDUsecase (0.00s)
+    --- PASS: TestNewPartnerFindByIDUsecase/success (0.00s)
+=== RUN   TestNewPartnerFindAllUsecase_FindByID
+=== PAUSE TestNewPartnerFindAllUsecase_FindByID
+=== RUN   TestNewPartnerFindByUserIDUsecase
+=== RUN   TestNewPartnerFindByUserIDUsecase/success
+--- PASS: TestNewPartnerFindByUserIDUsecase (0.00s)
+    --- PASS: TestNewPartnerFindByUserIDUsecase/success (0.00s)
+=== RUN   TestNewPartnerFindByUserIDUsecase_FindByUserID
+=== PAUSE TestNewPartnerFindByUserIDUsecase_FindByUserID
+=== RUN   TestNewLocationPartnerFindByNameUsecase
+=== RUN   TestNewLocationPartnerFindByNameUsecase/success
+--- PASS: TestNewLocationPartnerFindByNameUsecase (0.00s)
+    --- PASS: TestNewLocationPartnerFindByNameUsecase/success (0.00s)
+=== RUN   TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName
+=== PAUSE TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName
+=== RUN   TestNewLocationUpdateUsecase
+=== RUN   TestNewLocationUpdateUsecase/success
+--- PASS: TestNewLocationUpdateUsecase (0.00s)
+    --- PASS: TestNewLocationUpdateUsecase/success (0.00s)
+=== RUN   TestLocationUpdateRequest_Update
+=== PAUSE TestLocationUpdateRequest_Update
+=== RUN   TestNewMeterReportGetAllUsecase
+=== RUN   TestNewMeterReportGetAllUsecase/success
+--- PASS: TestNewMeterReportGetAllUsecase (0.00s)
+    --- PASS: TestNewMeterReportGetAllUsecase/success (0.00s)
+=== RUN   TestNewMeterReportGetAllUsecase_Execute
+=== PAUSE TestNewMeterReportGetAllUsecase_Execute
+=== RUN   TestNewMeterReportGetByIDUsecase
+=== RUN   TestNewMeterReportGetByIDUsecase/success
+--- PASS: TestNewMeterReportGetByIDUsecase (0.00s)
+    --- PASS: TestNewMeterReportGetByIDUsecase/success (0.00s)
+=== RUN   TestMeterReportGetByIDUsecase_Execute
+=== PAUSE TestMeterReportGetByIDUsecase_Execute
+=== RUN   TestNewMeterReportGetUsecase
+=== RUN   TestNewMeterReportGetUsecase/success
+--- PASS: TestNewMeterReportGetUsecase (0.00s)
+    --- PASS: TestNewMeterReportGetUsecase/success (0.00s)
+=== RUN   TestNewMeterReportGetUsecase_Execute
+=== PAUSE TestNewMeterReportGetUsecase_Execute
+=== RUN   TestNewMeterReportUpdateUsecase
+=== RUN   TestNewMeterReportUpdateUsecase/success
+--- PASS: TestNewMeterReportUpdateUsecase (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase/success (0.00s)
+=== RUN   TestNewMeterReportUpdateUsecase_Execute
+=== PAUSE TestNewMeterReportUpdateUsecase_Execute
+=== RUN   TestNewPartnerFindAllUsecase
+=== RUN   TestNewPartnerFindAllUsecase/success
+--- PASS: TestNewPartnerFindAllUsecase (0.00s)
+    --- PASS: TestNewPartnerFindAllUsecase/success (0.00s)
+=== RUN   TestNewPartnerFindUsecase_FindAll
+=== PAUSE TestNewPartnerFindUsecase_FindAll
+=== RUN   TestNewPartnerFindUsecase_FindByID
+=== PAUSE TestNewPartnerFindUsecase_FindByID
+=== RUN   TestNewPartnerUpdateUsecase
+=== RUN   TestNewPartnerUpdateUsecase/success
+--- PASS: TestNewPartnerUpdateUsecase (0.00s)
+    --- PASS: TestNewPartnerUpdateUsecase/success (0.00s)
+=== RUN   TestNewPartnerUpdateUsecase_Execute
+=== PAUSE TestNewPartnerUpdateUsecase_Execute
+=== RUN   TestNewPriceAddUseCase
+=== RUN   TestNewPriceAddUseCase/success
+--- PASS: TestNewPriceAddUseCase (0.00s)
+    --- PASS: TestNewPriceAddUseCase/success (0.00s)
+=== RUN   TestPriceAddUseCase_PriceProfileAdd
+=== PAUSE TestPriceAddUseCase_PriceProfileAdd
+=== RUN   TestPriceAddUseCase_PriceAdd
+=== PAUSE TestPriceAddUseCase_PriceAdd
+=== RUN   TestNewPriceProfileDeleteUsecas
+=== RUN   TestNewPriceProfileDeleteUsecas/success
+--- PASS: TestNewPriceProfileDeleteUsecas (0.00s)
+    --- PASS: TestNewPriceProfileDeleteUsecas/success (0.00s)
+=== RUN   TestPriceProfileDeleteUsecase_Execute
+=== PAUSE TestPriceProfileDeleteUsecase_Execute
+=== RUN   TestNewPriceFindUsecase
+=== RUN   TestNewPriceFindUsecase/success
+--- PASS: TestNewPriceFindUsecase (0.00s)
+    --- PASS: TestNewPriceFindUsecase/success (0.00s)
+=== RUN   TestNewPriceFindUsecase_PriceFindAllUsecase
+=== PAUSE TestNewPriceFindUsecase_PriceFindAllUsecase
+=== RUN   TestNewPriceFindUsecase_PriceFindByIDUsecase
+=== PAUSE TestNewPriceFindUsecase_PriceFindByIDUsecase
+=== RUN   TestNewPriceProfileUpdateUsecase
+=== RUN   TestNewPriceProfileUpdateUsecase/success
+--- PASS: TestNewPriceProfileUpdateUsecase (0.00s)
+    --- PASS: TestNewPriceProfileUpdateUsecase/success (0.00s)
+=== RUN   TestPriceProfileUpdateUseCase_Execute
+=== PAUSE TestPriceProfileUpdateUseCase_Execute
+=== RUN   TestNewPriceUpdateUsecase
+=== RUN   TestNewPriceUpdateUsecase/success
+--- PASS: TestNewPriceUpdateUsecase (0.00s)
+    --- PASS: TestNewPriceUpdateUsecase/success (0.00s)
+=== RUN   TestPriceUpdateUseCase_Execute
+=== PAUSE TestPriceUpdateUseCase_Execute
+=== RUN   TestNewProvinceUsecase
+=== RUN   TestNewProvinceUsecase/success
+--- PASS: TestNewProvinceUsecase (0.00s)
+    --- PASS: TestNewProvinceUsecase/success (0.00s)
+=== RUN   Test_provinceRequest_FindAll
+=== PAUSE Test_provinceRequest_FindAll
+=== RUN   TestNewTemporaryBoxAddUsecase
+=== RUN   TestNewTemporaryBoxAddUsecase/success
+--- PASS: TestNewTemporaryBoxAddUsecase (0.00s)
+    --- PASS: TestNewTemporaryBoxAddUsecase/success (0.00s)
+=== RUN   TestTemporaryBoxAddRequest_Execute
+=== PAUSE TestTemporaryBoxAddRequest_Execute
+=== RUN   TestTemporaryBoxRequest_GetAllTemporaryBikeBox
+=== PAUSE TestTemporaryBoxRequest_GetAllTemporaryBikeBox
+=== RUN   TestTemporaryBoxRequest_GetAllTemporaryCarBox
+=== PAUSE TestTemporaryBoxRequest_GetAllTemporaryCarBox
+=== RUN   TestNewUserAddUsecase
+=== RUN   TestNewUserAddUsecase/success
+--- PASS: TestNewUserAddUsecase (0.00s)
+    --- PASS: TestNewUserAddUsecase/success (0.00s)
+=== RUN   TestUserAddUsecase_Execute
+=== PAUSE TestUserAddUsecase_Execute
+=== RUN   TestNewUserLoginUsecase
+=== RUN   TestNewUserLoginUsecase/success
+--- PASS: TestNewUserLoginUsecase (0.00s)
+    --- PASS: TestNewUserLoginUsecase/success (0.00s)
+=== RUN   TestUserLoginUsecase
+=== PAUSE TestUserLoginUsecase
+=== RUN   TestNewUserMeUseCase
+=== RUN   TestNewUserMeUseCase/Ok
+--- PASS: TestNewUserMeUseCase (0.00s)
+    --- PASS: TestNewUserMeUseCase/Ok (0.00s)
+=== RUN   Test_internalUserMeUseCase_Execute
+=== PAUSE Test_internalUserMeUseCase_Execute
+=== RUN   TestNewUserRefreshTokenUsecase
+=== RUN   TestNewUserRefreshTokenUsecase/success
+--- PASS: TestNewUserRefreshTokenUsecase (0.00s)
+    --- PASS: TestNewUserRefreshTokenUsecase/success (0.00s)
+=== RUN   Test_userRefreshTokenUsecase_Execute
+=== PAUSE Test_userRefreshTokenUsecase_Execute
+=== RUN   TestNewWardUsecase
+=== RUN   TestNewWardUsecase/success
+--- PASS: TestNewWardUsecase (0.00s)
+    --- PASS: TestNewWardUsecase/success (0.00s)
+=== RUN   Test_wardRequest_FindAll
+=== PAUSE Test_wardRequest_FindAll
+=== CONT  Test_bikeBoxAllRequest_Execute
+=== RUN   Test_bikeBoxAllRequest_Execute/bike_box_not_found
+=== CONT  TestNewMeterReportUpdateUsecase_Execute
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/meter_report_not_found
+=== CONT  TestPriceUpdateUseCase_Execute
+=== RUN   TestPriceUpdateUseCase_Execute/price_profile_not_found
+=== RUN   Test_bikeBoxAllRequest_Execute/success
+--- PASS: Test_bikeBoxAllRequest_Execute (0.00s)
+    --- PASS: Test_bikeBoxAllRequest_Execute/bike_box_not_found (0.00s)
+    --- PASS: Test_bikeBoxAllRequest_Execute/success (0.00s)
+=== CONT  TestNewMeterReportGetUsecase_Execute
+=== RUN   TestNewMeterReportGetUsecase_Execute/User_not_found
+=== CONT  TestUserAddUsecase_Execute
+=== RUN   TestUserAddUsecase_Execute/user_already_exists
+=== CONT  Test_userRefreshTokenUsecase_Execute
+=== RUN   TestNewMeterReportGetUsecase_Execute/User_is_deleted
+=== CONT  Test_wardRequest_FindAll
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/location_not_found
+=== CONT  TestPriceAddUseCase_PriceAdd
+=== CONT  TestPriceProfileUpdateUseCase_Execute
+=== RUN   TestPriceProfileUpdateUseCase_Execute/price_profile_not_found
+=== RUN   TestNewMeterReportGetUsecase_Execute/Error_while_getting_locations
+=== RUN   TestPriceUpdateUseCase_Execute/error_while_retrieving_price
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/price_profile_not_found
+=== RUN   Test_wardRequest_FindAll/error_while_fetching_ward_data
+=== RUN   TestPriceAddUseCase_PriceAdd/price_profile_not_found
+=== RUN   TestNewMeterReportGetUsecase_Execute/Error_while_getting_meter_reports
+=== RUN   TestPriceAddUseCase_PriceAdd/error_while_retrieving_price
+=== RUN   TestPriceUpdateUseCase_Execute/price_not_found
+=== RUN   Test_userRefreshTokenUsecase_Execute/token_validation_failed._Please_login_again
+=== RUN   TestPriceUpdateUseCase_Execute/error_while_updating_price
+=== RUN   TestPriceProfileUpdateUseCase_Execute/error_while_updating_price_profile
+=== RUN   TestUserAddUsecase_Execute/user_is_deleted
+=== RUN   TestPriceProfileUpdateUseCase_Execute/update_price_profile_successfully
+=== RUN   Test_userRefreshTokenUsecase_Execute/token_not_found._Please_login_again_or_contact_admin
+=== RUN   Test_wardRequest_FindAll/success
+--- PASS: TestPriceProfileUpdateUseCase_Execute (0.00s)
+    --- PASS: TestPriceProfileUpdateUseCase_Execute/price_profile_not_found (0.00s)
+    --- PASS: TestPriceProfileUpdateUseCase_Execute/error_while_updating_price_profile (0.00s)
+    --- PASS: TestPriceProfileUpdateUseCase_Execute/update_price_profile_successfully (0.00s)
+=== CONT  TestNewPriceFindUsecase_PriceFindAllUsecase
+=== RUN   TestNewPriceFindUsecase_PriceFindAllUsecase/error_while_fetching_price_profile_data
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/box_not_found
+=== RUN   TestNewMeterReportGetUsecase_Execute/Success
+=== RUN   TestNewPriceFindUsecase_PriceFindAllUsecase/error_while_counting_total_price_profiles
+=== RUN   Test_userRefreshTokenUsecase_Execute/user_not_found
+=== RUN   TestPriceUpdateUseCase_Execute/get_price_profile_error
+=== RUN   TestUserAddUsecase_Execute/error_while_hashing_password
+--- PASS: Test_wardRequest_FindAll (0.00s)
+    --- PASS: Test_wardRequest_FindAll/error_while_fetching_ward_data (0.00s)
+    --- PASS: Test_wardRequest_FindAll/success (0.00s)
+=== CONT  TestNewPriceFindUsecase_PriceFindByIDUsecase
+=== RUN   TestNewPriceFindUsecase_PriceFindByIDUsecase/price_profile_not_found
+--- PASS: TestNewMeterReportGetUsecase_Execute (0.00s)
+    --- PASS: TestNewMeterReportGetUsecase_Execute/User_not_found (0.00s)
+    --- PASS: TestNewMeterReportGetUsecase_Execute/User_is_deleted (0.00s)
+    --- PASS: TestNewMeterReportGetUsecase_Execute/Error_while_getting_locations (0.00s)
+    --- PASS: TestNewMeterReportGetUsecase_Execute/Error_while_getting_meter_reports (0.00s)
+    --- PASS: TestNewMeterReportGetUsecase_Execute/Success (0.00s)
+=== RUN   Test_userRefreshTokenUsecase_Execute/error_while_encrypting_user_claims_for_access_token
+=== RUN   TestUserAddUsecase_Execute/error_while_creating_user
+=== RUN   TestNewPriceFindUsecase_PriceFindByIDUsecase/successfully
+=== RUN   TestPriceAddUseCase_PriceAdd/price_already_exists
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/error_while_retrieving_prices_(car)
+=== RUN   TestUserAddUsecase_Execute/error_while_creating_user#01
+=== RUN   Test_userRefreshTokenUsecase_Execute/error_while_encrypting_user_claims_for_refresh_token
+=== RUN   TestPriceAddUseCase_PriceAdd/error_while_creating_price
+--- PASS: TestNewPriceFindUsecase_PriceFindByIDUsecase (0.00s)
+    --- PASS: TestNewPriceFindUsecase_PriceFindByIDUsecase/price_profile_not_found (0.00s)
+    --- PASS: TestNewPriceFindUsecase_PriceFindByIDUsecase/successfully (0.00s)
+=== CONT  TestPriceAddUseCase_PriceProfileAdd
+=== RUN   TestPriceUpdateUseCase_Execute/success
+=== CONT  TestNewPartnerFindUsecase_FindByID
+=== RUN   TestNewPriceFindUsecase_PriceFindAllUsecase/successfully
+=== RUN   TestPriceAddUseCase_PriceProfileAdd/error_while_creating_price_profile
+--- PASS: TestPriceUpdateUseCase_Execute (0.00s)
+    --- PASS: TestPriceUpdateUseCase_Execute/price_profile_not_found (0.00s)
+    --- PASS: TestPriceUpdateUseCase_Execute/error_while_retrieving_price (0.00s)
+    --- PASS: TestPriceUpdateUseCase_Execute/price_not_found (0.00s)
+    --- PASS: TestPriceUpdateUseCase_Execute/error_while_updating_price (0.00s)
+    --- PASS: TestPriceUpdateUseCase_Execute/get_price_profile_error (0.00s)
+    --- PASS: TestPriceUpdateUseCase_Execute/success (0.00s)
+=== CONT  TestNewPartnerUpdateUsecase_Execute
+--- PASS: TestNewPriceFindUsecase_PriceFindAllUsecase (0.00s)
+    --- PASS: TestNewPriceFindUsecase_PriceFindAllUsecase/error_while_fetching_price_profile_data (0.00s)
+    --- PASS: TestNewPriceFindUsecase_PriceFindAllUsecase/error_while_counting_total_price_profiles (0.00s)
+    --- PASS: TestNewPriceFindUsecase_PriceFindAllUsecase/successfully (0.00s)
+=== CONT  TestPriceProfileDeleteUsecase_Execute
+=== RUN   TestNewPartnerFindUsecase_FindByID/partner_not_found
+=== RUN   TestPriceAddUseCase_PriceAdd/get_price_profile_error
+=== RUN   TestPriceAddUseCase_PriceProfileAdd/error_while_getting_price_profile
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/error_while_retrieving_prices_(bike)
+=== RUN   TestNewPartnerFindUsecase_FindByID/error_while_fetching_location_data
+=== RUN   TestPriceAddUseCase_PriceProfileAdd/success
+=== RUN   TestPriceAddUseCase_PriceAdd/success
+=== RUN   TestNewPartnerFindUsecase_FindByID/error_while_getting_partner_by_id
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/error_while_updating_meter_report
+=== RUN   TestUserAddUsecase_Execute/error_while_getting_user
+=== CONT  TestNewPartnerFindByUserIDUsecase_FindByUserID
+=== RUN   TestNewPartnerFindByUserIDUsecase_FindByUserID/user_not_found
+=== RUN   TestNewPartnerUpdateUsecase_Execute/partner_not_found
+--- PASS: TestPriceAddUseCase_PriceProfileAdd (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceProfileAdd/error_while_creating_price_profile (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceProfileAdd/error_while_getting_price_profile (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceProfileAdd/success (0.00s)
+--- PASS: TestPriceAddUseCase_PriceAdd (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceAdd/price_profile_not_found (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceAdd/error_while_retrieving_price (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceAdd/price_already_exists (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceAdd/error_while_creating_price (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceAdd/get_price_profile_error (0.00s)
+    --- PASS: TestPriceAddUseCase_PriceAdd/success (0.00s)
+=== RUN   Test_userRefreshTokenUsecase_Execute/error_while_creating_user_token
+=== RUN   TestUserAddUsecase_Execute/success
+=== RUN   TestNewPartnerUpdateUsecase_Execute/partner_is_deleted
+=== RUN   TestNewMeterReportUpdateUsecase_Execute/success
+=== RUN   Test_userRefreshTokenUsecase_Execute/error_while_updating_user_token
+=== RUN   TestNewPartnerUpdateUsecase_Execute/error_while_updating_partner
+--- PASS: TestUserAddUsecase_Execute (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/user_already_exists (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/user_is_deleted (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/error_while_hashing_password (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/error_while_creating_user (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/error_while_creating_user#01 (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/error_while_getting_user (0.00s)
+    --- PASS: TestUserAddUsecase_Execute/success (0.00s)
+=== CONT  TestNewMeterReportGetAllUsecase_Execute
+=== RUN   TestNewMeterReportGetAllUsecase_Execute/error_while_getting_all_meter_reports
+=== RUN   TestNewPartnerUpdateUsecase_Execute/error_while_counting_total_partners
+=== RUN   Test_userRefreshTokenUsecase_Execute/error_while_saving_csrf_token
+=== RUN   TestNewPartnerFindByUserIDUsecase_FindByUserID/User_is_deleted._Please_contact_admin
+=== CONT  TestMeterReportGetByIDUsecase_Execute
+=== RUN   TestMeterReportGetByIDUsecase_Execute/meter_report_not_found
+--- PASS: TestNewMeterReportUpdateUsecase_Execute (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/meter_report_not_found (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/location_not_found (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/price_profile_not_found (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/box_not_found (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/error_while_retrieving_prices_(car) (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/error_while_retrieving_prices_(bike) (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/error_while_updating_meter_report (0.00s)
+    --- PASS: TestNewMeterReportUpdateUsecase_Execute/success (0.00s)
+=== CONT  TestLocationUpdateRequest_Update
+=== RUN   TestNewPartnerFindUsecase_FindByID/OK
+=== RUN   TestPriceProfileDeleteUsecase_Execute/price_profile_not_found
+=== RUN   TestLocationUpdateRequest_Update/User_not_found
+=== RUN   TestMeterReportGetByIDUsecase_Execute/success
+=== RUN   TestNewPartnerFindByUserIDUsecase_FindByUserID/location_not_found
+--- PASS: TestMeterReportGetByIDUsecase_Execute (0.00s)
+    --- PASS: TestMeterReportGetByIDUsecase_Execute/meter_report_not_found (0.00s)
+    --- PASS: TestMeterReportGetByIDUsecase_Execute/success (0.00s)
+--- PASS: TestNewPartnerFindUsecase_FindByID (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindByID/partner_not_found (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindByID/error_while_fetching_location_data (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindByID/error_while_getting_partner_by_id (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindByID/OK (0.00s)
+=== RUN   TestNewPartnerUpdateUsecase_Execute/success
+=== RUN   TestLocationUpdateRequest_Update/User_is_deleted
+=== RUN   TestLocationUpdateRequest_Update/Location_not_found
+=== RUN   TestNewPartnerFindByUserIDUsecase_FindByUserID/success
+=== RUN   TestLocationUpdateRequest_Update/price_profile_not_found
+=== RUN   TestPriceProfileDeleteUsecase_Execute/get_count_location_by_price_profile
+=== RUN   TestLocationUpdateRequest_Update/Error_while_updating_location
+--- PASS: TestNewPartnerUpdateUsecase_Execute (0.00s)
+    --- PASS: TestNewPartnerUpdateUsecase_Execute/partner_not_found (0.00s)
+    --- PASS: TestNewPartnerUpdateUsecase_Execute/partner_is_deleted (0.00s)
+    --- PASS: TestNewPartnerUpdateUsecase_Execute/error_while_updating_partner (0.00s)
+    --- PASS: TestNewPartnerUpdateUsecase_Execute/error_while_counting_total_partners (0.00s)
+    --- PASS: TestNewPartnerUpdateUsecase_Execute/success (0.00s)
+=== CONT  TestTemporaryBoxRequest_GetAllTemporaryCarBox
+=== RUN   TestTemporaryBoxRequest_GetAllTemporaryCarBox/error_while_getting_all_temporary_car_boxes
+=== RUN   TestPriceProfileDeleteUsecase_Execute/error_while_fetching_location_data
+=== RUN   TestLocationUpdateRequest_Update/success
+=== RUN   TestTemporaryBoxRequest_GetAllTemporaryCarBox/success
+--- PASS: TestLocationUpdateRequest_Update (0.00s)
+    --- PASS: TestLocationUpdateRequest_Update/User_not_found (0.00s)
+    --- PASS: TestLocationUpdateRequest_Update/User_is_deleted (0.00s)
+    --- PASS: TestLocationUpdateRequest_Update/Location_not_found (0.00s)
+    --- PASS: TestLocationUpdateRequest_Update/price_profile_not_found (0.00s)
+    --- PASS: TestLocationUpdateRequest_Update/Error_while_updating_location (0.00s)
+    --- PASS: TestLocationUpdateRequest_Update/success (0.00s)
+=== CONT  TestNewPartnerFindUsecase_FindAll
+=== RUN   Test_userRefreshTokenUsecase_Execute/success
+=== RUN   TestNewMeterReportGetAllUsecase_Execute/error_while_getting_all_meter_reports_with_value
+=== CONT  TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName
+=== RUN   TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName/error_while_fetching_partner_data
+=== CONT  Test_boxUpdateRequest_Execute
+=== RUN   Test_boxUpdateRequest_Execute/box_not_found
+=== CONT  TestTemporaryBoxRequest_GetAllTemporaryBikeBox
+=== RUN   TestTemporaryBoxRequest_GetAllTemporaryBikeBox/error_while_getting_all_temporary_bike_boxes
+=== RUN   TestNewPartnerFindUsecase_FindAll/error_while_fetching_partner_data
+--- PASS: TestTemporaryBoxRequest_GetAllTemporaryCarBox (0.00s)
+    --- PASS: TestTemporaryBoxRequest_GetAllTemporaryCarBox/error_while_getting_all_temporary_car_boxes (0.00s)
+    --- PASS: TestTemporaryBoxRequest_GetAllTemporaryCarBox/success (0.00s)
+=== RUN   TestPriceProfileDeleteUsecase_Execute/price_profile_is_associated_with_locations
+=== RUN   TestTemporaryBoxRequest_GetAllTemporaryBikeBox/success
+--- PASS: TestTemporaryBoxRequest_GetAllTemporaryBikeBox (0.00s)
+    --- PASS: TestTemporaryBoxRequest_GetAllTemporaryBikeBox/error_while_getting_all_temporary_bike_boxes (0.00s)
+    --- PASS: TestTemporaryBoxRequest_GetAllTemporaryBikeBox/success (0.00s)
+=== CONT  TestExtraPartnerAddUseCase_Execute
+=== RUN   TestExtraPartnerAddUseCase_Execute/Location_not_found
+=== RUN   Test_boxUpdateRequest_Execute/failed_to_update_box
+--- PASS: Test_userRefreshTokenUsecase_Execute (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/token_validation_failed._Please_login_again (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/token_not_found._Please_login_again_or_contact_admin (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/user_not_found (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/error_while_encrypting_user_claims_for_access_token (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/error_while_encrypting_user_claims_for_refresh_token (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/error_while_creating_user_token (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/error_while_updating_user_token (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/error_while_saving_csrf_token (0.00s)
+    --- PASS: Test_userRefreshTokenUsecase_Execute/success (0.00s)
+=== RUN   TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName/success
+=== RUN   TestExtraPartnerAddUseCase_Execute/error_while_creating_extra_partner
+--- PASS: TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName (0.00s)
+    --- PASS: TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName/error_while_fetching_partner_data (0.00s)
+    --- PASS: TestLocationPartnerFindByNameUsecase_LocationPartnerFindByName/success (0.00s)
+=== CONT  TestCarMeterReportAddUsecase_Execute
+=== RUN   TestCarMeterReportAddUsecase_Execute/box_not_found
+=== RUN   TestPriceProfileDeleteUsecase_Execute/error_while_deleting_price_profile
+=== RUN   TestCarMeterReportAddUsecase_Execute/location_not_found
+=== RUN   TestExtraPartnerAddUseCase_Execute/success
+=== CONT  Test_districtRequest_FindAll
+=== RUN   Test_districtRequest_FindAll/error_while_fetching_district_data
+=== RUN   TestCarMeterReportAddUsecase_Execute/price_profile_not_found
+=== RUN   TestPriceProfileDeleteUsecase_Execute/delete_price_profile_successfully
+--- PASS: TestExtraPartnerAddUseCase_Execute (0.00s)
+    --- PASS: TestExtraPartnerAddUseCase_Execute/Location_not_found (0.00s)
+    --- PASS: TestExtraPartnerAddUseCase_Execute/error_while_creating_extra_partner (0.00s)
+    --- PASS: TestExtraPartnerAddUseCase_Execute/success (0.00s)
+=== RUN   Test_districtRequest_FindAll/success
+=== RUN   TestNewMeterReportGetAllUsecase_Execute/error_while_counting_all_meter_reports
+=== RUN   Test_boxUpdateRequest_Execute/success
+=== RUN   TestNewPartnerFindUsecase_FindAll/error_while_counting_total_partners
+--- PASS: TestPriceProfileDeleteUsecase_Execute (0.00s)
+    --- PASS: TestPriceProfileDeleteUsecase_Execute/price_profile_not_found (0.00s)
+    --- PASS: TestPriceProfileDeleteUsecase_Execute/get_count_location_by_price_profile (0.00s)
+    --- PASS: TestPriceProfileDeleteUsecase_Execute/error_while_fetching_location_data (0.00s)
+    --- PASS: TestPriceProfileDeleteUsecase_Execute/price_profile_is_associated_with_locations (0.00s)
+    --- PASS: TestPriceProfileDeleteUsecase_Execute/error_while_deleting_price_profile (0.00s)
+    --- PASS: TestPriceProfileDeleteUsecase_Execute/delete_price_profile_successfully (0.00s)
+=== RUN   TestCarMeterReportAddUsecase_Execute/error_while_retrieving_prices
+=== CONT  Test_carBoxAllRequest_Execute
+=== RUN   Test_carBoxAllRequest_Execute/box_not_found
+=== CONT  Test_locationAddRequest_Execute
+=== RUN   Test_locationAddRequest_Execute/User_not_found
+--- PASS: Test_districtRequest_FindAll (0.00s)
+    --- PASS: Test_districtRequest_FindAll/error_while_fetching_district_data (0.00s)
+    --- PASS: Test_districtRequest_FindAll/success (0.00s)
+=== RUN   TestNewMeterReportGetAllUsecase_Execute/error_while_counting_all_meter_reports_with_value
+=== CONT  Test_internalUserMeUseCase_Execute
+--- PASS: TestNewPartnerFindByUserIDUsecase_FindByUserID (0.00s)
+    --- PASS: TestNewPartnerFindByUserIDUsecase_FindByUserID/user_not_found (0.00s)
+    --- PASS: TestNewPartnerFindByUserIDUsecase_FindByUserID/User_is_deleted._Please_contact_admin (0.00s)
+    --- PASS: TestNewPartnerFindByUserIDUsecase_FindByUserID/location_not_found (0.00s)
+    --- PASS: TestNewPartnerFindByUserIDUsecase_FindByUserID/success (0.00s)
+=== CONT  TestNewPartnerFindAllUsecase_FindByID
+=== RUN   Test_internalUserMeUseCase_Execute/error_getting_user_by_userid
+=== RUN   TestNewPartnerFindAllUsecase_FindByID/location_not_found
+=== RUN   TestNewPartnerFindUsecase_FindAll/successfully_fetch_partner_data
+=== RUN   TestNewPartnerFindAllUsecase_FindByID/User_is_deleted
+=== RUN   TestNewMeterReportGetAllUsecase_Execute/success
+--- PASS: Test_boxUpdateRequest_Execute (0.00s)
+    --- PASS: Test_boxUpdateRequest_Execute/box_not_found (0.00s)
+    --- PASS: Test_boxUpdateRequest_Execute/failed_to_update_box (0.00s)
+    --- PASS: Test_boxUpdateRequest_Execute/success (0.00s)
+=== RUN   Test_internalUserMeUseCase_Execute/OK
+=== RUN   Test_locationAddRequest_Execute/User_is_deleted
+--- PASS: TestNewMeterReportGetAllUsecase_Execute (0.00s)
+    --- PASS: TestNewMeterReportGetAllUsecase_Execute/error_while_getting_all_meter_reports (0.00s)
+    --- PASS: TestNewMeterReportGetAllUsecase_Execute/error_while_getting_all_meter_reports_with_value (0.00s)
+    --- PASS: TestNewMeterReportGetAllUsecase_Execute/error_while_counting_all_meter_reports (0.00s)
+    --- PASS: TestNewMeterReportGetAllUsecase_Execute/error_while_counting_all_meter_reports_with_value (0.00s)
+    --- PASS: TestNewMeterReportGetAllUsecase_Execute/success (0.00s)
+=== CONT  Test_boxAddRequest_Execute
+=== RUN   Test_boxAddRequest_Execute/Location_not_found
+--- PASS: TestNewPartnerFindUsecase_FindAll (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindAll/error_while_fetching_partner_data (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindAll/error_while_counting_total_partners (0.00s)
+    --- PASS: TestNewPartnerFindUsecase_FindAll/successfully_fetch_partner_data (0.00s)
+=== CONT  TestTemporaryBoxAddRequest_Execute
+=== RUN   Test_locationAddRequest_Execute/price_profile_not_found
+=== RUN   Test_carBoxAllRequest_Execute/success
+=== RUN   TestTemporaryBoxAddRequest_Execute/must_give_1_of_2_vendor_id_or_unique_id
+=== RUN   TestNewPartnerFindAllUsecase_FindByID/error_while_fetching_partner_data
+=== RUN   Test_boxAddRequest_Execute/VendorID_is_empty
+--- PASS: Test_internalUserMeUseCase_Execute (0.00s)
+    --- PASS: Test_internalUserMeUseCase_Execute/error_getting_user_by_userid (0.00s)
+    --- PASS: Test_internalUserMeUseCase_Execute/OK (0.00s)
+=== RUN   TestTemporaryBoxAddRequest_Execute/vendor_ID_already_exists
+=== RUN   Test_locationAddRequest_Execute/error_while_creating_location
+--- PASS: Test_carBoxAllRequest_Execute (0.00s)
+    --- PASS: Test_carBoxAllRequest_Execute/box_not_found (0.00s)
+    --- PASS: Test_carBoxAllRequest_Execute/success (0.00s)
+=== CONT  TestUserLoginUsecase
+=== CONT  TestMeterReportAddUsecase_Execute
+=== RUN   TestMeterReportAddUsecase_Execute/box_not_found
+=== RUN   TestNewPartnerFindAllUsecase_FindByID/success
+=== RUN   Test_boxAddRequest_Execute/failed_to_update_box
+=== CONT  Test_boxDeleteRequest_Execute
+=== RUN   Test_boxDeleteRequest_Execute/box_not_found
+=== RUN   TestTemporaryBoxAddRequest_Execute/error_while_creating_car_temporary_box
+=== RUN   Test_boxAddRequest_Execute/get_TemporaryBoxByVendorID_failed
+=== RUN   TestMeterReportAddUsecase_Execute/location_not_found
+=== RUN   TestUserLoginUsecase/user_not_found
+=== RUN   TestCarMeterReportAddUsecase_Execute/meter_reading_for_the_same_box,_connector,_and_date_already_exists
+=== RUN   Test_locationAddRequest_Execute/success
+=== RUN   TestNewPartnerFindAllUsecase_FindByID/MainUserID_is_nil
+=== RUN   Test_boxAddRequest_Execute/failed_to_update_temporary_car_box
+=== RUN   Test_boxDeleteRequest_Execute/box_is_already_deleted
+=== RUN   TestMeterReportAddUsecase_Execute/price_profile_not_found
+=== RUN   TestUserLoginUsecase/user_is_deleted
+--- PASS: TestNewPartnerFindAllUsecase_FindByID (0.00s)
+    --- PASS: TestNewPartnerFindAllUsecase_FindByID/location_not_found (0.00s)
+    --- PASS: TestNewPartnerFindAllUsecase_FindByID/User_is_deleted (0.00s)
+    --- PASS: TestNewPartnerFindAllUsecase_FindByID/error_while_fetching_partner_data (0.00s)
+    --- PASS: TestNewPartnerFindAllUsecase_FindByID/success (0.00s)
+    --- PASS: TestNewPartnerFindAllUsecase_FindByID/MainUserID_is_nil (0.00s)
+=== CONT  TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute
+=== RUN   TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/Location_not_found
+=== RUN   Test_boxDeleteRequest_Execute/failed_to_delete_box
+=== RUN   Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_get_TemporaryBoxByVendorID_failed
+=== RUN   TestUserLoginUsecase/invalid_password
+=== RUN   TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/error_while_creating_extra_partner
+=== RUN   Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_error_while_creating_car_box,_check_if_the_box_has_been_added_in_another_location
+=== RUN   TestUserLoginUsecase/error_while_getting_user_location
+=== RUN   Test_boxDeleteRequest_Execute/get_TemporaryBoxByVendorID_failed
+=== RUN   TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/success
+=== RUN   Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_failed_to_update_temporary_car_box
+=== RUN   TestCarMeterReportAddUsecase_Execute/error_while_creating_meter_report
+=== RUN   TestUserLoginUsecase/error_while_encrypting_internal_user_claims_for_access_token
+--- PASS: TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute (0.00s)
+    --- PASS: TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/Location_not_found (0.00s)
+    --- PASS: TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/error_while_creating_extra_partner (0.00s)
+    --- PASS: TestExtraPartnerUpdateUseCase_ExecuteUseCase_Execute/success (0.00s)
+=== RUN   TestTemporaryBoxAddRequest_Execute/unique_ID_already_exists
+=== RUN   Test_boxDeleteRequest_Execute/failed_to_update_temporary_car_box
+=== RUN   Test_boxAddRequest_Execute/error_while_creating_car_box_quantity_with_0
+=== RUN   TestTemporaryBoxAddRequest_Execute/error_while_creating_bike_temporary_box
+=== RUN   Test_boxAddRequest_Execute/failed_to_update_box#01
+=== RUN   TestUserLoginUsecase/error_while_encrypting_internal_refresh_token_claims
+=== RUN   TestCarMeterReportAddUsecase_Execute/success
+=== RUN   TestTemporaryBoxAddRequest_Execute/success
+=== RUN   Test_boxAddRequest_Execute/get_TemporaryBoxByUniqueID_failed
+--- PASS: Test_locationAddRequest_Execute (0.00s)
+    --- PASS: Test_locationAddRequest_Execute/User_not_found (0.00s)
+    --- PASS: Test_locationAddRequest_Execute/User_is_deleted (0.00s)
+    --- PASS: Test_locationAddRequest_Execute/price_profile_not_found (0.00s)
+    --- PASS: Test_locationAddRequest_Execute/error_while_creating_location (0.00s)
+    --- PASS: Test_locationAddRequest_Execute/success (0.00s)
+=== CONT  TestExtraPartnerGetUseCase_GetByID
+=== RUN   TestExtraPartnerGetUseCase_GetByID/extra_partner_not_found
+--- PASS: TestTemporaryBoxAddRequest_Execute (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Execute/must_give_1_of_2_vendor_id_or_unique_id (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Execute/vendor_ID_already_exists (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Execute/error_while_creating_car_temporary_box (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Execute/unique_ID_already_exists (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Execute/error_while_creating_bike_temporary_box (0.00s)
+    --- PASS: TestTemporaryBoxAddRequest_Execute/success (0.00s)
+=== RUN   Test_boxAddRequest_Execute/failed_to_update_temporary_bike_box
+=== RUN   TestMeterReportAddUsecase_Execute/error_while_retrieving_prices
+=== RUN   TestCarMeterReportAddUsecase_Execute/success_with_unit_Wh
+=== RUN   TestExtraPartnerGetUseCase_GetByID/success
+=== CONT  Test_provinceRequest_FindAll
+=== RUN   Test_boxDeleteRequest_Execute/error_while_getting_box_quantity
+--- PASS: TestExtraPartnerGetUseCase_GetByID (0.00s)
+    --- PASS: TestExtraPartnerGetUseCase_GetByID/extra_partner_not_found (0.00s)
+    --- PASS: TestExtraPartnerGetUseCase_GetByID/success (0.00s)
+=== CONT  TestExtraPartnerDeleteUseCase_Execute
+=== RUN   TestUserLoginUsecase/error_while_creating_user_token
+=== RUN   Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_get_TemporaryBoxByVendorID_failed
+=== RUN   TestMeterReportAddUsecase_Execute/meter_reading_for_the_same_box,_connector,_and_date_already_exists
+=== RUN   Test_provinceRequest_FindAll/error_while_fetching_province_data
+=== RUN   Test_boxDeleteRequest_Execute/error_while_updating_car_box_quantity
+=== RUN   TestExtraPartnerDeleteUseCase_Execute/extra_partner_not_found
+=== RUN   TestUserLoginUsecase/error_while_updating_user_token
+=== RUN   Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_error_while_creating_bike_box,_check_if_the_box_has_been_added_in_another_location
+=== RUN   TestExtraPartnerDeleteUseCase_Execute/error_while_deleting
+=== RUN   Test_boxDeleteRequest_Execute/get_TemporaryBoxByUniqueID_failed
+=== RUN   Test_provinceRequest_FindAll/success
+=== RUN   Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_failed_to_update_temporary_bike_box
+=== RUN   TestUserLoginUsecase/error_while_saving_csrf_token
+=== RUN   TestCarMeterReportAddUsecase_Execute/determine_box_type_as_car
+--- PASS: Test_provinceRequest_FindAll (0.00s)
+    --- PASS: Test_provinceRequest_FindAll/error_while_fetching_province_data (0.00s)
+    --- PASS: Test_provinceRequest_FindAll/success (0.00s)
+=== RUN   Test_boxDeleteRequest_Execute/failed_to_update_temporary_bike_box
+=== RUN   TestExtraPartnerDeleteUseCase_Execute/success
+=== RUN   TestUserLoginUsecase/success
+=== RUN   Test_boxDeleteRequest_Execute/error_while_updating_bike_box_quantity
+--- PASS: TestExtraPartnerDeleteUseCase_Execute (0.00s)
+    --- PASS: TestExtraPartnerDeleteUseCase_Execute/extra_partner_not_found (0.00s)
+    --- PASS: TestExtraPartnerDeleteUseCase_Execute/error_while_deleting (0.00s)
+    --- PASS: TestExtraPartnerDeleteUseCase_Execute/success (0.00s)
+=== RUN   TestCarMeterReportAddUsecase_Execute/determine_box_type_as_car#01
+=== RUN   Test_boxAddRequest_Execute/UniqueID_is_empty
+=== RUN   TestMeterReportAddUsecase_Execute/error_while_creating_meter_report
+=== RUN   TestUserLoginUsecase/user_location_IDs_are_extracted_correctly
+=== RUN   Test_boxDeleteRequest_Execute/success_delete_box_car
+=== RUN   Test_boxAddRequest_Execute/error_while_getting_box_quantity
+--- PASS: TestUserLoginUsecase (0.00s)
+    --- PASS: TestUserLoginUsecase/user_not_found (0.00s)
+    --- PASS: TestUserLoginUsecase/user_is_deleted (0.00s)
+    --- PASS: TestUserLoginUsecase/invalid_password (0.00s)
+    --- PASS: TestUserLoginUsecase/error_while_getting_user_location (0.00s)
+    --- PASS: TestUserLoginUsecase/error_while_encrypting_internal_user_claims_for_access_token (0.00s)
+    --- PASS: TestUserLoginUsecase/error_while_encrypting_internal_refresh_token_claims (0.00s)
+    --- PASS: TestUserLoginUsecase/error_while_creating_user_token (0.00s)
+    --- PASS: TestUserLoginUsecase/error_while_updating_user_token (0.00s)
+    --- PASS: TestUserLoginUsecase/error_while_saving_csrf_token (0.00s)
+    --- PASS: TestUserLoginUsecase/success (0.00s)
+    --- PASS: TestUserLoginUsecase/user_location_IDs_are_extracted_correctly (0.00s)
+=== RUN   TestMeterReportAddUsecase_Execute/success
+=== RUN   TestCarMeterReportAddUsecase_Execute/success_with_priceProfileID_is_nil
+--- PASS: Test_boxDeleteRequest_Execute (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/box_not_found (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/box_is_already_deleted (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/failed_to_delete_box (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/get_TemporaryBoxByVendorID_failed (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/failed_to_update_temporary_car_box (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/error_while_getting_box_quantity (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/error_while_updating_car_box_quantity (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/get_TemporaryBoxByUniqueID_failed (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/failed_to_update_temporary_bike_box (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/error_while_updating_bike_box_quantity (0.00s)
+    --- PASS: Test_boxDeleteRequest_Execute/success_delete_box_car (0.00s)
+--- PASS: TestCarMeterReportAddUsecase_Execute (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/box_not_found (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/location_not_found (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/price_profile_not_found (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/error_while_retrieving_prices (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/meter_reading_for_the_same_box,_connector,_and_date_already_exists (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/error_while_creating_meter_report (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/success (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/success_with_unit_Wh (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/determine_box_type_as_car (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/determine_box_type_as_car#01 (0.00s)
+    --- PASS: TestCarMeterReportAddUsecase_Execute/success_with_priceProfileID_is_nil (0.00s)
+=== RUN   TestMeterReportAddUsecase_Execute/success_with_unit_Wh
+=== RUN   TestMeterReportAddUsecase_Execute/determine_box_type_as_bike
+=== RUN   Test_boxAddRequest_Execute/error_while_updating_car_box_quantity
+=== RUN   Test_boxAddRequest_Execute/error_while_creating_car_box_quantity_with_0#01
+=== RUN   TestMeterReportAddUsecase_Execute/determine_box_type_as_car
+=== RUN   Test_boxAddRequest_Execute/error_while_creating_bike_box_quantity
+=== RUN   TestMeterReportAddUsecase_Execute/success_with_priceProfileID_is_nil
+=== RUN   Test_boxAddRequest_Execute/error_while_updating_bike_box_quantity
+--- PASS: TestMeterReportAddUsecase_Execute (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/box_not_found (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/location_not_found (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/price_profile_not_found (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/error_while_retrieving_prices (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/meter_reading_for_the_same_box,_connector,_and_date_already_exists (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/error_while_creating_meter_report (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/success (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/success_with_unit_Wh (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/determine_box_type_as_bike (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/determine_box_type_as_car (0.00s)
+    --- PASS: TestMeterReportAddUsecase_Execute/success_with_priceProfileID_is_nil (0.00s)
+=== RUN   Test_boxAddRequest_Execute/error_while_creating_bike_box_quantity_with_0
+=== RUN   Test_boxAddRequest_Execute/Do_not_create_car_box_quantity_with_0_if_it_already_exists
+=== RUN   Test_boxAddRequest_Execute/Create_car_box_quantity_with_0_if_it_does_not_exist
+=== RUN   Test_boxAddRequest_Execute/Do_not_create_bike_box_quantity_with_0_if_it_already_exists
+=== RUN   Test_boxAddRequest_Execute/Create_bike_box_quantity_with_0_if_it_does_not_exist
+=== RUN   Test_boxAddRequest_Execute/SuccessfulUpdateCarBox
+--- PASS: Test_boxAddRequest_Execute (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/Location_not_found (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/VendorID_is_empty (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/failed_to_update_box (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/get_TemporaryBoxByVendorID_failed (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/failed_to_update_temporary_car_box (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_get_TemporaryBoxByVendorID_failed (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_error_while_creating_car_box,_check_if_the_box_has_been_added_in_another_location (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/dtoReq.VendorID_not_nil_and_box.IsActive_==_true_and_failed_to_update_temporary_car_box (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_creating_car_box_quantity_with_0 (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/failed_to_update_box#01 (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/get_TemporaryBoxByUniqueID_failed (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/failed_to_update_temporary_bike_box (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_get_TemporaryBoxByVendorID_failed (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_error_while_creating_bike_box,_check_if_the_box_has_been_added_in_another_location (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/dtoReq.UniqueID_not_nil_and_box.IsActive_==_true_and_failed_to_update_temporary_bike_box (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/UniqueID_is_empty (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_getting_box_quantity (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_updating_car_box_quantity (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_creating_car_box_quantity_with_0#01 (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_creating_bike_box_quantity (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_updating_bike_box_quantity (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/error_while_creating_bike_box_quantity_with_0 (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/Do_not_create_car_box_quantity_with_0_if_it_already_exists (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/Create_car_box_quantity_with_0_if_it_does_not_exist (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/Do_not_create_bike_box_quantity_with_0_if_it_already_exists (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/Create_bike_box_quantity_with_0_if_it_does_not_exist (0.00s)
+    --- PASS: Test_boxAddRequest_Execute/SuccessfulUpdateCarBox (0.00s)
+PASS
+coverage: 88.2% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/app/usecases	1.496s	coverage: 88.2% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltemplate	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/hashid/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltemplate/gohtmltemplate		coverage: 0.0% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltoimage	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltemplate/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltoimage/chromedp		coverage: 0.0% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltopdf	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltoimage/mock		coverage: 0.0% of statements
+=== RUN   TestNewBikeMeterValueHistoryJob
+=== RUN   TestNewBikeMeterValueHistoryJob/success
+--- PASS: TestNewBikeMeterValueHistoryJob (0.00s)
+    --- PASS: TestNewBikeMeterValueHistoryJob/success (0.00s)
+=== RUN   Test_bikeMeterValueHistory_Name
+=== RUN   Test_bikeMeterValueHistory_Name/success
+--- PASS: Test_bikeMeterValueHistory_Name (0.00s)
+    --- PASS: Test_bikeMeterValueHistory_Name/success (0.00s)
+=== RUN   Test_bikeMeterValueHistory_Run
+=== PAUSE Test_bikeMeterValueHistory_Run
+=== RUN   Test_meterValueHistory_getAllBikeBoxes
+=== RUN   Test_meterValueHistory_getAllBikeBoxes/API_call_fails
+=== RUN   Test_meterValueHistory_getAllBikeBoxes/Invalid_JSON_response
+=== RUN   Test_meterValueHistory_getAllBikeBoxes/response_GetCarBoxResponse_is_not_ok
+=== RUN   Test_meterValueHistory_getAllBikeBoxes/success
+--- PASS: Test_meterValueHistory_getAllBikeBoxes (0.00s)
+    --- PASS: Test_meterValueHistory_getAllBikeBoxes/API_call_fails (0.00s)
+    --- PASS: Test_meterValueHistory_getAllBikeBoxes/Invalid_JSON_response (0.00s)
+    --- PASS: Test_meterValueHistory_getAllBikeBoxes/response_GetCarBoxResponse_is_not_ok (0.00s)
+    --- PASS: Test_meterValueHistory_getAllBikeBoxes/success (0.00s)
+=== RUN   Test_meterValueHistory_getBikeMeterValueHistory
+=== RUN   Test_meterValueHistory_getBikeMeterValueHistory/API_call_fails
+=== RUN   Test_meterValueHistory_getBikeMeterValueHistory/Invalid_JSON_response
+=== RUN   Test_meterValueHistory_getBikeMeterValueHistory/response_GetCarMeterValueHistoryResponse_is_not_ok
+=== RUN   Test_meterValueHistory_getBikeMeterValueHistory/success
+--- PASS: Test_meterValueHistory_getBikeMeterValueHistory (0.00s)
+    --- PASS: Test_meterValueHistory_getBikeMeterValueHistory/API_call_fails (0.00s)
+    --- PASS: Test_meterValueHistory_getBikeMeterValueHistory/Invalid_JSON_response (0.00s)
+    --- PASS: Test_meterValueHistory_getBikeMeterValueHistory/response_GetCarMeterValueHistoryResponse_is_not_ok (0.00s)
+    --- PASS: Test_meterValueHistory_getBikeMeterValueHistory/success (0.00s)
+=== RUN   Test_meterValueHistory_saveBikeMeterValueHistory
+=== RUN   Test_meterValueHistory_saveBikeMeterValueHistory/no_meter_value_history_found
+{"level":"info","msg":"No meter value history found VN0123100046","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_meterValueHistory_saveBikeMeterValueHistory/single_meter_value_history
+=== RUN   Test_meterValueHistory_saveBikeMeterValueHistory/multiple_meter_value_histories
+--- PASS: Test_meterValueHistory_saveBikeMeterValueHistory (0.00s)
+    --- PASS: Test_meterValueHistory_saveBikeMeterValueHistory/no_meter_value_history_found (0.00s)
+    --- PASS: Test_meterValueHistory_saveBikeMeterValueHistory/single_meter_value_history (0.00s)
+    --- PASS: Test_meterValueHistory_saveBikeMeterValueHistory/multiple_meter_value_histories (0.00s)
+=== RUN   Test_meterValueHistory_processBikeBox
+=== RUN   Test_meterValueHistory_processBikeBox/API_call_to_get_meter_value_history_fails
+=== RUN   Test_meterValueHistory_processBikeBox/No_meter_value_history_found
+{"level":"info","msg":"No meter value history found ","time":"2025-03-12T11:53:11+07:00"}
+--- PASS: Test_meterValueHistory_processBikeBox (0.00s)
+    --- PASS: Test_meterValueHistory_processBikeBox/API_call_to_get_meter_value_history_fails (0.00s)
+    --- PASS: Test_meterValueHistory_processBikeBox/No_meter_value_history_found (0.00s)
+=== RUN   Test_meterValueHistory_saveSingleBikeMeterValueHistory
+=== RUN   Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_to_save_meter_value_history_fails
+=== RUN   Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_returns_invalid_JSON_response
+=== RUN   Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_succeeds
+=== RUN   Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_succeeds_with_new_box_=_0
+--- PASS: Test_meterValueHistory_saveSingleBikeMeterValueHistory (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_to_save_meter_value_history_fails (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_returns_invalid_JSON_response (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_succeeds (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleBikeMeterValueHistory/API_call_succeeds_with_new_box_=_0 (0.00s)
+=== RUN   Test_meterValueHistory_saveMultipleBikeMeterValueHistories
+=== RUN   Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_call_Success
+=== RUN   Test_meterValueHistory_saveMultipleBikeMeterValueHistories/response_SaveMeterValueHistoryResult_is_not_ok
+=== RUN   Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_call_to_save_meter_value_history_fails
+=== RUN   Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_returns_invalid_JSON_response
+--- PASS: Test_meterValueHistory_saveMultipleBikeMeterValueHistories (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_call_Success (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleBikeMeterValueHistories/response_SaveMeterValueHistoryResult_is_not_ok (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_call_to_save_meter_value_history_fails (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleBikeMeterValueHistories/API_returns_invalid_JSON_response (0.00s)
+=== RUN   Test_meterValueHistory_saveMultipleBikeOldBoxMeterValueHistories
+=== RUN   Test_meterValueHistory_saveMultipleBikeOldBoxMeterValueHistories/API_call_success_with_new_box_=_0
+--- PASS: Test_meterValueHistory_saveMultipleBikeOldBoxMeterValueHistories (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleBikeOldBoxMeterValueHistories/API_call_success_with_new_box_=_0 (0.00s)
+=== RUN   TestNewMeterValueHistoryJob
+=== RUN   TestNewMeterValueHistoryJob/success
+--- PASS: TestNewMeterValueHistoryJob (0.00s)
+    --- PASS: TestNewMeterValueHistoryJob/success (0.00s)
+=== RUN   Test_meterValueHistory_Name
+=== RUN   Test_meterValueHistory_Name/success
+--- PASS: Test_meterValueHistory_Name (0.00s)
+    --- PASS: Test_meterValueHistory_Name/success (0.00s)
+=== RUN   Test_meterValueHistory_getAllCarBoxes
+=== RUN   Test_meterValueHistory_getAllCarBoxes/API_call_fails
+=== RUN   Test_meterValueHistory_getAllCarBoxes/Invalid_JSON_response
+=== RUN   Test_meterValueHistory_getAllCarBoxes/response_GetCarBoxResponse_is_not_ok
+=== RUN   Test_meterValueHistory_getAllCarBoxes/success
+--- PASS: Test_meterValueHistory_getAllCarBoxes (0.00s)
+    --- PASS: Test_meterValueHistory_getAllCarBoxes/API_call_fails (0.00s)
+    --- PASS: Test_meterValueHistory_getAllCarBoxes/Invalid_JSON_response (0.00s)
+    --- PASS: Test_meterValueHistory_getAllCarBoxes/response_GetCarBoxResponse_is_not_ok (0.00s)
+    --- PASS: Test_meterValueHistory_getAllCarBoxes/success (0.00s)
+=== RUN   Test_meterValueHistory_getMeterValueHistory
+=== RUN   Test_meterValueHistory_getMeterValueHistory/API_call_fails
+=== RUN   Test_meterValueHistory_getMeterValueHistory/Invalid_JSON_response
+=== RUN   Test_meterValueHistory_getMeterValueHistory/response_GetCarMeterValueHistoryResponse_is_not_ok
+=== RUN   Test_meterValueHistory_getMeterValueHistory/success
+--- PASS: Test_meterValueHistory_getMeterValueHistory (0.00s)
+    --- PASS: Test_meterValueHistory_getMeterValueHistory/API_call_fails (0.00s)
+    --- PASS: Test_meterValueHistory_getMeterValueHistory/Invalid_JSON_response (0.00s)
+    --- PASS: Test_meterValueHistory_getMeterValueHistory/response_GetCarMeterValueHistoryResponse_is_not_ok (0.00s)
+    --- PASS: Test_meterValueHistory_getMeterValueHistory/success (0.00s)
+=== RUN   Test_meterValueHistory_saveMeterValueHistory
+=== RUN   Test_meterValueHistory_saveMeterValueHistory/no_meter_value_history_found
+{"level":"info","msg":"No meter value history found VN0123100046","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_meterValueHistory_saveMeterValueHistory/single_meter_value_history
+=== RUN   Test_meterValueHistory_saveMeterValueHistory/multiple_meter_value_histories
+--- PASS: Test_meterValueHistory_saveMeterValueHistory (0.00s)
+    --- PASS: Test_meterValueHistory_saveMeterValueHistory/no_meter_value_history_found (0.00s)
+    --- PASS: Test_meterValueHistory_saveMeterValueHistory/single_meter_value_history (0.00s)
+    --- PASS: Test_meterValueHistory_saveMeterValueHistory/multiple_meter_value_histories (0.00s)
+=== RUN   Test_meterValueHistory_processBox
+=== RUN   Test_meterValueHistory_processBox/API_call_to_get_meter_value_history_fails
+=== RUN   Test_meterValueHistory_processBox/No_meter_value_history_found
+{"level":"info","msg":"No meter value history found VN0123100046","time":"2025-03-12T11:53:11+07:00"}
+--- PASS: Test_meterValueHistory_processBox (0.00s)
+    --- PASS: Test_meterValueHistory_processBox/API_call_to_get_meter_value_history_fails (0.00s)
+    --- PASS: Test_meterValueHistory_processBox/No_meter_value_history_found (0.00s)
+=== RUN   Test_meterValueHistory_saveSingleMeterValueHistory
+=== RUN   Test_meterValueHistory_saveSingleMeterValueHistory/API_call_to_save_meter_value_history_fails
+=== RUN   Test_meterValueHistory_saveSingleMeterValueHistory/API_returns_invalid_JSON_response
+=== RUN   Test_meterValueHistory_saveSingleMeterValueHistory/API_call_succeeds
+--- PASS: Test_meterValueHistory_saveSingleMeterValueHistory (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleMeterValueHistory/API_call_to_save_meter_value_history_fails (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleMeterValueHistory/API_returns_invalid_JSON_response (0.00s)
+    --- PASS: Test_meterValueHistory_saveSingleMeterValueHistory/API_call_succeeds (0.00s)
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories/API_call_Success
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories/response_SaveMeterValueHistoryResult_is_not_ok
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories/API_call_to_save_meter_value_history_fails
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories/API_returns_invalid_JSON_response
+--- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories/API_call_Success (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories/response_SaveMeterValueHistoryResult_is_not_ok (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories/API_call_to_save_meter_value_history_fails (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories/API_returns_invalid_JSON_response (0.00s)
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories_value
+=== RUN   Test_meterValueHistory_saveMultipleMeterValueHistories_value/API_call_Success
+--- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories_value (0.00s)
+    --- PASS: Test_meterValueHistory_saveMultipleMeterValueHistories_value/API_call_Success (0.00s)
+=== RUN   Test_meterValueHistory_Run
+=== PAUSE Test_meterValueHistory_Run
+=== RUN   TestLoadConfig
+--- PASS: TestLoadConfig (0.00s)
+=== RUN   TestLoadConfigMissingRequiredEnv
+--- PASS: TestLoadConfigMissingRequiredEnv (0.00s)
+=== RUN   Test_appHealthcheckEndpoint
+=== RUN   Test_appHealthcheckEndpoint/success
+--- PASS: Test_appHealthcheckEndpoint (0.00s)
+    --- PASS: Test_appHealthcheckEndpoint/success (0.00s)
+=== RUN   TestNewHealthCheckJob
+=== RUN   TestNewHealthCheckJob/success
+--- PASS: TestNewHealthCheckJob (0.00s)
+    --- PASS: TestNewHealthCheckJob/success (0.00s)
+=== RUN   Test_healthcheck_Name
+=== RUN   Test_healthcheck_Name/success
+--- PASS: Test_healthcheck_Name (0.00s)
+    --- PASS: Test_healthcheck_Name/success (0.00s)
+=== RUN   Test_healthcheck_Run
+=== PAUSE Test_healthcheck_Run
+=== RUN   TestProvideJobs
+=== RUN   TestProvideJobs/success
+--- PASS: TestProvideJobs (0.00s)
+    --- PASS: TestProvideJobs/success (0.00s)
+=== RUN   TestNewSaveBikeBoxJob
+=== RUN   TestNewSaveBikeBoxJob/success
+--- PASS: TestNewSaveBikeBoxJob (0.00s)
+    --- PASS: TestNewSaveBikeBoxJob/success (0.00s)
+=== RUN   Test_saveBikeBox_Name
+=== RUN   Test_saveBikeBox_Name/success
+--- PASS: Test_saveBikeBox_Name (0.00s)
+    --- PASS: Test_saveBikeBox_Name/success (0.00s)
+=== RUN   Test_saveBikeBox_Run
+=== PAUSE Test_saveBikeBox_Run
+=== RUN   Test_saveBikeBox_login
+=== RUN   Test_saveBikeBox_login/login_fails
+=== RUN   Test_saveBikeBox_login/Invalid_JSON_response
+=== RUN   Test_saveBikeBox_login/response_GetBikeMeterValueHistoryResponse_is_not_ok
+=== RUN   Test_saveBikeBox_login/login_success
+--- PASS: Test_saveBikeBox_login (0.00s)
+    --- PASS: Test_saveBikeBox_login/login_fails (0.00s)
+    --- PASS: Test_saveBikeBox_login/Invalid_JSON_response (0.00s)
+    --- PASS: Test_saveBikeBox_login/response_GetBikeMeterValueHistoryResponse_is_not_ok (0.00s)
+    --- PASS: Test_saveBikeBox_login/login_success (0.00s)
+=== RUN   Test_saveBikeBox_getAllBikeBoxes
+=== RUN   Test_saveBikeBox_getAllBikeBoxes/call_api_to_get_all_Bike_box_fails
+=== RUN   Test_saveBikeBox_getAllBikeBoxes/invalid_response_body
+=== RUN   Test_saveBikeBox_getAllBikeBoxes/success
+--- PASS: Test_saveBikeBox_getAllBikeBoxes (0.00s)
+    --- PASS: Test_saveBikeBox_getAllBikeBoxes/call_api_to_get_all_Bike_box_fails (0.00s)
+    --- PASS: Test_saveBikeBox_getAllBikeBoxes/invalid_response_body (0.00s)
+    --- PASS: Test_saveBikeBox_getAllBikeBoxes/success (0.00s)
+=== RUN   Test_saveBikeBox_saveBikeBox
+=== PAUSE Test_saveBikeBox_saveBikeBox
+=== RUN   TestNewSaveCarBoxJob
+=== RUN   TestNewSaveCarBoxJob/success
+--- PASS: TestNewSaveCarBoxJob (0.00s)
+    --- PASS: TestNewSaveCarBoxJob/success (0.00s)
+=== RUN   Test_saveCarBox_Name
+=== RUN   Test_saveCarBox_Name/success
+--- PASS: Test_saveCarBox_Name (0.00s)
+    --- PASS: Test_saveCarBox_Name/success (0.00s)
+=== RUN   Test_saveCarBox_Run
+=== PAUSE Test_saveCarBox_Run
+=== RUN   Test_saveCarBox_login
+=== RUN   Test_saveCarBox_login/login_fails
+=== RUN   Test_saveCarBox_login/Invalid_JSON_response
+=== RUN   Test_saveCarBox_login/response_GetCarMeterValueHistoryResponse_is_not_ok
+=== RUN   Test_saveCarBox_login/login_success
+--- PASS: Test_saveCarBox_login (0.00s)
+    --- PASS: Test_saveCarBox_login/login_fails (0.00s)
+    --- PASS: Test_saveCarBox_login/Invalid_JSON_response (0.00s)
+    --- PASS: Test_saveCarBox_login/response_GetCarMeterValueHistoryResponse_is_not_ok (0.00s)
+    --- PASS: Test_saveCarBox_login/login_success (0.00s)
+=== RUN   Test_saveCarBox_getAllCarBoxes
+=== RUN   Test_saveCarBox_getAllCarBoxes/call_api_to_get_all_car_box_fails
+=== RUN   Test_saveCarBox_getAllCarBoxes/invalid_response_body
+=== RUN   Test_saveCarBox_getAllCarBoxes/success
+--- PASS: Test_saveCarBox_getAllCarBoxes (0.00s)
+    --- PASS: Test_saveCarBox_getAllCarBoxes/call_api_to_get_all_car_box_fails (0.00s)
+    --- PASS: Test_saveCarBox_getAllCarBoxes/invalid_response_body (0.00s)
+    --- PASS: Test_saveCarBox_getAllCarBoxes/success (0.00s)
+=== RUN   Test_saveCarBox_saveCarBox
+=== PAUSE Test_saveCarBox_saveCarBox
+=== RUN   TestNewUpdateOffsetBoxJob
+=== RUN   TestNewUpdateOffsetBoxJob/success
+--- PASS: TestNewUpdateOffsetBoxJob (0.00s)
+    --- PASS: TestNewUpdateOffsetBoxJob/success (0.00s)
+=== RUN   Test_updateOffsetBox_Name
+=== RUN   Test_updateOffsetBox_Name/success
+--- PASS: Test_updateOffsetBox_Name (0.00s)
+    --- PASS: Test_updateOffsetBox_Name/success (0.00s)
+=== RUN   Test_updateOffsetBox_Run
+=== RUN   Test_updateOffsetBox_Run/failed_to_call_endpoint_to_update_offset_box
+{"error":"error while making request: unexpected error","level":"error","msg":"call api to update box offset: %w error while making request: unexpected error","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_updateOffsetBox_Run/success_to_call_endpoint_to_update_offset_box
+{"error":"request failed with code[400] and body[http response body]","level":"error","msg":"call api to update box offset: %w request failed with code[400] and body[http response body]","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_updateOffsetBox_Run/success
+--- PASS: Test_updateOffsetBox_Run (0.00s)
+    --- PASS: Test_updateOffsetBox_Run/failed_to_call_endpoint_to_update_offset_box (0.00s)
+    --- PASS: Test_updateOffsetBox_Run/success_to_call_endpoint_to_update_offset_box (0.00s)
+    --- PASS: Test_updateOffsetBox_Run/success (0.00s)
+=== CONT  Test_bikeMeterValueHistory_Run
+=== RUN   Test_bikeMeterValueHistory_Run/not_the_last_day_of_the_month
+=== CONT  Test_saveBikeBox_saveBikeBox
+{"level":"info","msg":"not the last day of the month to get meter report of bike box 2025-03-12","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_saveBikeBox_saveBikeBox/call_api_to_save_eboost_box_request
+=== RUN   Test_bikeMeterValueHistory_Run/call_function_getAllCarBoxes
+=== CONT  Test_healthcheck_Run
+=== RUN   Test_healthcheck_Run/app_endpoint_empty
+{"level":"info","msg":"not the last day of the month to get meter report of bike box 2025-03-12","time":"2025-03-12T11:53:11+07:00"}
+--- PASS: Test_bikeMeterValueHistory_Run (0.00s)
+    --- PASS: Test_bikeMeterValueHistory_Run/not_the_last_day_of_the_month (0.00s)
+    --- PASS: Test_bikeMeterValueHistory_Run/call_function_getAllCarBoxes (0.00s)
+=== CONT  Test_meterValueHistory_Run
+=== RUN   Test_meterValueHistory_Run/not_the_last_day_of_the_month
+=== CONT  Test_saveCarBox_Run
+=== RUN   Test_saveCarBox_Run/call_function_login
+{"app_endpoint":"","level":"error","msg":"cron heath check failed","time":"2025-03-12T11:53:11+07:00"}
+=== CONT  Test_saveBikeBox_Run
+=== RUN   Test_saveBikeBox_Run/call_function_login
+=== RUN   Test_healthcheck_Run/health_check_main_app_failed
+{"error":"call api eboost login: error while making request: login failed","level":"error","msg":"call function login","time":"2025-03-12T11:53:11+07:00"}
+=== CONT  Test_saveCarBox_saveCarBox
+=== RUN   Test_saveBikeBox_Run/call_function_getAllBikeBoxes_with_error
+--- PASS: Test_saveBikeBox_saveBikeBox (0.00s)
+    --- PASS: Test_saveBikeBox_saveBikeBox/call_api_to_save_eboost_box_request (0.00s)
+=== RUN   Test_saveCarBox_saveCarBox/call_api_to_save_eboost_box_request
+{"level":"info","msg":"not the last day of the month to get meter report of car box 2025-03-12","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_meterValueHistory_Run/call_function_getAllCarBoxes
+--- PASS: Test_saveCarBox_saveCarBox (0.00s)
+    --- PASS: Test_saveCarBox_saveCarBox/call_api_to_save_eboost_box_request (0.00s)
+{"app_endpoint":"http://localhost:30000/v1","error":"request failed","level":"error","msg":"health check app failed","time":"2025-03-12T11:53:11+07:00"}
+{"error":"call api to get all bike box: error while making request: failed to get bike boxes","level":"error","msg":"call function getAllCarBoxes","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_saveBikeBox_Run/call_function_saveBikeBox
+=== RUN   Test_healthcheck_Run/main_server_returns_not_200_code
+{"level":"info","msg":"not the last day of the month to get meter report of car box 2025-03-12","time":"2025-03-12T11:53:11+07:00"}
+--- PASS: Test_meterValueHistory_Run (0.00s)
+    --- PASS: Test_meterValueHistory_Run/not_the_last_day_of_the_month (0.00s)
+    --- PASS: Test_meterValueHistory_Run/call_function_getAllCarBoxes (0.00s)
+{"error":"call api eboost login: error while making request: login failed","level":"error","msg":"call function login","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_saveCarBox_Run/call_function_getAllCarBoxes_with_error
+{"app_endpoint":"http://localhost:30000/v1","code":403,"level":"error","msg":"invalid healthcheck status code","time":"2025-03-12T11:53:11+07:00"}
+{"error":"API call failed:  (status: 0)","level":"error","msg":"call function saveCarBox","time":"2025-03-12T11:53:11+07:00"}
+{"error":"unmarshal response body eboost box request: unexpected end of JSON input","level":"error","msg":"call function saveCarBox","time":"2025-03-12T11:53:11+07:00"}
+--- PASS: Test_saveBikeBox_Run (0.00s)
+    --- PASS: Test_saveBikeBox_Run/call_function_login (0.00s)
+    --- PASS: Test_saveBikeBox_Run/call_function_getAllBikeBoxes_with_error (0.00s)
+    --- PASS: Test_saveBikeBox_Run/call_function_saveBikeBox (0.00s)
+=== RUN   Test_healthcheck_Run/success
+{"error":"call api to get all car box: error while making request: failed to get car boxes","level":"error","msg":"call function getAllCarBoxes","time":"2025-03-12T11:53:11+07:00"}
+=== RUN   Test_saveCarBox_Run/call_function_saveCarBox
+--- PASS: Test_healthcheck_Run (0.00s)
+    --- PASS: Test_healthcheck_Run/app_endpoint_empty (0.00s)
+    --- PASS: Test_healthcheck_Run/health_check_main_app_failed (0.00s)
+    --- PASS: Test_healthcheck_Run/main_server_returns_not_200_code (0.00s)
+    --- PASS: Test_healthcheck_Run/success (0.00s)
+{"error":"API call failed:  (status: 0)","level":"error","msg":"call function saveCarBox","time":"2025-03-12T11:53:11+07:00"}
+{"error":"unmarshal response body eboost box request: unexpected end of JSON input","level":"error","msg":"call function saveCarBox","time":"2025-03-12T11:53:11+07:00"}
+--- PASS: Test_saveCarBox_Run (0.00s)
+    --- PASS: Test_saveCarBox_Run/call_function_login (0.00s)
+    --- PASS: Test_saveCarBox_Run/call_function_getAllCarBoxes_with_error (0.00s)
+    --- PASS: Test_saveCarBox_Run/call_function_saveCarBox (0.00s)
+PASS
+coverage: 84.1% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/cronjobs	1.208s	coverage: 84.1% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltopdf/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/htmltopdf/wkhtmltopdf		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/httputil		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/httputil/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/log		coverage: 0.0% of statements
+=== RUN   TestCall
+=== PAUSE TestCall
+=== RUN   Test_isSuccess
+=== RUN   Test_isSuccess/success_request
+=== RUN   Test_isSuccess/fail_request
+--- PASS: Test_isSuccess (0.00s)
+    --- PASS: Test_isSuccess/success_request (0.00s)
+    --- PASS: Test_isSuccess/fail_request (0.00s)
+=== RUN   TestWithBasicAuthentication
+--- PASS: TestWithBasicAuthentication (0.00s)
+=== RUN   TestAuthorization
+--- PASS: TestAuthorization (0.00s)
+=== RUN   TestWithContentType
+--- PASS: TestWithContentType (0.00s)
+=== RUN   TestWithContentTypeJSON
+--- PASS: TestWithContentTypeJSON (0.00s)
+=== RUN   TestWithHeader
+--- PASS: TestWithHeader (0.00s)
+=== RUN   TestWithQueryString
+--- PASS: TestWithQueryString (0.00s)
+=== RUN   TestHTTPError_StatusCode
+=== RUN   TestHTTPError_StatusCode/success
+--- PASS: TestHTTPError_StatusCode (0.00s)
+    --- PASS: TestHTTPError_StatusCode/success (0.00s)
+=== RUN   TestHTTPError_Error
+=== RUN   TestHTTPError_Error/success
+--- PASS: TestHTTPError_Error (0.00s)
+    --- PASS: TestHTTPError_Error/success (0.00s)
+=== CONT  TestCall
+=== RUN   TestCall/make_request_failed
+=== RUN   TestCall/response_status_is_not_successful
+=== RUN   TestCall/success
+=== RUN   TestCall/success_with_request_option
+--- PASS: TestCall (0.00s)
+    --- PASS: TestCall/make_request_failed (0.00s)
+    --- PASS: TestCall/response_status_is_not_successful (0.00s)
+    --- PASS: TestCall/success (0.00s)
+    --- PASS: TestCall/success_with_request_option (0.00s)
+PASS
+coverage: 84.6% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/api	1.505s	coverage: 84.6% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/mailer	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/logkeeper/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/mailer/mock		coverage: 0.0% of statements
+=== RUN   TestEqualPointers
+=== RUN   TestEqualPointers/both_nil
+=== RUN   TestEqualPointers/a_nil,_b_not
+=== RUN   TestEqualPointers/a_not,_b_nil
+=== RUN   TestEqualPointers/both_are_not_nil
+--- PASS: TestEqualPointers (0.00s)
+    --- PASS: TestEqualPointers/both_nil (0.00s)
+    --- PASS: TestEqualPointers/a_nil,_b_not (0.00s)
+    --- PASS: TestEqualPointers/a_not,_b_nil (0.00s)
+    --- PASS: TestEqualPointers/both_are_not_nil (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/comparison	1.589s	coverage: 100.0% of statements
+=== RUN   Test_scheduledJob_Schedule
+=== RUN   Test_scheduledJob_Schedule/ok
+--- PASS: Test_scheduledJob_Schedule (0.00s)
+    --- PASS: Test_scheduledJob_Schedule/ok (0.00s)
+=== RUN   Test_scheduledJob_Job
+=== RUN   Test_scheduledJob_Job/Ok
+--- PASS: Test_scheduledJob_Job (0.00s)
+    --- PASS: Test_scheduledJob_Job/Ok (0.00s)
+=== RUN   TestSetup
+=== RUN   TestSetup/Ok
+=== RUN   TestSetup/env_is_not_supported
+--- PASS: TestSetup (0.00s)
+    --- PASS: TestSetup/Ok (0.00s)
+    --- PASS: TestSetup/env_is_not_supported (0.00s)
+=== RUN   Test_scheduler_Run
+=== RUN   Test_scheduler_Run/Ok
+=== RUN   Test_scheduler_Run/job
+--- PASS: Test_scheduler_Run (0.00s)
+    --- PASS: Test_scheduler_Run/Ok (0.00s)
+    --- PASS: Test_scheduler_Run/job (0.00s)
+=== RUN   Test_scheduler_Start
+--- PASS: Test_scheduler_Start (0.00s)
+=== RUN   Test_scheduler_Stop
+--- PASS: Test_scheduler_Stop (0.00s)
+PASS
+coverage: 29.9% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/cronjob/scheduler	1.321s	coverage: 29.9% of statements
+=== RUN   TestExtractFromFilename
+=== RUN   TestExtractFromFilename/Case_1
+=== RUN   TestExtractFromFilename/Case_1a
+=== RUN   TestExtractFromFilename/Case_2
+=== RUN   TestExtractFromFilename/Case_3
+=== RUN   TestExtractFromFilename/Case_4
+=== RUN   TestExtractFromFilename/Case_4#01
+=== RUN   TestExtractFromFilename/Case_5
+--- PASS: TestExtractFromFilename (0.00s)
+    --- PASS: TestExtractFromFilename/Case_1 (0.00s)
+    --- PASS: TestExtractFromFilename/Case_1a (0.00s)
+    --- PASS: TestExtractFromFilename/Case_2 (0.00s)
+    --- PASS: TestExtractFromFilename/Case_3 (0.00s)
+    --- PASS: TestExtractFromFilename/Case_4 (0.00s)
+    --- PASS: TestExtractFromFilename/Case_4#01 (0.00s)
+    --- PASS: TestExtractFromFilename/Case_5 (0.00s)
+PASS
+coverage: 81.2% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/fileutil	1.481s	coverage: 81.2% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/partnerverifier/interfaces	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/partnerverifier		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/partnerverifier/interfaces/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/partnerverifier/ipverifier/whitelistips		coverage: 0.0% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/pdfutil	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/partnerverifier/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/partnerverifier/sigverifier/rsapkcs1v15		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/pdfutil/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/pdfutil/pdfcpu		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/redis		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/profiler		coverage: 0.0% of statements
+=== RUN   Test_InitIDHasher
+=== PAUSE Test_InitIDHasher
+=== RUN   Test_GetIDHasher
+--- PASS: Test_GetIDHasher (0.00s)
+=== RUN   Test_idHasher_Encode
+=== PAUSE Test_idHasher_Encode
+=== RUN   Test_idHasher_EncodeUint64
+=== PAUSE Test_idHasher_EncodeUint64
+=== RUN   Test_idHasher_Decode
+=== PAUSE Test_idHasher_Decode
+=== RUN   Test_idHasher_DecodeUint64
+=== PAUSE Test_idHasher_DecodeUint64
+=== CONT  Test_InitIDHasher
+=== RUN   Test_InitIDHasher/singleton_instance_exists
+=== CONT  Test_idHasher_Decode
+=== RUN   Test_idHasher_Decode/incorrect_hash_id_format
+=== CONT  Test_idHasher_EncodeUint64
+=== RUN   Test_idHasher_Decode/success
+=== RUN   Test_idHasher_EncodeUint64/success
+=== CONT  Test_idHasher_Encode
+=== RUN   Test_idHasher_Encode/success
+--- PASS: Test_idHasher_EncodeUint64 (0.00s)
+    --- PASS: Test_idHasher_EncodeUint64/success (0.00s)
+--- PASS: Test_idHasher_Decode (0.00s)
+    --- PASS: Test_idHasher_Decode/incorrect_hash_id_format (0.00s)
+    --- PASS: Test_idHasher_Decode/success (0.00s)
+--- PASS: Test_idHasher_Encode (0.00s)
+    --- PASS: Test_idHasher_Encode/success (0.00s)
+=== CONT  Test_idHasher_DecodeUint64
+=== RUN   Test_idHasher_DecodeUint64/incorrect_hash_id_format
+=== RUN   Test_InitIDHasher/success
+=== RUN   Test_idHasher_DecodeUint64/success
+--- PASS: Test_InitIDHasher (0.00s)
+    --- PASS: Test_InitIDHasher/singleton_instance_exists (0.00s)
+    --- PASS: Test_InitIDHasher/success (0.00s)
+--- PASS: Test_idHasher_DecodeUint64 (0.00s)
+    --- PASS: Test_idHasher_DecodeUint64/incorrect_hash_id_format (0.00s)
+    --- PASS: Test_idHasher_DecodeUint64/success (0.00s)
+PASS
+coverage: 41.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/hashid	1.569s	coverage: 41.0% of statements
+=== RUN   Test_ExtractFromImage
+=== RUN   Test_ExtractFromImage/cannot_decode_base64_image
+=== RUN   Test_ExtractFromImage/cannot_get_image_configure
+=== RUN   Test_ExtractFromImage/success
+--- PASS: Test_ExtractFromImage (0.00s)
+    --- PASS: Test_ExtractFromImage/cannot_decode_base64_image (0.00s)
+    --- PASS: Test_ExtractFromImage/cannot_get_image_configure (0.00s)
+    --- PASS: Test_ExtractFromImage/success (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/imageutil	1.768s	coverage: 100.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/timeutil		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/timeutil/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/tracer		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/tracer/datadog		coverage: 0.0% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidint	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidint/mock		coverage: 0.0% of statements
+=== RUN   TestGetCloudWatch
+=== RUN   TestGetCloudWatch/success
+--- PASS: TestGetCloudWatch (0.00s)
+    --- PASS: TestGetCloudWatch/success (0.00s)
+PASS
+coverage: 2.2% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/logkeeper	1.948s	coverage: 2.2% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidstring	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidstring/mock		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidstring/ulid		coverage: 0.0% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/validation		coverage: 0.0% of statements
+?   	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/worker	[no test files]
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/worker/mock		coverage: 0.0% of statements
+=== RUN   TestNew
+=== RUN   TestNew/success
+--- PASS: TestNew (0.00s)
+    --- PASS: TestNew/success (0.00s)
+=== RUN   Test_postMark_isAllowed
+=== RUN   Test_postMark_isAllowed/empty_email
+=== RUN   Test_postMark_isAllowed/environment_production
+=== RUN   Test_postMark_isAllowed/allowDomains_is_empty_list
+=== RUN   Test_postMark_isAllowed/email_string_has_no_@
+=== RUN   Test_postMark_isAllowed/email_is_in_white_list
+=== RUN   Test_postMark_isAllowed/email_is_not_in_white_list_on_development
+--- PASS: Test_postMark_isAllowed (0.00s)
+    --- PASS: Test_postMark_isAllowed/empty_email (0.00s)
+    --- PASS: Test_postMark_isAllowed/environment_production (0.00s)
+    --- PASS: Test_postMark_isAllowed/allowDomains_is_empty_list (0.00s)
+    --- PASS: Test_postMark_isAllowed/email_string_has_no_@ (0.00s)
+    --- PASS: Test_postMark_isAllowed/email_is_in_white_list (0.00s)
+    --- PASS: Test_postMark_isAllowed/email_is_not_in_white_list_on_development (0.00s)
+=== RUN   Test_postmarkMailer_buildAttachments
+=== RUN   Test_postmarkMailer_buildAttachments/no_attachments
+=== RUN   Test_postmarkMailer_buildAttachments/attachment_with_empty_bytes
+=== RUN   Test_postmarkMailer_buildAttachments/single_attachment
+=== RUN   Test_postmarkMailer_buildAttachments/multiple_attachments
+--- PASS: Test_postmarkMailer_buildAttachments (0.00s)
+    --- PASS: Test_postmarkMailer_buildAttachments/no_attachments (0.00s)
+    --- PASS: Test_postmarkMailer_buildAttachments/attachment_with_empty_bytes (0.00s)
+    --- PASS: Test_postmarkMailer_buildAttachments/single_attachment (0.00s)
+    --- PASS: Test_postmarkMailer_buildAttachments/multiple_attachments (0.00s)
+=== RUN   TestSendWithTemplate
+=== RUN   TestSendWithTemplate/OK
+=== RUN   TestSendWithTemplate/all_filtered_out
+--- PASS: TestSendWithTemplate (0.00s)
+    --- PASS: TestSendWithTemplate/OK (0.00s)
+    --- PASS: TestSendWithTemplate/all_filtered_out (0.00s)
+PASS
+coverage: 33.8% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/mailer/postmark	1.585s	coverage: 33.8% of statements
+	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/worker/workerpool/mock		coverage: 0.0% of statements
+=== RUN   TestLogFormatterJSON
+=== RUN   TestLogFormatterJSON/success_-_latency_is_smaller_than_a_minute
+=== RUN   TestLogFormatterJSON/success_-_latency_is_greater_than_a_minute
+=== RUN   TestLogFormatterJSON/success_-_span_context_not_exist
+--- PASS: TestLogFormatterJSON (0.00s)
+    --- PASS: TestLogFormatterJSON/success_-_latency_is_smaller_than_a_minute (0.00s)
+    --- PASS: TestLogFormatterJSON/success_-_latency_is_greater_than_a_minute (0.00s)
+    --- PASS: TestLogFormatterJSON/success_-_span_context_not_exist (0.00s)
+PASS
+coverage: 54.4% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/middleware	1.684s	coverage: 54.4% of statements
+=== RUN   Test_pdfCPU_MarginScale
+=== RUN   Test_pdfCPU_MarginScale/success_-_no_icon_in_front
+=== RUN   Test_pdfCPU_MarginScale/success_-_no_icon_in_front#01
+=== RUN   Test_pdfCPU_MarginScale/success_-_has_icon_in_front
+--- PASS: Test_pdfCPU_MarginScale (0.00s)
+    --- PASS: Test_pdfCPU_MarginScale/success_-_no_icon_in_front (0.00s)
+    --- PASS: Test_pdfCPU_MarginScale/success_-_no_icon_in_front#01 (0.00s)
+    --- PASS: Test_pdfCPU_MarginScale/success_-_has_icon_in_front (0.00s)
+=== RUN   Test_pdfCPU_FontScale
+=== RUN   Test_pdfCPU_FontScale/success
+--- PASS: Test_pdfCPU_FontScale (0.00s)
+    --- PASS: Test_pdfCPU_FontScale/success (0.00s)
+=== RUN   Test_pdfCPU_FontScaleByFontSize
+=== RUN   Test_pdfCPU_FontScaleByFontSize/success
+--- PASS: Test_pdfCPU_FontScaleByFontSize (0.00s)
+    --- PASS: Test_pdfCPU_FontScaleByFontSize/success (0.00s)
+PASS
+coverage: 93.3% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/pdfutil/pdfhelper	1.809s	coverage: 93.3% of statements
+=== RUN   Test_NewWriter
+=== RUN   Test_NewWriter/success_-_shift-jis
+=== RUN   Test_NewWriter/success_-_utf-8
+--- PASS: Test_NewWriter (0.00s)
+    --- PASS: Test_NewWriter/success_-_shift-jis (0.00s)
+    --- PASS: Test_NewWriter/success_-_utf-8 (0.00s)
+=== RUN   Test_Write
+=== RUN   Test_Write/empty_bytes
+=== RUN   Test_Write/sjis_-_unsupported_character_encoding
+=== RUN   Test_Write/utf8_-_success
+=== RUN   Test_Write/sjis_-_success
+--- PASS: Test_Write (0.00s)
+    --- PASS: Test_Write/empty_bytes (0.00s)
+    --- PASS: Test_Write/sjis_-_unsupported_character_encoding (0.00s)
+    --- PASS: Test_Write/utf8_-_success (0.00s)
+    --- PASS: Test_Write/sjis_-_success (0.00s)
+PASS
+coverage: 88.9% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/runeutil	1.968s	coverage: 88.9% of statements
+=== RUN   TestRemoveDuplicatedItems
+=== RUN   TestRemoveDuplicatedItems/success
+--- PASS: TestRemoveDuplicatedItems (0.00s)
+    --- PASS: TestRemoveDuplicatedItems/success (0.00s)
+=== RUN   TestConvert
+=== RUN   TestConvert/success
+--- PASS: TestConvert (0.00s)
+    --- PASS: TestConvert/success (0.00s)
+=== RUN   TestConvertToString
+=== RUN   TestConvertToString/success
+--- PASS: TestConvertToString (0.00s)
+    --- PASS: TestConvertToString/success (0.00s)
+=== RUN   TestUnique
+=== RUN   TestUnique/has_int_duplication
+=== RUN   TestUnique/no_int_duplication
+=== RUN   TestUnique/has_string_duplication
+=== RUN   TestUnique/no_string_duplication
+--- PASS: TestUnique (0.00s)
+    --- PASS: TestUnique/has_int_duplication (0.00s)
+    --- PASS: TestUnique/no_int_duplication (0.00s)
+    --- PASS: TestUnique/has_string_duplication (0.00s)
+    --- PASS: TestUnique/no_string_duplication (0.00s)
+=== RUN   TestDifference
+=== RUN   TestDifference/diffs12_is_empty,_diffs21_is_empty
+=== RUN   TestDifference/s1_contains_s2
+=== RUN   TestDifference/s2_contains_s1
+=== RUN   TestDifference/s1_intersects_s2
+=== RUN   TestDifference/s1_not_intersects_s2
+=== RUN   TestDifference/s1_is_empty
+=== RUN   TestDifference/s2_is_empty
+--- PASS: TestDifference (0.00s)
+    --- PASS: TestDifference/diffs12_is_empty,_diffs21_is_empty (0.00s)
+    --- PASS: TestDifference/s1_contains_s2 (0.00s)
+    --- PASS: TestDifference/s2_contains_s1 (0.00s)
+    --- PASS: TestDifference/s1_intersects_s2 (0.00s)
+    --- PASS: TestDifference/s1_not_intersects_s2 (0.00s)
+    --- PASS: TestDifference/s1_is_empty (0.00s)
+    --- PASS: TestDifference/s2_is_empty (0.00s)
+=== RUN   TestIntersect
+=== RUN   TestIntersect/no_intersect
+=== RUN   TestIntersect/partial_intersect
+=== RUN   TestIntersect/full_intersect
+--- PASS: TestIntersect (0.00s)
+    --- PASS: TestIntersect/no_intersect (0.00s)
+    --- PASS: TestIntersect/partial_intersect (0.00s)
+    --- PASS: TestIntersect/full_intersect (0.00s)
+=== RUN   TestConvertStringToInt
+=== RUN   TestConvertStringToInt/success_-_uint32
+=== RUN   TestConvertStringToInt/fail_-_input_can_not_be_parsed
+=== RUN   TestConvertStringToInt/success-_uint64
+--- PASS: TestConvertStringToInt (0.00s)
+    --- PASS: TestConvertStringToInt/success_-_uint32 (0.00s)
+    --- PASS: TestConvertStringToInt/fail_-_input_can_not_be_parsed (0.00s)
+    --- PASS: TestConvertStringToInt/success-_uint64 (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/sliceutil	2.175s	coverage: 100.0% of statements
+=== RUN   TestLeftPad
+=== RUN   TestLeftPad/Case_1
+=== RUN   TestLeftPad/Case_2
+=== RUN   TestLeftPad/Case_3
+=== RUN   TestLeftPad/Case_4
+--- PASS: TestLeftPad (0.00s)
+    --- PASS: TestLeftPad/Case_1 (0.00s)
+    --- PASS: TestLeftPad/Case_2 (0.00s)
+    --- PASS: TestLeftPad/Case_3 (0.00s)
+    --- PASS: TestLeftPad/Case_4 (0.00s)
+=== RUN   TestNumberFormat
+=== RUN   TestNumberFormat/case_empty
+=== RUN   TestNumberFormat/case_0
+=== RUN   TestNumberFormat/case_1
+=== RUN   TestNumberFormat/case_2
+=== RUN   TestNumberFormat/case_3
+=== RUN   TestNumberFormat/case_4
+--- PASS: TestNumberFormat (0.00s)
+    --- PASS: TestNumberFormat/case_empty (0.00s)
+    --- PASS: TestNumberFormat/case_0 (0.00s)
+    --- PASS: TestNumberFormat/case_1 (0.00s)
+    --- PASS: TestNumberFormat/case_2 (0.00s)
+    --- PASS: TestNumberFormat/case_3 (0.00s)
+    --- PASS: TestNumberFormat/case_4 (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/strutil	2.441s	coverage: 100.0% of statements
+=== RUN   TestGet
+=== RUN   TestGet/uuidflake.Get_success
+--- PASS: TestGet (0.00s)
+    --- PASS: TestGet/uuidflake.Get_success (0.00s)
+=== RUN   Test_generator_nextid
+--- PASS: Test_generator_nextid (0.00s)
+PASS
+coverage: 88.9% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/uuidint/sonyflake	2.307s	coverage: 88.9% of statements
+=== RUN   TestNew
+--- PASS: TestNew (0.00s)
+PASS
+coverage: 55.6% of statements
+ok  	github.com/EBOOST-LTD/eboost-cms-partner-BE/pkg/worker/workerpool	2.311s	coverage: 55.6% of statements

@@ -1,0 +1,52 @@
+# Stage 1: Build the Go application
+FROM golang:1.22.3-alpine AS builder
+
+# Install required dependencies
+RUN apk update && apk add --no-cache make git
+
+# Install sql-migrate
+RUN set -ex && \
+    go install github.com/rubenv/sql-migrate/...@latest
+
+# Set up Go environment
+ENV GO111MODULE=on \
+    CGO_ENABLED=0 \
+    GOOS=linux \
+    GOARCH=amd64
+
+# Set the Current Working Directory inside the container
+WORKDIR /app
+
+# Copy go.mod and go.sum files
+COPY go.mod go.sum ./
+
+# Download all dependencies
+RUN go mod download
+
+# Copy the source code into the container
+COPY . .
+
+# Build the Go app
+RUN make build
+
+#########################################
+# Build a small image
+# Stage 2: Set up Go
+FROM alpine:latest
+
+# Install dependencies including make and other utilities
+RUN apk update && apk add --no-cache openssl make git bash
+
+# Copy files from the builder stage
+COPY --from=builder /app/eboost-api-partner /
+COPY --from=builder /app/assets /assets
+COPY --from=builder /app/db /db
+COPY --from=builder /app/Makefile /
+COPY --from=builder /go/bin/sql-migrate /usr/local/bin/sql-migrate
+
+# Make sure sql-migrate is executable
+RUN chmod +x /usr/local/bin/sql-migrate
+
+
+# Command to generate SSL certificate and start services
+CMD ["sh","-c","/eboost-api-partner"]
